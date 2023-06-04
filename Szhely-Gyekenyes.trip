@@ -1,0 +1,13 @@
+CAR Saxo
+CAPA 23.0kWh
+CNSM 10.0kWh/100
+
+TRIP Szhely-Gyekenyes
+
+DAY #1 100 Szhely-Gyékényes
+ETAP 21.5km 8.0kW 75km/h | Szhely-Kám
+ETAP 2.5km 12.0kW 40km/h | Kám-dombtető
+ETAP 21.5km 8.0kW 60km/h | Csipkerek-Pókaszepetk
+ETAP 25.3km 8.0kW 65km/h | Pókaszepetk-Pacsa
+ETAP 31.8km 8.5kW 65km/h | Pacsa-Nagykanizsa
+ETAP 28.2km 8.0kW 65km/h | Nagykanizsa-Gyékényes

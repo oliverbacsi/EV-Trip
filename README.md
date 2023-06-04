@@ -1,4 +1,4 @@
-ev Trip calculator
+EV Trip calculator
 ------------------
 
 Help to plan EV trips.

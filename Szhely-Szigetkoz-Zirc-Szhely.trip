@@ -1,0 +1,42 @@
+CAR Saxo
+CAPA 23.0kWh
+CNSM 10.0kWh/100
+
+TRIP Szhely-Szigetkoz-Zirc-Szhely
+
+DAY #1 100 Fri
+ETAP 29.0km 8.5kW 75km/h | Szhely-Sárvár
+ETAP 57.7km 8.5kW 75km/h | Sárvár-Csorna
+CHRG 3.0kW 20% | CSORNA E-Mobi
+ETAP 23.3km 8.0kW 65km/h | Csorna-Lébény
+ETAP 38.2km 8.0kW 60km/h | Lébény-Dunasziget
+
+DAY #2 100 Sat
+ETAP 17.6km 7.5kW 50km/h | Dunasziget-Lipót
+ETAP 29.4km 7.5kW 50km/h | Lipót-Győr
+ETAP 19.9km 7.5kW 50km/h | Győr-Pannonhalma
+CHRG 3.0kW 1h | PANNONHALMA E-Mobi
+ETAP 29.8km 7.5kW 50km/h | Pannonhalma-Csesznek
+ETAP 10.2km 10.0kW 40km/h | Csesznek-Dudar
+ETAP 8.2km 7.5kW 50km/h | Dudar-Zirc
+
+DAY #3 100 Sun
+ETAP 15.0km 8.0kW 50km/h | Zirc-Rómaifürdő
+ETAP 7.0km 8.0kW 50km/h | Rómaifürdő-Tés
+ETAP 25.0km 5.0kW 55km/h | Tés-Bakonyszentkirály
+ETAP 12.0km 8.0kW 55km/h | Bakonyszentkirály-Cuha
+ETAP 21.0km 9.0kW 50km/h | Cuha-Dudar
+ETAP 10.0km 7.5kW 50km/h | Dudar-Zirc
+
+DAY #4 100 Mon
+ETAP 20.9km 8.0kW 60km/h | Zirc-Márkó
+ETAP 5.5km 8.5kW 75km/h | Márkó-Herend
+ETAP 9.0km 11.0kW 45km/h | Herend-Úrkút
+ETAP 10.5km 7.0kW 75km/h | Úrkút-77
+ETAP 3.4km 8.5kW 70km/h | 77-Nagyvázsony
+ETAP 15.7km 9.0kW 70km/h | Nagyvázsony-Hegyestű
+ETAP 20.0km 8.5kW 65km/h | Hegyestű-Tapolca
+CHRG 3.0kW 2h | TAPOLCA FŐ TÉR
+ETAP 39.8km 8.5kW 70km/h | Tapolca-Batyk
+ETAP 43.5km 8.5kW 70km/h | Batyk-Szhely
+

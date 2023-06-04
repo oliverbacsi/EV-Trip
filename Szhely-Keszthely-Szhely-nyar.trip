@@ -1,0 +1,23 @@
+CAR Saxo
+CAPA 23.0kWh
+CNSM 10.0kWh/100
+
+TRIP Szhely-Keszthely-Szhely-nyar
+
+DAY #1 100 Szhely-Keszthely-Móló
+ETAP 21.5km 8.0kW 75km/h | Szhely-Kám
+ETAP 2.5km 12.0kW 50km/h | Kám-dombtető
+ETAP 20.5km 7.5kW 70km/h | Csipkerek-Batyk
+ETAP 26.0km 8.0kW 70km/h | Batyk-Vindornya
+ETAP 12.5km 7.5kW 65km/h | Vindornya-Keszthely
+ETAP 3.5km 5.0kW 40km/h | Keszthely-Móló
+ETAP 3.5km 7.0kW 40km/h | Móló-Keszthely
+
+DAY #2 prev Keszthely-Szhely
+CHRG 3.0kW 15% | KESZTHELY
+ETAP 12.5km 9.0kW 65km/h | Keszthely-Vindornya
+ETAP 26.0km 8.5kW 70km/h | Vindornya-Batyk
+ETAP 20.5km 8.5kW 65km/h | Batyk-Csipkerek
+ETAP 2.5km 4.0kW 80km/h | dombtető-Kám
+ETAP 21.5km 8.0kW 75km/h | Kám-Szhely
+
