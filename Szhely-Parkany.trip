@@ -1,0 +1,16 @@
+CAR Saxo
+CAPA 23.0kWh
+CNSM 10.0kWh/100
+
+TRIP Cars and Burgers
+
+DAY #1 100 Oda
+ETAP 111.0km 7.8kW 70.0km/h | Szhely-Gyor
+CHRG 3.0kW 50% | GYOR
+ETAP 89.0km 7.8kW 70.0km/h | Gyor-Parkany
+
+DAY #2 prev Vissza
+
+ETAP 89.0km 7.8kW 70.0km/h | Parkany-Gyor
+CHRG 3.0kW 70% | GYOR
+ETAP 111.0km 7.8kW 70.0km/h | Gyor-Szhely

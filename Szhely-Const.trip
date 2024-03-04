@@ -1,0 +1,104 @@
+CAR Saxo
+CAPA 22.5kWh
+CNSM 11.0kWh/100
+
+TRIP Szhely-Constanţa
+
+DAY #1 100 Szhely-Kalocsa
+ETAP 167.0km 8.0kW 70km/h | Szhely-Tatabánya
+CHRG 3.0kW 60% | TATABÁNYA
+ETAP 93.2km 8.0kW 70km/h | Tatabánya-Dunaújváros
+CHRG 3.0kW 30% | DUNAÚJVÁROS
+ETAP 60.8km 8.0kW 70km/h | Dunaújváros-Kalocsa
+
+DAY #2 100 Kalocsa-Újvidék
+ETAP 40.0km 8.0kW 70km/h | Kalocsa-Baja
+ETAP 48.0km 8.0kW 70km/h | Baja-Mohács
+ETAP 31.3km 8.0kW 70km/h | Mohács-Batina
+ETAP 40.0km 8.0kW 70km/h | Batina-Eszék
+CHRG 3.0kW 80% | ESZÉK
+ETAP 34.4km 8.0kW 70km/h | Eszék-Vukovar
+ETAP 54.8km 8.0kW 70km/h | Vukovar-Susek
+ETAP 29.8km 8.0kW 70km/h | Susek-Újvidék
+
+DAY #3 100 Újvidék-Belgrád
+ETAP 45.8km 8.0kW 70km/h | Újvidék-StariSlankamen
+ETAP 51.8km 8.0kW 70km/h | Belgrád
+
+DAY #4 100 Belgrád-TurnuSeverin
+ETAP 107.0km 8.0kW 70km/h | Belgrád-Naidăş
+ETAP 27.6km 8.0kW 70km/h | Naidăş-MoldovaVeche
+CHRG 3.0kW 60% | MOLDOVAVECHE
+ETAP 133.0km 8.0kW 70km/h | MoldovaVeche-TurnuSeverin
+
+DAY #5 100 TurnuSeverin-Corabia
+ETAP 37.3km 8.0kW 70km/h | TurnuSeverin-Crivina
+ETAP 18.7km 8.0kW 70km/h | Crivina-OstrovuMare
+ETAP 90.6km 8.0kW 70km/h | Ostrovumare-Calafat
+CHRG 3.0kW 70% | CALAFAT
+ETAP 142.0km 8.0kW 70km/h | Calafat-Corabia
+
+DAY #6 100 Corabia-Ruse
+ETAP 30.0km 8.0kW 70km/h | Corabia-TurnuMăgurele
+ETAP 60.9km 8.0kW 70km/h | TurnuMăgurele-Svishtov
+ETAP 65.5km 8.0kW 70km/h | Svishtov-Ruse
+
+DAY #7 100 Ruse-Constanţa
+ETAP 148.0km 8.0kW 70km/h | Ruse-Călărăşi
+CHRG 2.0kW 70% | CĂLĂRĂŞI
+ETAP 148.0km 8.0kW 70km/h | Călărăşi-Constanţa
+
+DAY #8 prev CONSTANŢA
+DAY #9 prev CONSTANŢA
+
+DAY #10 100 Constanţa-Focşani
+ETAP 89.9km 8.0kW 70km/h | Constanţa-Jurilovca
+ETAP 57.4km 8.0kW 70km/h | Jurilovca-Tulcea
+CHRG 3.0kW 70% | TULCEA
+ETAP 79.0km 8.0kW 70km/h | Tulcea-Galati
+ETAP 86.3km 8.0kW 70km/h | Galati-Focşani
+
+DAY #11 100 Focşani-Csíkszereda
+ETAP 36.7km 12.0kW 60km/h | Focşani-Vidra
+CHRG 3.0kW 30% | VIDRA
+ETAP 86.2km 12.0kW 60km/h | Vidra-TarguSecuiesc
+CHRG 3.0kW 1.5hrs | TARGUSECUIESC
+ETAP 25.5km 10kW 60km/h | TarguSecuiesc-Bálványos
+CHRG 3.0kW 1.5hrs | BÁLVÁNYOS
+ETAP 16.4km 8kW 70km/h | Bálványos-Tusnádfürdő
+CHRG 3.0kW 1.5hrs | TUSNÁDFÜRDŐ
+ETAP 33.9km 8kW 70km/h | Tusnádfürdő-Csíkszereda
+
+DAY #12 100 Csíkszereda-Torda
+ETAP 54.3km 9kW 60km/h | Csíkszereda-Székelyudvarhely
+CHRG 3.0kW 35% | SZÉKELYUDVARHELY
+ETAP 11.3km 8kW 70km/h | Székelyudvarhely-Farkaslaka
+ETAP 32.4km 8kW 70km/h | Farkaslaka-Szováta
+ETAP 45.2km 8kW 70km/h | Szováta-Szászrégen
+CHRG 3.0kW 40% | SZÁSZRÉGEN
+ETAP 34.0km 8kW 70km/h | Szászrégen-Marosvásárhely
+ETAP 76.0km 8kw 70km/h | Marosvásárhely-Torda
+
+DAY #13 100 Torda-Kolozsvár
+ETAP 31.0km 8kW 70km/h | Torda-Kolozsvár
+
+DAY #14 100 Kolozsvár-Szolnok
+ETAP 88.6km 8kW 70km/h | Kolozsvár-Királyhágó
+ETAP 64.6km 8kW 70km/h | Királyhágó-Nagyvárad
+CHRG 3.0kW 2hrs | NAGYVÁRAD
+ETAP 38.4km 8kW 70km/h | Nagyvárad-Berettyóújfalu
+CHRG 3.0kW 1.5hrs | BERETTYÓÚJFALU
+ETAP 50.5km 8kW 70km/h | Berettyóújfalu-Karcag
+CHRG 3.0kW 2hrs | KARCAG
+ETAP 69.6km 8kW 70km/h | Karcag-Szolnok
+
+DAY #15 100 Szolnok-Szombathely
+ETAP 51.7km 8kW 70km/h | Szolnok-Kecskemét
+ETAP 67.3km 8kW 70km/h | Kecskemét-Dunaföldvár
+CHRG 3.0kW 40% | DUNAFÖLDVÁR
+ETAP 105.0km 8kW 70km/h | Dunaföldvár-Veszprém
+CHRG 3.0kW 50% | VESZPRÉM
+ETAP 49.3km 8kW 70km/h | Veszprém-Tapolca
+CHRG 3.0kW 1hr | TAPOLCA
+ETAP 18.4km 8kW 70km/h | Tapolca-Sümeg
+ETAP 66.0km 8kW 70km/h | Sümeg-Szombathely

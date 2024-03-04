@@ -46,9 +46,12 @@ class ETAP :
         self.UsedPercent = 100.00 * self.UsedEnergy / BATTCAPACITY
         TOTTRIPTIME += self.Time
 
-    def prettyPrint(self, CurrEnergy :float, CumulDist :float, CumulEnergy :float, CumulTime :float) -> list :
+    def prettyPrint(self, CurrEnergy :float, DayDist :float, DayEnergy :float, DayTime :float, CumulDist :float, CumulEnergy :float, CumulTime :float) -> list :
         """Pretty print one row of data based on incoming information
         :param CurrEnergy : The Energy in the Battery in kWh at the beginning of the etap as float
+        :param DayDist : The daily distance travelled at the beginning of the etap as float
+        :param DayEnergy : The daily energy consumed at the beginning of the etap as float
+        :param DayTime : The daily time spent at the beginning of the etap as float
         :param CumulDist : The cumulated distance travelled at the beginning of the etap as float
         :param CumulEnergy : The cumulated energy consumed at the beginning of the etap as float
         :param CumulTime : The cumulated time spent at the beginning of the etap as float
@@ -58,6 +61,9 @@ class ETAP :
         JournDist :float
         JournEngy :float
         JournTime :float
+        DDist :float
+        DEngy :float
+        DTime :float
         print("\x1b[0m|\x1b[1;48;5;58m\x1b[1;38;5;185mE\x1b[0m|\x1b[1;48;5;58m\x1b[1;38;5;185m",end="")
         print(self.Name[0:25].ljust(25),end="")
         print("\x1b[0m| \x1b[1;33m"+str(round(self.Len,1)).rjust(5),end="\x1b[0m | ")
@@ -75,12 +81,18 @@ class ETAP :
         JournDist = CumulDist + self.Len
         JournEngy = CumulEnergy + self.UsedEnergy
         JournTime = CumulTime + self.Time
+        DDist = DayDist + self.Len
+        DEngy = DayEnergy + self.UsedEnergy
+        DTime = DayTime + self.Time
+        print(str(round(DDist,1)).rjust(6),end=" | ")
+        print(str(round(DEngy,1)).rjust(5),end=" | ")
+        print(str(round(DTime,1)).rjust(4),end=" || ")
         print(str(round(JournDist,1)).rjust(6),end=" | ")
         print(str(round(JournEngy,1)).rjust(5),end=" | ")
         print(str(round(JournTime,1)).rjust(4)+" |")
         prettyPrintSeparator()
 
-        return list((EndEnergy, JournDist, JournEngy, JournTime))
+        return list((EndEnergy, DDist, DEngy, DTime, JournDist, JournEngy, JournTime))
 
 
 
@@ -109,18 +121,20 @@ class CHARGE :
         self.Name :str  = cName
         TOTCHRGTIME += self.Time
 
-    def prettyPrint(self, CurrEnergy :float, CumulDist :float, CumulEnergy :float, CumulTime :float) -> list :
+    def prettyPrint(self, CurrEnergy :float, DayDist :float, DayEnergy :float, DayTime :float, CumulDist :float, CumulEnergy :float, CumulTime :float) -> list :
         """Pretty print one row of data based on incoming information
         :param CurrEnergy : The Energy in the Battery in kWh at the beginning of the etap as float
+        :param DayDist : The daily distance travelled at the beginning of the etap as float
+        :param DayEnergy : The daily energy consumed at the beginning of the etap as float
+        :param DayTime : The daily time spent at the beginning of the etap as float
         :param CumulDist : The cumulated distance travelled at the beginning of the etap as float
         :param CumulEnergy : The cumulated energy consumed at the beginning of the etap as float
         :param CumulTime : The cumulated time spent at the beginning of the etap as float
         :returns : List of total journey values (Distance, Energy, Time)
         """
         global BATTCAPACITY, AVGCONSUMPTION
-        JournDist :float
-        JournEngy :float
-        JournTime :float
+        JTime :float  # Journey time (cumulated total)
+        DTime :float  # Daily time (day summary)
         print("\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44mC\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44m",end="")
         print(self.Name[0:25].ljust(25),end="\x1b[0m| ")
         print(str(round(self.ChargedRange,1)).rjust(5),end="\x1b[0m | ")
@@ -135,15 +149,17 @@ class CHARGE :
         print(str(round(EndEnergy,1)).rjust(4),end=" |")
         print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m| ")
         print(str(round(EndRange,1)).rjust(5),end=" || ")
-        JournDist = CumulDist
-        JournEngy = CumulEnergy
-        JournTime = CumulTime + self.Time
-        print(str(round(JournDist,1)).rjust(6),end=" | ")
-        print(str(round(JournEngy,1)).rjust(5),end=" | ")
-        print(str(round(JournTime,1)).rjust(4)+" |")
+        JTime = CumulTime + self.Time
+        DTime = DayTime + self.Time
+        print(str(round(DayDist,1)).rjust(6),end=" | ")
+        print(str(round(DayEnergy,1)).rjust(5),end=" | ")
+        print(str(round(DTime,1)).rjust(4),end=" || ")
+        print(str(round(CumulDist,1)).rjust(6),end=" | ")
+        print(str(round(CumulEnergy,1)).rjust(5),end=" | ")
+        print(str(round(JTime,1)).rjust(4)+" |")
         prettyPrintSeparator()
 
-        return list((EndEnergy, JournDist, JournEngy, JournTime))
+        return list((EndEnergy, DayDist, DayEnergy, DTime, CumulDist, CumulEnergy, JTime))
 
 
 #################### PROC PART ####################
@@ -151,7 +167,7 @@ class CHARGE :
 def prettyPrintSeparator() -> None :
     """Print a separator line in the output table"""
     print("+",end="")
-    for i in [1, 25, 7, 5, 6, 7, 7, 7, 0, 6, 7, 7, 0, 8, 7, 6] :
+    for i in [1, 25, 7, 5, 6, 7, 7, 7, 0, 6, 7, 7, 0, 8, 7, 6, 0, 8, 7, 6] :
         print("-"*i, end="+")
     print("")
 
@@ -218,8 +234,13 @@ for sor in fin :
         CARNAME = m1[1].strip()
         continue
 
-    m1 = re.match("DAY +(.+) +(.+) +(.*)", sor, re.I)
-    if m1 :
+    m2 = re.match("DAY +(.+) +([0-9]+) +(.*)", sor, re.I)
+    m3 = re.match("DAY +(.+) +(prev) +(.*)", sor, re.I)
+    if m2 or m3 :
+        if m2 :
+            m1 = m2
+        else :
+            m1 = m3
         ID = str(m1[1]).strip()
         Name = str(m1[3]).strip()
         Chrg1 = str(m1[2]).strip()
@@ -280,18 +301,24 @@ fin.close()
 JOURNEYDISTANCE :float =0.00
 JOURNEYENERGY :float =0.00
 JOURNEYTIME :float =0.00
+DAYDISTANCE :float =0.00
+DAYENERGY :float =0.00
+DAYTIME :float =0.00
 REMAININGCHARGE :float =0.00
 JOURNEYTITLE = f"{TRIPNAME}   with  {CARNAME}  /{BATTCAPACITY} kWh/"
-print("\n\x1b[0;48;5;240m\x1b[1;37m" + "#"*123+"\x1b[0m")
-print("\x1b[0;48;5;240m\x1b[1;37m#" + JOURNEYTITLE.center(121) + "#\x1b[0m")
-print("\x1b[0;48;5;240m\x1b[1;37m"+"#"*123+"\x1b[0m")
+print("\n\x1b[0;48;5;240m\x1b[1;37m" + "#"*148+"\x1b[0m")
+print("\x1b[0;48;5;240m\x1b[1;37m#" + JOURNEYTITLE.center(146) + "#\x1b[0m")
+print("\x1b[0;48;5;240m\x1b[1;37m"+"#"*148+"\x1b[0m")
 
 for ID in TRIPDB["days"] :
-    print("|" + " "*121 + "|")
+    DAYDISTANCE =0.00
+    DAYENERGY =0.00
+    DAYTIME =0.00
+    print("|" + " "*146 + "|")
     print(f'|\x1b[0;36;44m Day \x1b[1m[{ID}] \x1b[1;32;44m {TRIPDB[ID+":Name"]} \x1b[0;36;44m',end="")
-    print(" "*(111-len(ID)-len(TRIPDB[ID+":Name"])) +"\x1b[0m|")
-    print("|                             TRIP                                       ||       BATTERY        ||         JOURNEY       |")
-    print("\x1b[1m|T|Trip Item                |  km   | spd |  kW  |   %   |  kWh  |   h   ||  kWh |   %   |   km  ||   km   |  kWh  |   h  |\x1b[0m")
+    print(" "*(136-len(ID)-len(TRIPDB[ID+":Name"])) +"\x1b[0m|")
+    print("|                             TRIP                                       ||       BATTERY        ||           DAY         ||         JOURNEY       |")
+    print("\x1b[1m|T|Trip Item                |  km   | spd |  kW  |   %   |  kWh  |   h   ||  kWh |   %   |   km  ||   km   |  kWh  |   h  ||   km   |  kWh  |   h  |\x1b[0m")
     if TRIPDB[ID+":InitChg"].isdecimal() :
         REMAININGCHARGE = 0.01 * int(TRIPDB[ID+":InitChg"]) * BATTCAPACITY
         PRINTPERC = float(TRIPDB[ID+":InitChg"])
@@ -303,13 +330,16 @@ for ID in TRIPDB["days"] :
     print(str(round(REMAININGCHARGE,1)).rjust(4), end=" |")
     print(SOC2ANS(PRINTPERC)+" "+str(round(PRINTPERC,1)).rjust(5), end=" \x1b[0m\x1b[0;36m| ")
     print(str(round(PRINTDIST,1)).rjust(5), end=" || ")
+    print(str(round(DAYDISTANCE,1)).rjust(6), end=" | ")
+    print(str(round(DAYENERGY,1)).rjust(5), end=" | ")
+    print(str(round(DAYTIME,1)).rjust(4), end=" || ")
     print(str(round(JOURNEYDISTANCE,1)).rjust(6), end=" | ")
     print(str(round(JOURNEYENERGY,1)).rjust(5), end=" | ")
     print(str(round(JOURNEYTIME,1)).rjust(4), end=" |\x1b[0m\n")
     prettyPrintSeparator()
 
     for xx in TRIPDB[ID+":Events"] :
-        REMAININGCHARGE, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME = xx.prettyPrint(REMAININGCHARGE, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME)
+        REMAININGCHARGE, DAYDISTANCE, DAYENERGY, DAYTIME, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME =xx.prettyPrint(REMAININGCHARGE, DAYDISTANCE, DAYENERGY, DAYTIME, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME)
 
 print(f"\n * TOTAL TRAVELLING TIME : {str(round(TOTTRIPTIME,2)).rjust(5)} hrs  ({round(100.0*TOTTRIPTIME/JOURNEYTIME,1)}%)")
 print(f" * TOTAL CHARGING TIME   : {str(round(TOTCHRGTIME,2)).rjust(5)} hrs  ({round(100.0*TOTCHRGTIME/JOURNEYTIME,1)}%)")
