@@ -1,0 +1,27 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+CAR Saxo | 23.0kWh 10.0kWh/100 7.0/3.0kW 70km/h
+# 75km/h = 8kW (55..60A) --> 11kWh/100
+# 70km/h = 7kW (50A) --> 10kWh/100
+# 60km/h = 6.3kW (45A) --> 10.5kWh/100
+
+# TRIP <full name of the trip, one per file>
+TRIP Mura oda
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+DAY #1 100% 200m | Szombathely - Mürzzuschlag
+
+# ETAP [any detail that differs from default] | <name>
+#    Recognized:  ##.#km ##.#kW ##.#km/h ###m
+# CHRG [any detail that differs from default] | <name>
+#    Recognized:  ##.#kW ##.#hrs or ##%
+ETAP 71.3km 8.4kW 600m | Szombathely - Kulma
+ETAP 24.3km 7kW 370m | Kulma - Neunkirchen
+CHRG 2hrs | NEUNKIRCHEN
+ETAP 18.3km 10.0kW 65km/h 560m | Neunkirchen - Schottwien
+ETAP  3.4km 14.0kW 40km/h 700m | Schottwien - Adlitzgraben
+ETAP  2.9km 14.0kW 40km/h 840m | Adlitzgraben - Viadukt
+ETAP  6.1km 12.0kW 45km/h 980m | Viadukt - Semmering peak
+ETAP 15.6km  6.5kW 80km/h 660m | Semmering - Mürzzuschlag
+
+DAY #2 100% 660m | Mürzzuschlag - Forrás
