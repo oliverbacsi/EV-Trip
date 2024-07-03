@@ -1,5 +1,5 @@
 # CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
-CAR Saxo | 23.0kWh 10.0kWh/100 7.0/3.0kW 70km/h
+CAR Saxo | 23.0kWh 10.0kWh/100 7.0/2.8kW 70km/h
 # 75km/h = 8kW (55..60A) --> 11kWh/100
 # 70km/h = 7kW (50A) --> 10kWh/100
 # 60km/h = 6.3kW (45A) --> 10.5kWh/100
@@ -25,3 +25,6 @@ ETAP  6.1km 12.0kW 45km/h 980m | Viadukt - Semmering peak
 ETAP 15.6km  6.5kW 80km/h 660m | Semmering - Mürzzuschlag
 
 DAY #2 100% 660m | Mürzzuschlag - Forrás
+ETAP 9.7km 6.0kw 60km/h 640m | Mürzz - Schloss Feistritz
+ETAP 7.7km 6.0kW 60km/h 640m | Feistritz - Veitsch, Pichl Schloss
+ETAP 3.4km 5.0kW 55km/h 580m | Veitsch - Wartberg, Lichtenegg

@@ -1,0 +1,19 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+CAR Saxo | 23.0kWh 10.0kWh/100 7.0/2.9kW 65km/h
+# 75km/h = 8kW (55..60A) --> 11kWh/100
+# 70km/h = 7kW (50A) --> 10kWh/100
+# 60km/h = 6.3kW (45A) --> 10.5kWh/100
+
+# TRIP <full name of the trip, one per file>
+TRIP Szhely-Gyékényes
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+DAY #1 100% 200m | Szombathely - Gyékényes
+ETAP 21.5km 180m | Szhely-Kám
+ETAP 2.5km 12.0kW 40km/h 220m | Kám-dombtető
+ETAP 21.5km 7.5kW 65km/h 140m | Csipkerek-Pókaszepetk
+ETAP 25.3km 7.5kW 65km/h 160m | Pókaszepetk-Pacsa
+ETAP 31.8km 150m | Pacsa-Nagykanizsa
+ETAP 28.2km 8.0kW 65km/h 120m | Nagykanizsa-Gyékényes
+

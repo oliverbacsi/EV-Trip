@@ -6,6 +6,10 @@
 
 import sys, re
 
+SimpleMode :bool =False
+if re.match(".*simple.*",sys.argv[0],re.I) : SimpleMode =True
+LASTSEENELEV :int =0
+
 
 #################### CLASS PART ####################
 
@@ -142,42 +146,48 @@ class ETAP :
         :param CumulTime : The cumulated time spent at the beginning of the etap as float
         :returns : List of total journey values (Distance, Energy, Time)
         """
+        global SimpleMode, LASTSEENELEV
         JournDist :float
         JournEngy :float
         JournTime :float
         DDist :float
         DEngy :float
         DTime :float
-        print("\x1b[0m|\x1b[1;48;5;58m\x1b[1;38;5;185mE\x1b[0m|\x1b[1;48;5;58m\x1b[1;38;5;185m",end="")
-        print(self.Name[0:25].ljust(25),end="")
-        print("\x1b[0m| "+str(self.EndAltitude).rjust(4),end=" ")
-        print("| \x1b[1;33m"+str(round(self.Len,1)).rjust(5),end="\x1b[0m | ")
-        print(str(int(self.Spd)).rjust(3),end=" | ")
-        print(str(round(self.Pwr,1)).rjust(4),end=" |")
-        print("\x1b[1;38;5;131m -"+str(round(self.UsedPercent,1)).rjust(4),end=" \x1b[0m|")
-        print("\x1b[1;38;5;131m -"+str(round(self.UsedEnergy,1)).rjust(4),end=" \x1b[0m| ")
-        print(str(round(self.Time,2)).rjust(5),end=" || ")
         EndEnergy = CurrEnergy - self.UsedEnergy
         EndPercent = 100.00 * EndEnergy / c.BattCapacity
         EndRange = 100.00 * EndEnergy / c.AvgConsumption
-        print(str(round(EndEnergy,1)).rjust(4),end=" |")
-        print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m| ")
-        print(str(round(EndRange,1)).rjust(5),end=" || ")
         JournDist = CumulDist + self.Len
         JournEngy = CumulEnergy + self.UsedEnergy
         JournTime = CumulTime + self.Time
         DDist = DayDist + self.Len
         DEngy = DayEnergy + self.UsedEnergy
         DTime = DayTime + self.Time
-        print(str(round(DDist,1)).rjust(6),end=" | ")
-        print(str(round(DEngy,1)).rjust(5),end=" | ")
-        print(str(round(DTime,1)).rjust(4),end=" || ")
-        print(str(round(JournDist,1)).rjust(6),end=" | ")
-        print(str(round(JournEngy,1)).rjust(5),end=" | ")
-        print(str(round(JournTime,1)).rjust(4)+" |")
-        #prettyPrintSeparator()
-        t.addTripTime(self.AddTotTripTime)
 
+        print("\x1b[0m|\x1b[1;48;5;58m\x1b[1;38;5;185mE\x1b[0m|\x1b[1;48;5;58m\x1b[1;38;5;185m",end="")
+        print(self.Name[0:25].ljust(25),end="")
+        print("\x1b[0m|"+HEI2ANS(self.EndAltitude)+" "+str(self.EndAltitude).rjust(4),end=" \x1b[0m")
+        if SimpleMode :
+            print("| "+str(round(DDist, 1)).rjust(6), end=" | ")
+            print(str(round(DTime, 1)).rjust(4), end=" |")
+            print(SOC2ANS(EndPercent) +" "+ str(round(EndPercent, 1)).rjust(5), end=" \x1b[0m|\n")
+        else :
+            print("| \x1b[1;33m"+str(round(self.Len,1)).rjust(5),end="\x1b[0m | ")
+            print(str(int(self.Spd)).rjust(3),end=" |-")
+            print(str(round(self.Pwr,1)).rjust(4),end=" |")
+            print("\x1b[1;38;5;131m -"+str(round(self.UsedPercent,1)).rjust(4),end=" \x1b[0m|")
+            print("\x1b[1;38;5;131m -"+str(round(self.UsedEnergy,1)).rjust(4),end=" \x1b[0m| ")
+            print(str(round(self.Time,2)).rjust(5),end=" || ")
+            print(str(round(EndEnergy,1)).rjust(4),end=" |")
+            print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m| ")
+            print(str(round(EndRange,1)).rjust(5),end=" || ")
+            print(str(round(DDist,1)).rjust(6),end=" | ")
+            print(str(round(DEngy,1)).rjust(5),end=" | ")
+            print(str(round(DTime,1)).rjust(4),end=" || ")
+            print(str(round(JournDist,1)).rjust(6),end=" | ")
+            print(str(round(JournEngy,1)).rjust(5),end=" | ")
+            print(str(round(JournTime,1)).rjust(4)+" |")
+        t.addTripTime(self.AddTotTripTime)
+        LASTSEENELEV = self.EndAltitude
         return list((EndEnergy, DDist, DEngy, DTime, JournDist, JournEngy, JournTime))
 
 
@@ -245,34 +255,38 @@ class CHARGE :
         :param CumulTime : The cumulated time spent at the beginning of the etap as float
         :returns : List of total journey values (Distance, Energy, Time)
         """
+        global SimpleMode, LASTSEENELEV
         JTime :float  # Journey time (cumulated total)
         DTime :float  # Daily time (day summary)
-        prettyPrintSeparator()
-        print("\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44mC\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44m",end="")
-        print(self.Name[0:25].ljust(25),end="\x1b[0m|      | ")
-        print(str(round(self.ChargedRange,1)).rjust(5),end="\x1b[0m | ")
-        print(str(int(self.ChargingSpeed)).rjust(3),end=" | ")
-        print(str(round(self.Pwr,1)).rjust(4),end=" |")
-        print("\x1b[1;38;5;47m +"+str(round(self.ChargedPercent,1)).rjust(4),end=" \x1b[0m|")
-        print("\x1b[1;38;5;47m +"+str(round(self.ChargedEnergy,1)).rjust(4),end=" \x1b[0m| \x1b[1;33m")
-        print(str(round(self.Time,2)).rjust(5),end="\x1b[0m || ")
         EndEnergy = CurrEnergy + self.ChargedEnergy
         EndPercent = 100.00 * EndEnergy / c.BattCapacity
         EndRange = 100.00 * EndEnergy / c.AvgConsumption
-        print(str(round(EndEnergy,1)).rjust(4),end=" |")
-        print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m| ")
-        print(str(round(EndRange,1)).rjust(5),end=" || ")
         JTime = CumulTime + self.Time
         DTime = DayTime + self.Time
-        print(str(round(DayDist,1)).rjust(6),end=" | ")
-        print(str(round(DayEnergy,1)).rjust(5),end=" | ")
-        print(str(round(DTime,1)).rjust(4),end=" || ")
-        print(str(round(CumulDist,1)).rjust(6),end=" | ")
-        print(str(round(CumulEnergy,1)).rjust(5),end=" | ")
-        print(str(round(JTime,1)).rjust(4)+" |")
-        #prettyPrintSeparator()
+        prettyPrintSeparator()
+        print("\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44mC\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44m"+self.Name[0:25].ljust(25),end="\x1b[0m|")
+        print(HEI2ANS(LASTSEENELEV)+" "+str(LASTSEENELEV).rjust(4),end=" \x1b[0m|")
+        if SimpleMode :
+            print(" "+str(round(DayDist,1)).rjust(6),end=" | ")
+            print(str(round(DTime,1)).rjust(4),end=" |")
+            print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m|\n")
+        else :
+            print("\""+str(round(self.ChargedRange,1)).rjust(5),end="\x1b[0m\"|\"")
+            print(str(int(self.ChargingSpeed)).rjust(3),end="\"|+")
+            print(str(round(self.Pwr,1)).rjust(4),end=" |")
+            print("\x1b[1;38;5;47m +"+str(round(self.ChargedPercent,1)).rjust(4),end=" \x1b[0m|")
+            print("\x1b[1;38;5;47m +"+str(round(self.ChargedEnergy,1)).rjust(4),end=" \x1b[0m| \x1b[1;33m")
+            print(str(round(self.Time,2)).rjust(5),end="\x1b[0m || ")
+            print(str(round(EndEnergy,1)).rjust(4),end=" |")
+            print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m| ")
+            print(str(round(EndRange,1)).rjust(5),end=" || ")
+            print(str(round(DayDist,1)).rjust(6),end=" | ")
+            print(str(round(DayEnergy,1)).rjust(5),end=" | ")
+            print(str(round(DTime,1)).rjust(4),end=" || ")
+            print(str(round(CumulDist,1)).rjust(6),end=" | ")
+            print(str(round(CumulEnergy,1)).rjust(5),end=" | ")
+            print(str(round(JTime,1)).rjust(4)+" |")
         t.addChrgTime(self.AddTotChrgTime)
-
         return list((EndEnergy, DayDist, DayEnergy, DTime, CumulDist, CumulEnergy, JTime))
 
 
@@ -280,9 +294,12 @@ class CHARGE :
 
 def prettyPrintSeparator() -> None :
     """Print a separator line in the output table"""
+    global SimpleMode
     print("+",end="")
-    for i in [1, 25, 6, 7, 5, 6, 7, 7, 7, 0, 6, 7, 7, 0, 8, 7, 6, 0, 8, 7, 6] :
-        print("-"*i, end="+")
+    if SimpleMode :
+        for i in [1, 25, 6, 8, 6, 7]: print("-" * i, end="+")
+    else :
+        for i in [1, 25, 6, 7, 5, 6, 7, 7, 7, 0, 6, 7, 7, 0, 8, 7, 6, 0, 8, 7, 6] : print("-"*i, end="+")
     print("")
 
 def SOC2ANS(_perc :float ="-1.0") -> str:
@@ -312,6 +329,27 @@ def SOC2ANS(_perc :float ="-1.0") -> str:
     if _perc >=  5.0 : return '\x1b[1;48;5;54m\x1b[1;38;5;199m'
     if _perc >=  0.0 : return '\x1b[1;48;5;55m\x1b[1;38;5;201m'
     return '\x1b[1;48;5;213m\x1b[1;38;5;232m'
+
+def HEI2ANS(_alti :float ="-1.0") -> str:
+    """Return the ANSI color of an Elevation Above Sea Level
+    :param _alti : Elevation above sea level in meters as float
+    :return : Perfectly formatted ANSI escape sequence string"""
+
+    if _alti >= 1500.0 : return '\x1b[0;48;5;200m\x1b[1;38;5;16m'
+    if _alti >= 1000.0 : return '\x1b[0;48;5;162m\x1b[1;38;5;16m'
+    if _alti >=  800.0 : return '\x1b[0;48;5;160m\x1b[1;38;5;16m'
+    if _alti >=  600.0 : return '\x1b[0;48;5;166m\x1b[1;38;5;16m'
+    if _alti >=  500.0 : return '\x1b[0;48;5;172m\x1b[1;38;5;16m'
+    if _alti >=  400.0 : return '\x1b[0;48;5;178m\x1b[1;38;5;16m'
+    if _alti >=  350.0 : return '\x1b[0;48;5;142m\x1b[1;38;5;16m'
+    if _alti >=  300.0 : return '\x1b[0;48;5;106m\x1b[1;38;5;16m'
+    if _alti >=  250.0 : return '\x1b[0;48;5;70m\x1b[1;38;5;16m'
+    if _alti >=  200.0 : return '\x1b[0;48;5;34m\x1b[1;38;5;16m'
+    if _alti >=  150.0 : return '\x1b[0;48;5;28m\x1b[1;38;5;16m'
+    if _alti >=  100.0 : return '\x1b[0;48;5;22m\x1b[1;38;5;16m'
+    if _alti >=   50.0 : return '\x1b[0;48;5;23m\x1b[1;38;5;16m'
+    if _alti >=    0.0 : return '\x1b[0;48;5;17m\x1b[37m'
+    return '\x1b[0;48;5;53m\x1b[37m'
 
 
 #################### MAIN PART ####################
@@ -412,20 +450,32 @@ DAYDISTANCE :float =0.00
 DAYENERGY :float =0.00
 DAYTIME :float =0.00
 REMAININGCHARGE :float =0.00
-JOURNEYTITLE = f"{t.Name}   with  {c.Name}  /{c.BattCapacity} kWh/"
-print("\n\x1b[0;48;5;240m\x1b[1;37m" + "#"*155+"\x1b[0m")
-print("\x1b[0;48;5;240m\x1b[1;37m#" + JOURNEYTITLE.center(153) + "#\x1b[0m")
-print("\x1b[0;48;5;240m\x1b[1;37m"+"#"*155+"\x1b[0m")
+if SimpleMode :
+    Wid :int =60
+    print("\n\x1b[0;48;5;240m\x1b[1;37m" + "#"*Wid+"\x1b[0m")
+    print("\x1b[0;48;5;240m\x1b[1;37m#" + t.Name.center(Wid-2) + "#\x1b[0m")
+    print("\x1b[0;48;5;240m\x1b[1;37m#" + f"{c.Name} /{c.BattCapacity}/".center(Wid-2) + "#\x1b[0m")
+    print("\x1b[0;48;5;240m\x1b[1;37m"+"#"*Wid+"\x1b[0m")
+else :
+    Wid :int =155
+    JOURNEYTITLE = f"{t.Name}   with  {c.Name}  /{c.BattCapacity} kWh/"
+    print("\n\x1b[0;48;5;240m\x1b[1;37m" + "#"*Wid+"\x1b[0m")
+    print("\x1b[0;48;5;240m\x1b[1;37m#" + JOURNEYTITLE.center(Wid-2) + "#\x1b[0m")
+    print("\x1b[0;48;5;240m\x1b[1;37m"+"#"*Wid+"\x1b[0m")
+
 
 for ID in t.Days :
     DAYDISTANCE =0.00
     DAYENERGY =0.00
     DAYTIME =0.00
-    print("|" + " "*153 + "|")
+    print("|" + " "*(Wid-2) + "|")
     print(f'|\x1b[0;36;44m Day \x1b[1m[{ID}] \x1b[1;32;44m {t.DayName[ID]} \x1b[0;36;44m',end="")
-    print(" "*(143-len(ID)-len(t.DayName[ID])) +"\x1b[0m|")
-    print("|                                    TRIP                                       ||       BATTERY        ||           DAY         ||         JOURNEY       |")
-    print("\x1b[1m|T|Trip Item                | alti |  km   | spd |  kW  |   %   |  kWh  |   h   ||  kWh |   %   |   km  ||   km   |  kWh  |   h  ||   km   |  kWh  |   h  |\x1b[0m")
+    print(" "*(Wid-12-len(ID)-len(t.DayName[ID])) +"\x1b[0m|")
+    if SimpleMode :
+        print("\x1b[1m|T|Trip Item                | alti |   km   |   h  |   %   |\x1b[0m")
+    else :
+        print("|                                    TRIP                                       ||       BATTERY        ||           DAY         ||         JOURNEY       |")
+        print("\x1b[1m|T|Trip Item                | alti |  km   | spd |  kW  |   %   |  kWh  |   h   ||  kWh |   %   |   km  ||   km   |  kWh  |   h  ||   km   |  kWh  |   h  |\x1b[0m")
     if t.InitCharge[ID].isdecimal() :
         REMAININGCHARGE = 0.01 * int(t.InitCharge[ID]) * c.BattCapacity
         PRINTPERC = float(t.InitCharge[ID])
@@ -433,17 +483,23 @@ for ID in t.Days :
         PRINTPERC = 100.0 * REMAININGCHARGE / c.BattCapacity
     PRINTDIST = 100.0 * REMAININGCHARGE / c.AvgConsumption
     prettyPrintSeparator()
-    print(f"\x1b[0;36m|S|--- START ---            | {t.Alti[ID].rjust(4)} |       |     |      |       |       |       || ",end="")
-    print(str(round(REMAININGCHARGE,1)).rjust(4), end=" |")
-    print(SOC2ANS(PRINTPERC)+" "+str(round(PRINTPERC,1)).rjust(5), end=" \x1b[0m\x1b[0;36m| ")
-    print(str(round(PRINTDIST,1)).rjust(5), end=" || ")
-    print(str(round(DAYDISTANCE,1)).rjust(6), end=" | ")
-    print(str(round(DAYENERGY,1)).rjust(5), end=" | ")
-    print(str(round(DAYTIME,1)).rjust(4), end=" || ")
-    print(str(round(JOURNEYDISTANCE,1)).rjust(6), end=" | ")
-    print(str(round(JOURNEYENERGY,1)).rjust(5), end=" | ")
-    print(str(round(JOURNEYTIME,1)).rjust(4), end=" |\x1b[0m\n")
-    #prettyPrintSeparator()
+    if SimpleMode :
+        print("\x1b[0;36m|S|--- START ---            |"+HEI2ANS(float(t.Alti[ID]))+" "+t.Alti[ID].rjust(4)+" \x1b[0m\x1b[0;36m| ",end="")
+        print(str(round(DAYDISTANCE,1)).rjust(6), end=" | ")
+        print(str(round(DAYTIME,1)).rjust(4), end=" |")
+        print(SOC2ANS(PRINTPERC)+" "+str(round(PRINTPERC,1)).rjust(5), end=" \x1b[0m\x1b[0;36m|\x1b[0m\n")
+    else :
+        print("\x1b[0;36m|S|--- START ---            |"+HEI2ANS(float(t.Alti[ID]))+" "+t.Alti[ID].rjust(4)+" \x1b[0m\x1b[0;36m|       |     |      |       |       |       || ",end="")
+        print(str(round(REMAININGCHARGE,1)).rjust(4), end=" |")
+        print(SOC2ANS(PRINTPERC)+" "+str(round(PRINTPERC,1)).rjust(5), end=" \x1b[0m\x1b[0;36m| ")
+        print(str(round(PRINTDIST,1)).rjust(5), end=" || ")
+        print(str(round(DAYDISTANCE,1)).rjust(6), end=" | ")
+        print(str(round(DAYENERGY,1)).rjust(5), end=" | ")
+        print(str(round(DAYTIME,1)).rjust(4), end=" || ")
+        print(str(round(JOURNEYDISTANCE,1)).rjust(6), end=" | ")
+        print(str(round(JOURNEYENERGY,1)).rjust(5), end=" | ")
+        print(str(round(JOURNEYTIME,1)).rjust(4), end=" |\x1b[0m\n")
+    LASTSEENELEV = int(t.Alti[ID])
 
     for xx in t.Events[ID] :
         REMAININGCHARGE, DAYDISTANCE, DAYENERGY, DAYTIME, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME =xx.prettyPrint(REMAININGCHARGE, DAYDISTANCE, DAYENERGY, DAYTIME, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME)
@@ -452,5 +508,5 @@ for ID in t.Days :
 print(f"\n * TOTAL TRAVELLING TIME : {str(round(t.TotTripTime,2)).rjust(5)} hrs  ({round(100.0*t.TotTripTime/JOURNEYTIME,1)}%)")
 print(f" * TOTAL CHARGING TIME   : {str(round(t.TotChrgTime,2)).rjust(5)} hrs  ({round(100.0*t.TotChrgTime/JOURNEYTIME,1)}%)")
 print(f" * AVERAGE SPEED         : {str(round(JOURNEYDISTANCE/JOURNEYTIME,1)).rjust(5)} km/h")
-print(f" * AVERAGE CONSUMPTION   : {round(100.0*JOURNEYENERGY/JOURNEYDISTANCE,2)} kWh/100km\n")
+print(f" * AVERAGE CONSUMPTION   : {str(round(100.0*JOURNEYENERGY/JOURNEYDISTANCE,2)).rjust(5)} kWh/100km\n")
 

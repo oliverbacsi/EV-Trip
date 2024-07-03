@@ -1,0 +1,19 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+CAR Saxo | 23.0kWh 10.0kWh/100 7.0/2.9kW 65km/h
+# 75km/h = 8kW (55..60A) --> 11kWh/100
+# 70km/h = 7kW (50A) --> 10kWh/100
+# 60km/h = 6.3kW (45A) --> 10.5kWh/100
+
+# TRIP <full name of the trip, one per file>
+TRIP Szhely-Szeged
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+DAY #1 100% 200m | Szombathely - Szeged
+ETAP 109km 8.0kW 266m | Szhely-Veszprém
+CHRG 2hrs | VESZPRÉM
+ETAP 45.0km 8.0kW 118m | Veszprém-Szfvár
+CHRG 3hrs | SZÉKESFEHÉRVÁR
+ETAP 101.0km 70km/h 98m | Szfvár-Kiskőrös
+CHRG 30% | KISKŐRÖS
+ETAP 85.0km 76m | Kiskőrös-Szeged

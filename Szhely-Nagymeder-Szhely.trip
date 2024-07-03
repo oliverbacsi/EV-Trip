@@ -1,0 +1,20 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+CAR Saxo | 23.0kWh 9.0kWh/100 7.0/3.0kW 65km/h
+# 75km/h = 8kW (55..60A) --> 11kWh/100
+# 70km/h = 7kW (50A) --> 10kWh/100
+# 60km/h = 6.3kW (45A) --> 10.5kWh/100
+
+# TRIP <full name of the trip, one per file>
+TRIP Szhely-Nagymeder-Szhely
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+DAY #1 100% 200m | Szh-Nagymed
+ETAP 108.0km 118m | Szhely-Győr
+CHRG 2hrs | GYŐR
+ETAP 26.0km 115m | Győr-Nagymed
+
+DAY #2 prev 112m | Nagymed-Szhely
+ETAP 26.0km 118m | Nagymed-Győr
+CHRG 2hrs | GYŐR
+ETAP 108.0km 200m | Győr-Szhely
