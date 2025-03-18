@@ -1,0 +1,22 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+CAR Tinbot | 5.5kWh 4.0kWh/100 2.0/1.1kW 50km/h
+
+# TRIP <full name of the trip, one per file>
+TRIP Szigetszentmiklós-Tatab-Szombathely lábon haza
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+DAY #1 100% 100m | Szigetszentmiklós - Szombathely
+
+# ETAP [any detail that differs from default] | <name>
+#    Recognized:  ##.#km ##.#kW ##.#km/h ###m
+# CHRG [any detail that differs from default] | <name>
+#    Recognized:  ##.#kW ##.#hrs or ##%
+ETAP 36.0km 45km/h 2.5kW 140m | >Herceghalom
+ETAP 18.0km 45km/h 2.8kW 260m | >Óbarok
+ETAP 17.0km 145m | >Tatabánya
+CHRG 60% | TATABÁNYA
+ETAP 35.0km 2.2kW 45km/h 205m | >Kisbér
+ETAP 55.0km 140m | >Pápa
+CHRG 60% | PÁPA
+ETAP 80.0km 200m | >Szombathely

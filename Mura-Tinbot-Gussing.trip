@@ -1,0 +1,139 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+
+# Special setup , DO NOT COPY!!! , Valid for downhill only on good asphalt
+CAR Tinbot | 5.5kWh 3.33kWh/100 1.50/1.0kW 45km/h
+
+# TRIP <full name of the trip, one per file>
+TRIP Mura, csak le, haza
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+
+# ~130km
+DAY #1 100% 1355m | Hintermuhr-Judenburg
+
+# ETAP [any detail that differs from default] | <name>
+#    Recognized:  ##.#km ##.#kW ##.#km/h ###m
+# CHRG [any detail that differs from default] | <name>
+#    Recognized:  ##.#kW ##.#hrs or ##%
+ETAP 17.0km 1062m 1.3kW | >Unterweißburg, elágazó
+ETAP  3.4km 1071m | >St Michael
+PASS 0.1hrs       | ST MICHAEL IM LUNGAU
+ETAP 6.35km 1085m | >Schloss Moosham
+PASS 0.5hrs       | SCHLOSS MOOSHAM
+ETAP  8.9km 1014m | >Tamsweg v.á.
+ETAP  8.1km  972m | >Ramingstein, letérés, Finstergrün
+ETAP  3.4km  944m | >Kendlbruck, feltérés ismét
+ETAP  2.7km  933m | >Predlitz
+ETAP  3.2km  902m | >Einach, felhajtás
+ETAP  3.35km 893m | >Stadl ad Mur
+ETAP  1.0km  922m 25km/h 5.0kW | (Kastélyba fel)
+PASS  0.5hrs      | --kastély--
+ETAP  1.0km  893m 50km/h 0.5kW | (Kastélyból le)
+ETAP 16.1km  811m | >MURAU
+#CHRG  1.0hrs      | MURAU
+PASS  1hr         | MURAU
+ETAP 11.3km  763m | >Frojach, Club 760
+ETAP 4.75km  753m | >Teufenbach (esetleg vár?)
+ETAP 11.6km  792m | >Frauenburg
+ETAP  0.8km  884m 20km/h 5.0kW | (várba fel)
+PASS  0.5hrs      | --vár, kilátás, kápolna--
+ETAP  0.8km  792m 50km/h 0.5kW | (várból le)
+ETAP 12.0km  722m | >Sauerbrunn, kastély
+PASS  0.2hrs      | --kastély--
+ETAP  9.6km  731m | >JUDENBURG
+ETAP  0.7km  735m 40km/h 2.0kW | (Kastélyba fel)
+PASS  0.5hrs      | --kastély--
+ETAP  1.7km  704m 1.1kW        | (Kastélyból le)
+
+
+# ~140km
+DAY #2 100% 704m | Judenburg-Graz
+ETAP  8.4km  674m | >Zeltweg
+ETAP  4.2km  700m | >Red Bull Ring
+PASS  0.5hrs      | --The Ring--
+ETAP  3.0km  697m | >Spielberg-Kastély
+PASS  0.25hrs     | --kastély--
+ETAP  4.8km  643m | >Knittelfeld
+PASS  0.3hrs      | KNITTELFELD
+ETAP 19.7km  600m | >Kaiserberg, csak kastély
+#ETAP  1.3km  695m 20km/h 5.0kW | (várromba fel)
+PASS  0.2hrs      | --kastély--
+#ETAP  1.3km  597m 50km/h 0.5kW | (várromból le)
+#A kastély a völgyben OK, de a várrom szar állapotban van és bozótos
+#És igen magasan is van, nem éri meg
+ETAP 12.9km  548m | >Göss
+PASS  2hrs        | GÖSSER, Apátság
+ETAP  1.5km  549m | >Leoben-Kastélyalja
+ETAP  0.2km  558m 30km/h 2.5kW | (Kastélyhoz picit fel)
+PASS  1.0hrs      | --kastély--
+ETAP  0.2km  553m 0.8kW        | (Kastélytól le)
+ETAP 1.25km  535m | >LEOBEN-CENTER
+#CHRG 1.0hrs       | LEOBEN
+PASS 1hr          | LEOBEN
+ETAP 18.4km  490m | >BRUCK a.d. MUR
+PASS 1hr          | BRUCK a.d. MUR
+ETAP 11.6km  475m | >Pernegg
+#ETAP 0.75km  511m 30km/h 3.0kW | (Kastélyba fel)
+#A Frauenkirche melletti szökőkútnál leparkolva fel lehet sétálni
+PASS  0.75hrs     | --kastély--
+#ETAP 0.75km  465m 0.7kW        | (Kastélyból le)
+ETAP 15.1km  436m | >Frohnleiten
+PASS 0.5hrs       | FROHNLEITEN
+ETAP  3.5km  423m | >Rabenstein
+PASS 0.5hrs       | --Rabenstein vára--
+ETAP 10.7km  404m | >Kleinstübing
+ETAP  6.7km  383m | >Gratwein
+ETAP 13.0km  352m | >GRAZ
+
+
+# ~210km, mert csak hazatűzés van
+DAY #3 100% 352m | Graz-Szombathely
+ETAP 25.3km  293m | >Wildon
+ETAP  8.9km  277m | >Altgralla
+# Elvileg innentől lapos a vidék már annyira.....
+ETAP 6.25km  276m 1.52kW 40km/h | >Leibnitz
+PASS 0.25hrs                    | LEIBNITZ
+ETAP 10.1km  275m 1.52kW 40km/h | >Ehrenhausen-Georgischlößl
+ETAP  1.3km  307m 30km/h 3.0kW | >Ehrenhausen-Schloss
+PASS  0.5hrs      | --kastély--
+ETAP  1.0km  256m 1.0kW | (Kastélyból le)
+ETAP 4.25km  275m 1.52kW 40km/h | >Spielfeld-Schloss
+PASS  0.5hrs      | --kastély--
+ETAP 14.4km  231m 1.52kW 40km/h | >Mureck-híd
+ETAP  2.9km  232m 1.52kW 40km/h | >Gosdorf-Saßbach-híd
+ETAP 18.6km  211m 40km/h | >BAD RADKERSBURG
+CHRG 2hrs         | BAD RADKERSBURG
+ETAP  7.7km  248m 1.55kW 40km/h | >Pölten-hegyalja
+ETAP  2.6km  299m 40km/h 2.0kW | >Klöch-váralja
+ETAP  0.4km  340m 25km/h 5.0kW | >Klöch-várrom
+PASS  0.25hrs     | --vár--
+ETAP  0.9km  393m 30km/h 3.0kW | >Klöchwarth-kilátópont
+PASS  0.25hrs     | --kilátó--
+ETAP  1.5km  333m 1.0kW | >Deutsch-Haseldorf
+ETAP  4.0km  338m 1.52kW 40km/h | >Aigen
+ETAP  2.7km  401m 3.0kW 35km/h | >St. Anna
+ETAP  2.9km  252m 0.8kW 50km/h | >Kalch
+ETAP  5.3km  272m 1.52kW 40km/h | >Neuhaus am Kl-Bach
+ETAP 2.35km  348m 3.0kW 35km/h | >Wolfsriegel-re fel
+ETAP  2.6km  280m 1.0kW | >Minihof-Liebau
+ETAP  8.6km  247m 40km/h | >Neumarkt ad Raab
+ETAP  0.4km  286m 5.0kW 20km/h | (Batthyány kastélyba fel)
+PASS  0.5hrs      | --kastély--
+ETAP  0.4km  247m 0.5kW        | (Kastélyból le)
+ETAP  2.5km  243m 1.52kW 40km/h | >JENNERSDORF
+CHRG 1.5hrs       | JENNERSDORF
+ETAP  1.9km  239m 1.52kW 40km/h | >Rax
+ETAP  5.8km  360m 35km/h 3.0kW | (dombra fel)
+ETAP 5.85km  223m 1.0kW        | >Wallendorf-leágazó
+ETAP  3.8km  230m 1.52kW 40km/h | >Heiligenkreuz
+ETAP  5.7km  305m 35km/h 3.0kW | >Neustift bei Güssing dombtető
+ETAP  5.9km  234m 1.1kW        | >Güssing
+PASS  0.33hrs     | GÜSSING
+ETAP 17.9km  212m 1.52kW 40km/h | >Szentpéterfa
+ETAP 11.4km  205m 1.52kW 40km/h | >Ják
+ETAP 14.7km  200m 1.52kW 40km/h | >SZOMBATHELY
+
+
+# Total ~480km
+

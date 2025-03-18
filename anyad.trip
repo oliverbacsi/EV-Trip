@@ -1,0 +1,23 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+CAR Tinbot | 5.5kWh 3.6kWh/100 1.8/1.1kW 50km/h
+
+# TRIP <full name of the trip, one per file>
+TRIP Szhely-Crkvenica
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+DAY #1 100% 200m | Szombathely
+
+# ETAP [any detail that differs from default] | <name>
+#    Recognized:  ##.#km ##.#kW ##.#km/h ###m
+# CHRG [any detail that differs from default] | <name>
+#    Recognized:  ##.#kW ##.#hrs or ##%
+ETAP 123km 170m | >Varasd
+CHRG 70% | VARASD
+ETAP 80km 110m | >Zágráb
+CHRG 60% | ZÁGRÁB
+ETAP 106km 500m 2.0kW | >Vrbovsko
+CHRG 75% | VRBOVSKO
+ETAP 30km 3.8kW 25km/h 820m | >Lujzi
+CHRG 40% | LUJZI
+ETAP 53km 0m | >Tenger

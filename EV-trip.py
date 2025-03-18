@@ -33,6 +33,7 @@ class TRIP :
         self.DayName :dict = dict(())
         self.Events :dict = dict(())
         self.Alti :dict = dict(())
+        self.StartTime :dict =dict(())
 
     def addTripTime(self, ti :float) :
         self.TotTripTime = self.TotTripTime + ti
@@ -46,6 +47,7 @@ class TRIP :
         self.DayName[ID] = "error"
         self.Events[ID] = list(())
         self.Alti[ID] = "0"
+        self.StartTime[ID] = 0
 
 
 
@@ -69,10 +71,10 @@ class CAR :
 
     def interpretParm(self, parStr :str) :
         """Try to interpret a parameter for the car"""
-        m1 = re.match("^([0-9]+\.?[0-9]*)kWh$",parStr)
-        m2 = re.match("^([0-9]+\.?[0-9]*)kWh/100$",parStr)
-        m3 = re.match("^([0-9]+\.?[0-9]*)/([0-9]+\.?[0-9]*)kW$",parStr)
-        m4 = re.match("^([0-9]+\.?[0-9]*)km/h$",parStr)
+        m1 = re.match("^([0-9]+[.]?[0-9]*)kWh$",parStr)
+        m2 = re.match("^([0-9]+[.]?[0-9]*)kWh/100$",parStr)
+        m3 = re.match("^([0-9]+[.]?[0-9]*)/([0-9]+[.]?[0-9]*)kW$",parStr)
+        m4 = re.match("^([0-9]+[.]?[0-9]*)km/h$",parStr)
 
         if m1 : self.BattCapacity = float(m1[1])
         if m2 : self.AvgConsumption = float(m2[1])
@@ -114,8 +116,8 @@ class ETAP :
 
     def interpretParm(self, parStr :str) :
         """Try to interpret a parameter for the etap"""
-        m1 = re.match("^([0-9]+\.?[0-9]*)km$",parStr)
-        m2 = re.match("^([0-9]+\.?[0-9]*)kW$",parStr)
+        m1 = re.match("^([0-9]+[.]?[0-9]*)km$",parStr)
+        m2 = re.match("^([0-9]+[.]?[0-9]*)kW$",parStr)
         m3 = re.match("^([0-9]+)km/h$",parStr)
         m4 = re.match("^([0-9]+)m$",parStr)
 
@@ -219,9 +221,9 @@ class CHARGE :
 
     def interpretParm(self, parStr :str) :
         """Try to interpret a parameter for the charge"""
-        m1 = re.match("^([0-9]+\.?[0-9]*)hrs?$",parStr)
-        m2 = re.match("^([0-9]+\.?[0-9]*)kW$",parStr)
-        m3 = re.match("^([0-9]+)\%$",parStr)
+        m1 = re.match("^([0-9]+[.]?[0-9]*)hrs?$",parStr)
+        m2 = re.match("^([0-9]+[.]?[0-9]*)kW$",parStr)
+        m3 = re.match("^([0-9]+)[%]$",parStr)
 
         if m1 :
             self.Time = float(m1[1])
@@ -288,6 +290,71 @@ class CHARGE :
             print(str(round(JTime,1)).rjust(4)+" |")
         t.addChrgTime(self.AddTotChrgTime)
         return list((EndEnergy, DayDist, DayEnergy, DTime, CumulDist, CumulEnergy, JTime))
+
+
+
+class PASSIVE :
+    # Object to store passively spent time
+    # To be able to track sightseeing into the daily spent time
+
+    def __init__(self, pName :str) :
+        """Initialize the Passive object
+        :param pName : The textual name of the passively spent time as str"""
+        self.Name :str = pName
+        # Passively spent Time
+        self.Time :float =0.0
+
+    def interpretParm(self, parStr :str) :
+        """Try to interpret a parameter for the passive object"""
+        m1 = re.match("^([0-9]+[.]?[0-9]*)hrs?$",parStr)
+
+        if m1 :
+            self.Time = float(m1[1])
+
+    def prettyPrint(self, CurrEnergy :float, DayDist :float, DayEnergy :float, DayTime :float, CumulDist :float, CumulEnergy :float, CumulTime :float) -> list :
+        """Pretty print one row of data based on incoming information
+        :param CurrEnergy : The Energy in the Battery in kWh at the beginning of the etap as float
+        :param DayDist : The daily distance travelled at the beginning of the etap as float
+        :param DayEnergy : The daily energy consumed at the beginning of the etap as float
+        :param DayTime : The daily time spent at the beginning of the etap as float
+        :param CumulDist : The cumulated distance travelled at the beginning of the etap as float
+        :param CumulEnergy : The cumulated energy consumed at the beginning of the etap as float
+        :param CumulTime : The cumulated time spent at the beginning of the etap as float
+        :returns : List of total journey values (Distance, Energy, Time)
+        """
+        global SimpleMode, LASTSEENELEV
+        JTime :float  # Journey time (cumulated total)
+        DTime :float  # Daily time (day summary)
+        EndEnergy = CurrEnergy
+        EndPercent = 100.00 * EndEnergy / c.BattCapacity
+        EndRange = 100.00 * EndEnergy / c.AvgConsumption
+        JTime = CumulTime + self.Time
+        DTime = DayTime + self.Time
+        PTime = str(round(self.Time,2))
+        if PTime.find('.') == -1 :
+            PTime = PTime+".00"
+        elif PTime[-2] == "." :
+            PTime = PTime+"0"
+        print("\x1b[0m|\x1b[1;48;5;236m\x1b[1;38;5;252mP\x1b[0m|\x1b[1;48;5;236m\x1b[1;38;5;252m"+self.Name[0:25].ljust(25),end="\x1b[0m|")
+        print(HEI2ANS(LASTSEENELEV)+" "+str(LASTSEENELEV).rjust(4),end=" \x1b[0m|")
+        if SimpleMode :
+            print(" "+str(round(DayDist,1)).rjust(6),end=" | ")
+            print(str(round(DTime,1)).rjust(4),end=" |")
+            print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m|\n")
+        else :
+            print("   0   |   0 |  0   |   0   |   0   |",end=" \x1b[1;33m")
+            print(PTime.rjust(5),end="\x1b[0m || ")
+            print(str(round(EndEnergy,1)).rjust(4),end=" |")
+            print(SOC2ANS(EndPercent)+" "+str(round(EndPercent,1)).rjust(5),end=" \x1b[0m| ")
+            print(str(round(EndRange,1)).rjust(5),end=" || ")
+            print(str(round(DayDist,1)).rjust(6),end=" | ")
+            print(str(round(DayEnergy,1)).rjust(5),end=" | ")
+            print(str(round(DTime,1)).rjust(4),end=" || ")
+            print(str(round(CumulDist,1)).rjust(6),end=" | ")
+            print(str(round(CumulEnergy,1)).rjust(5),end=" | ")
+            print(str(round(JTime,1)).rjust(4)+" |")
+        return list((EndEnergy, DayDist, DayEnergy, DTime, CumulDist, CumulEnergy, JTime))
+
 
 
 #################### PROC PART ####################
@@ -379,14 +446,14 @@ for sor in fin :
         t = TRIP(str(m0[1]).strip())
         continue
 
-    m1 = re.match("^CAR +(.*) +\| (.*)$", sor, re.I)
+    m1 = re.match("^CAR +(.*) +[|] (.*)$", sor, re.I)
     if m1 :
         c = CAR(m1[1].strip())
         for _par in m1[2].split(" ") : c.interpretParm(_par)
         continue
 
-    m2 = re.match("^DAY +(.+) +([0-9]+)\% +([0-9]+)m +\| +(.*)$", sor, re.I)
-    m3 = re.match("^DAY +(.+) +(prev) +([0-9]+)m +\| +(.*)$", sor, re.I)
+    m2 = re.match("^DAY +(.+) +([0-9]+)[%] +([0-9]+)m +[|] +(.*)$", sor, re.I)
+    m3 = re.match("^DAY +(.+) +(prev) +([0-9]+)m +[|] +(.*)$", sor, re.I)
     if m2 or m3 :
         if m2 :
             m1 = m2
@@ -414,7 +481,7 @@ for sor in fin :
         DayIsActive = True
         continue
 
-    m1 = re.match("^ETAP +(.*) +\| +(.*)$", sor, re.I)
+    m1 = re.match("^ETAP +(.*) +[|] +(.*)$", sor, re.I)
     if m1 :
         if not DayIsActive :
             fin.close()
@@ -426,7 +493,7 @@ for sor in fin :
         t.Events[ID].append(EtObj)
         continue
 
-    m1 = re.match("^CHRG +(.*) +\| +(.*)$", sor, re.I)
+    m1 = re.match("^CHRG +(.*) +[|] +(.*)$", sor, re.I)
     if m1 :
         if not DayIsActive :
             fin.close()
@@ -436,6 +503,17 @@ for sor in fin :
         for _par in m1[1].split(" ") : ChObj.interpretParm(_par)
         ChObj.recalc()
         t.Events[ID].append(ChObj)
+        continue
+
+    m1 = re.match("^PASS +(.*) +[|] +(.*)$", sor, re.I)
+    if m1 :
+        if not DayIsActive :
+            fin.close()
+            print(f"Line #{LineNumber}: PASS specified without valid DAY first")
+            exit(-3)
+        PaObj = PASSIVE(str(m1[2]).strip())
+        for _par in m1[1].split(" ") : PaObj.interpretParm(_par)
+        t.Events[ID].append(PaObj)
         continue
 
     print(f"Line #{LineNumber}: Not understood: <{sor}>")
@@ -505,8 +583,10 @@ for ID in t.Days :
         REMAININGCHARGE, DAYDISTANCE, DAYENERGY, DAYTIME, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME =xx.prettyPrint(REMAININGCHARGE, DAYDISTANCE, DAYENERGY, DAYTIME, JOURNEYDISTANCE, JOURNEYENERGY, JOURNEYTIME)
     prettyPrintSeparator()
 
-print(f"\n * TOTAL TRAVELLING TIME : {str(round(t.TotTripTime,2)).rjust(5)} hrs  ({round(100.0*t.TotTripTime/JOURNEYTIME,1)}%)")
-print(f" * TOTAL CHARGING TIME   : {str(round(t.TotChrgTime,2)).rjust(5)} hrs  ({round(100.0*t.TotChrgTime/JOURNEYTIME,1)}%)")
-print(f" * AVERAGE SPEED         : {str(round(JOURNEYDISTANCE/JOURNEYTIME,1)).rjust(5)} km/h")
-print(f" * AVERAGE CONSUMPTION   : {str(round(100.0*JOURNEYENERGY/JOURNEYDISTANCE,2)).rjust(5)} kWh/100km\n")
+print(f"\n * TOTAL TRAVELLING TIME   : {str(round(t.TotTripTime,2)).rjust(5)} hrs  ({round(100.0*t.TotTripTime/JOURNEYTIME,1)}%)")
+print(f" * TOTAL CHARGING TIME     : {str(round(t.TotChrgTime,2)).rjust(5)} hrs  ({round(100.0*t.TotChrgTime/JOURNEYTIME,1)}%)")
+print(f" * TOTAL PASSIVE TIME      : {str(round(JOURNEYTIME-t.TotChrgTime-t.TotTripTime,2)).rjust(5)} hrs  ({round(100.0*(JOURNEYTIME-t.TotChrgTime-t.TotTripTime)/JOURNEYTIME,1)}%)")
+print(f" * AVERAGE SPEED (active)  : {str(round(JOURNEYDISTANCE/(t.TotChrgTime+t.TotTripTime),1)).rjust(5)} km/h")
+print(f" * AVERAGE SPEED (overall) : {str(round(JOURNEYDISTANCE/JOURNEYTIME,1)).rjust(5)} km/h")
+print(f" * AVERAGE CONSUMPTION     : {str(round(100.0*JOURNEYENERGY/JOURNEYDISTANCE,2)).rjust(5)} kWh/100km\n")
 

@@ -1,0 +1,96 @@
+# CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
+CAR Tinbot | 5.5kWh 3.8kWh/100 1.52/1.0kW 40km/h
+
+# 40km/h átlag : 150km nyáron , 3.7-es fogyi , 2.5h/100 -> 1.52kW haladás
+# 45km/h átlag : 137km nyáron , 4.0-ás fogyi , 2.22h/100 -> 1.8kW haladás
+# 50km/h átlag : 120km nyáron , 4.6-os fogyi , 2.00h/100 -> 2.3kW haladás
+
+# Töltő: Brutto 1.1kW, netto 1.0kW
+
+
+# TRIP <full name of the trip, one per file>
+TRIP Duna mente, majd haza
+
+# DAY <Day name> <Starting SOC percentage> <Starting sea level> <name>
+#    <Starting SOC> : either integer 1-100 or "prev" for continue previous day
+
+# 220km, a Lábatlan környéki iparvidéken csak át kell suhanni
+DAY #1 100% 128m | Rajka-Esztergom-Budapest
+
+# ETAP [any detail that differs from default] | <name>
+#    Recognized:  ##.#km ##.#kW ##.#km/h ###m
+# CHRG [any detail that differs from default] | <name>
+#    Recognized:  ##.#kW ##.#hrs or ##%
+ETAP 18.3km 122m | >Cikolasziget
+ETAP  9.4km 119m 20km/h 0.8kW | >Kisbodak (töltésen)
+ETAP  8.1km 116m | >Lipót
+ETAP 13.8km 115m | >Dunaszeg
+ETAP 10.2km 109m | (GYŐR)
+ETAP 16.3km 108m | >Gönyű
+ETAP 23.0km 109m | >KOMÁROM
+CHRG 1.5hrs      | KOMÁROM
+ETAP 12.8km 110m | >Almásfüz (letér)
+ETAP 18.4km 119m | >Lábatlan (letér)
+ETAP 12.7km 103m | >Tát (mellett)
+ETAP  9.5km 110m | >Esztergom
+ETAP  1.3km 148m 20km/h 2.5kW | Esztergom-felmászás
+CHRG 1.5hrs      | ESZTERGOM
+ETAP  0.9km 106m 25km/h 0.2kW | Esztergom-leereszkedés
+ETAP 12.9km 123m | >Pilismarót
+ETAP  9.9km 104m | >VISEGRÁD
+ETAP 12.2km 108m | >Tahitótfalu
+ETAP  9.8km 105m | >SZENTENDRE
+CHRG  1.0hrs     | SZENTENDRE
+ETAP 10.7km 104m | >Békásmegyer
+ETAP 11.4km 30km/h 1.2kW 109m | >BUDAPEST
+
+# 220km ez is
+DAY #2 100% 109m | Budapest-Szekszárd-Mohács
+ETAP 10.7km 30km/h 1.3kW 100m | BUDAPEST >Csepel
+ETAP 14.7km 100m | >Szigetszentmiklós
+ETAP 28.1km  99m | >RÁCKEVE
+CHRG 0.75hrs     | RÁCKEVE
+ETAP  8.5km  93m | >Lórév
+CHRG 0.5hrs 0.0kW | (kompra várás)
+ETAP 22.8km 146m | >DUNAÚJVÁROS
+CHRG 0.75hrs     | DUNAÚJVÁROS
+ETAP 19.7km 117m | >DUNAFÖLDVÁR
+CHRG 1.5hrs      | DUNAFÖLDVÁR
+ETAP 17.4km  89m | >Madocsa-Dunapart
+ETAP 15.1km  97m | >PAKS
+ETAP 25.4km  93m | >TOLNA
+ETAP 13.5km  96m | >SZEKSZÁRD
+CHRG 0.75hrs     | SZEKSZÁRD
+ETAP 18.9km  93m | >Bátaszék
+ETAP 12.9km  89m | >Dunaszekcső
+ETAP 15.0km  85m | >MOHÁCS
+
+# 270km, mert csak hazatűzés van
+DAY #3 100% 100m | Mohács-Zalakaros-Szombathely
+ETAP 20.0km 114m | >Szederkény
+ETAP 15.9km 163m 1.8kW | >Kozármisleny
+ETAP  7.1km 125m | >PÉCS
+CHRG 1.5hrs      | PÉCS
+ETAP 34.4km 116m | >Szigetvár
+CHRG 1.5hrs      | SZIGETVÁR
+ETAP 29.1km 197m 1.8kW | >Kadarkút
+ETAP 22.3km 157m | >Nagybajom
+ETAP 10.1km 166m | >Böhönye
+ETAP 18.8km 123m | >Nemesvid
+ETAP 14.8km 119m | >ZALAKAROS
+CHRG 3.0hrs      | ZALAKAROS
+ETAP 12.1km 105m | >Kis-Balaton
+ETAP 17.9km 124m | >Zalacsány
+ETAP 15.5km 122m | >ZALASZENTGRÓT
+ETAP  7.3km 130m | >Zalabér
+ETAP  3.8km 203m 25km/h 1.8kW | >(Baltavári domb)
+ETAP  4.3km 150m 50km/h | >Mikosszéplak
+ETAP  2.2km 161m 1.65kW | >Csehimindszent
+ETAP  5.2km 232m 30km/h 1.8kW | >(Csipkerek dombtető)
+ETAP  3.7km 213m | (Zalabér-leágazó)
+ETAP  1.7km 168m 60km/h 1.2kW | >Kám alja
+ETAP  4.0km 173m 50km/h 1.7kW | >Rum
+ETAP 17.8km 200m | >SZOMBATHELY
+
+
+# Total 710km
