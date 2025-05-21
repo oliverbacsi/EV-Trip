@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Doroske-Doborhegy</name>
+		<desc>Doroske-Doborhegy</desc>
+	</metadata>
+	<trk>
+		<name>Doroske-Doborhegy</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.011733" lon="16.700968">
+				<ele>205.402</ele>
+			</trkpt>
+			<trkpt lat="47.011784" lon="16.700828">
+				<ele>207.062</ele>
+			</trkpt>
+			<trkpt lat="47.011725" lon="16.700592">
+				<ele>209.875</ele>
+			</trkpt>
+			<trkpt lat="47.011542" lon="16.700453">
+				<ele>210.824</ele>
+			</trkpt>
+			<trkpt lat="47.011111" lon="16.699787">
+				<ele>215.621</ele>
+			</trkpt>
+			<trkpt lat="47.010730" lon="16.698983">
+				<ele>220.692</ele>
+			</trkpt>
+			<trkpt lat="47.010526" lon="16.698457">
+				<ele>223.724</ele>
+			</trkpt>
+			<trkpt lat="47.010482" lon="16.698039">
+				<ele>225.081</ele>
+			</trkpt>
+			<trkpt lat="47.010489" lon="16.697438">
+				<ele>226.106</ele>
+			</trkpt>
+			<trkpt lat="47.010365" lon="16.697588">
+				<ele>225.835</ele>
+			</trkpt>
+			<trkpt lat="47.010226" lon="16.697631">
+				<ele>225.728</ele>
+			</trkpt>
+			<trkpt lat="47.010021" lon="16.697491">
+				<ele>226.020</ele>
+			</trkpt>
+			<trkpt lat="47.009128" lon="16.696622">
+				<ele>227.109</ele>
+			</trkpt>
+			<trkpt lat="47.007907" lon="16.695303">
+				<ele>230.777</ele>
+			</trkpt>
+			<trkpt lat="47.005565" lon="16.692771">
+				<ele>229.863</ele>
+			</trkpt>
+			<trkpt lat="47.003253" lon="16.690314">
+				<ele>225.921</ele>
+			</trkpt>
+			<trkpt lat="47.001753" lon="16.688683">
+				<ele>229.328</ele>
+			</trkpt>
+			<trkpt lat="47.000502" lon="16.687406">
+				<ele>229.397</ele>
+			</trkpt>
+			<trkpt lat="47.000293740116" lon="16.687207818031">
+				<ele>229.648</ele>
+			</trkpt>
+			<trkpt lat="47.000066912377" lon="16.687073707581">
+				<ele>229.920</ele>
+			</trkpt>
+			<trkpt lat="46.999500" lon="16.686924">
+				<ele>230.600</ele>
+			</trkpt>
+			<trkpt lat="46.999163" lon="16.686709">
+				<ele>231.016</ele>
+			</trkpt>
+			<trkpt lat="46.997963" lon="16.685786">
+				<ele>231.468</ele>
+			</trkpt>
+			<trkpt lat="46.995892" lon="16.683694">
+				<ele>230.487</ele>
+			</trkpt>
+			<trkpt lat="46.994707" lon="16.682460">
+				<ele>229.940</ele>
+			</trkpt>
+			<trkpt lat="46.994231" lon="16.682010">
+				<ele>229.008</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

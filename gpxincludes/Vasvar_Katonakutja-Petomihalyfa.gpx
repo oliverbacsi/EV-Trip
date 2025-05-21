@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Vasvar_Katonakutja-Petomihalyfa</name>
+		<desc>Vasvar_Katonakutja-Petomihalyfa</desc>
+	</metadata>
+	<trk>
+		<name>Vasvar_Katonakutja-Petomihalyfa</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.003927" lon="16.776241">
+				<ele>243.201</ele>
+			</trkpt>
+			<trkpt lat="47.001585" lon="16.778483">
+				<ele>242.327</ele>
+			</trkpt>
+			<trkpt lat="47.001014" lon="16.778966">
+				<ele>242.119</ele>
+			</trkpt>
+			<trkpt lat="47.000356" lon="16.779310">
+				<ele>242.891</ele>
+			</trkpt>
+			<trkpt lat="46.999734" lon="16.779621">
+				<ele>242.644</ele>
+			</trkpt>
+			<trkpt lat="46.998797" lon="16.779824">
+				<ele>240.618</ele>
+			</trkpt>
+			<trkpt lat="46.997861" lon="16.780179">
+				<ele>233.658</ele>
+			</trkpt>
+			<trkpt lat="46.997568" lon="16.780211">
+				<ele>229.847</ele>
+			</trkpt>
+			<trkpt lat="46.997231" lon="16.780007">
+				<ele>226.747</ele>
+			</trkpt>
+			<trkpt lat="46.996368" lon="16.779374">
+				<ele>216.775</ele>
+			</trkpt>
+			<trkpt lat="46.995146" lon="16.778837">
+				<ele>203.438</ele>
+			</trkpt>
+			<trkpt lat="46.994861" lon="16.778827">
+				<ele>202.269</ele>
+			</trkpt>
+			<trkpt lat="46.993009" lon="16.779363">
+				<ele>200.519</ele>
+			</trkpt>
+			<trkpt lat="46.988977" lon="16.781509">
+				<ele>191.690</ele>
+			</trkpt>
+			<trkpt lat="46.985061" lon="16.783762">
+				<ele>185.211</ele>
+			</trkpt>
+			<trkpt lat="46.983187" lon="16.784835">
+				<ele>181.417</ele>
+			</trkpt>
+			<trkpt lat="46.982704" lon="16.785221">
+				<ele>180.290</ele>
+			</trkpt>
+			<trkpt lat="46.981028" lon="16.786337">
+				<ele>167.591</ele>
+			</trkpt>
+			<trkpt lat="46.980838" lon="16.786358">
+				<ele>166.143</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Balogunyom-Kisunyom</name>
+		<desc>Balogunyom-Kisunyom</desc>
+	</metadata>
+	<trk>
+		<name>Balogunyom-Kisunyom</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.159497" lon="16.637946">
+				<ele>194.057</ele>
+			</trkpt>
+			<trkpt lat="47.159300" lon="16.638129">
+				<ele>194.163</ele>
+			</trkpt>
+			<trkpt lat="47.158979" lon="16.638268">
+				<ele>194.000</ele>
+			</trkpt>
+			<trkpt lat="47.158512" lon="16.638322">
+				<ele>194.000</ele>
+			</trkpt>
+			<trkpt lat="47.157659" lon="16.638215">
+				<ele>194.694</ele>
+			</trkpt>
+			<trkpt lat="47.156754" lon="16.638086">
+				<ele>194.437</ele>
+			</trkpt>
+			<trkpt lat="47.155857" lon="16.638043">
+				<ele>192.065</ele>
+			</trkpt>
+			<trkpt lat="47.154821" lon="16.638075">
+				<ele>190.215</ele>
+			</trkpt>
+			<trkpt lat="47.154361" lon="16.638290">
+				<ele>190.767</ele>
+			</trkpt>
+			<trkpt lat="47.153062" lon="16.639202">
+				<ele>192.283</ele>
+			</trkpt>
+			<trkpt lat="47.152362" lon="16.639717">
+				<ele>192.118</ele>
+			</trkpt>
+			<trkpt lat="47.152129" lon="16.639942">
+				<ele>191.593</ele>
+			</trkpt>
+			<trkpt lat="47.151472" lon="16.640403">
+				<ele>190.887</ele>
+			</trkpt>
+			<trkpt lat="47.150983" lon="16.640747">
+				<ele>190.265</ele>
+			</trkpt>
+			<trkpt lat="47.150720" lon="16.640854">
+				<ele>190.425</ele>
+			</trkpt>
+			<trkpt lat="47.150392" lon="16.640875">
+				<ele>191.586</ele>
+			</trkpt>
+			<trkpt lat="47.150151" lon="16.640822">
+				<ele>192.481</ele>
+			</trkpt>
+			<trkpt lat="47.149662" lon="16.640457">
+				<ele>194.269</ele>
+			</trkpt>
+			<trkpt lat="47.149341" lon="16.640285">
+				<ele>195.355</ele>
+			</trkpt>
+			<trkpt lat="47.148889" lon="16.640242">
+				<ele>197.600</ele>
+			</trkpt>
+			<trkpt lat="47.148502" lon="16.640157">
+				<ele>200.385</ele>
+			</trkpt>
+			<trkpt lat="47.148137" lon="16.640264">
+				<ele>201.905</ele>
+			</trkpt>
+			<trkpt lat="47.147772" lon="16.640575">
+				<ele>202.878</ele>
+			</trkpt>
+			<trkpt lat="47.147342" lon="16.641186">
+				<ele>204.444</ele>
+			</trkpt>
+			<trkpt lat="47.146955" lon="16.641626">
+				<ele>205.695</ele>
+			</trkpt>
+			<trkpt lat="47.146641" lon="16.641991">
+				<ele>206.701</ele>
+			</trkpt>
+			<trkpt lat="47.146094" lon="16.642742">
+				<ele>207.497</ele>
+			</trkpt>
+			<trkpt lat="47.145656" lon="16.643450">
+				<ele>207.346</ele>
+			</trkpt>
+			<trkpt lat="47.144941" lon="16.644341">
+				<ele>206.403</ele>
+			</trkpt>
+			<trkpt lat="47.144584" lon="16.644716">
+				<ele>205.680</ele>
+			</trkpt>
+			<trkpt lat="47.144095" lon="16.645135">
+				<ele>205.206</ele>
+			</trkpt>
+			<trkpt lat="47.143642" lon="16.645424">
+				<ele>203.774</ele>
+			</trkpt>
+			<trkpt lat="47.143051" lon="16.645575">
+				<ele>203.137</ele>
+			</trkpt>
+			<trkpt lat="47.141716" lon="16.645489">
+				<ele>200.969</ele>
+			</trkpt>
+			<trkpt lat="47.141161" lon="16.645585">
+				<ele>200.234</ele>
+			</trkpt>
+			<trkpt lat="47.140227" lon="16.645907">
+				<ele>199.911</ele>
+			</trkpt>
+			<trkpt lat="47.139249" lon="16.646594">
+				<ele>199.009</ele>
+			</trkpt>
+			<trkpt lat="47.138680" lon="16.646905">
+				<ele>198.881</ele>
+			</trkpt>
+			<trkpt lat="47.137541" lon="16.646894">
+				<ele>198.741</ele>
+			</trkpt>
+			<trkpt lat="47.136454" lon="16.646883">
+				<ele>202.643</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

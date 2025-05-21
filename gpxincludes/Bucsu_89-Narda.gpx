@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Bucsu_89-Narda</name>
+		<desc>Bucsu_89-Narda</desc>
+	</metadata>
+	<trk>
+		<name>Bucsu_89-Narda</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.245387" lon="16.498697">
+				<ele>241.564</ele>
+			</trkpt>
+			<trkpt lat="47.245095" lon="16.497388">
+				<ele>245.503</ele>
+			</trkpt>
+			<trkpt lat="47.244804" lon="16.495253">
+				<ele>251.923</ele>
+			</trkpt>
+			<trkpt lat="47.244527" lon="16.493933">
+				<ele>250.024</ele>
+			</trkpt>
+			<trkpt lat="47.244476" lon="16.493343">
+				<ele>250.364</ele>
+			</trkpt>
+			<trkpt lat="47.244505" lon="16.492442">
+				<ele>249.406</ele>
+			</trkpt>
+			<trkpt lat="47.244964" lon="16.490124">
+				<ele>250.798</ele>
+			</trkpt>
+			<trkpt lat="47.245146" lon="16.488837">
+				<ele>252.596</ele>
+			</trkpt>
+			<trkpt lat="47.245248" lon="16.487861">
+				<ele>253.023</ele>
+			</trkpt>
+			<trkpt lat="47.245350" lon="16.486734">
+				<ele>252.875</ele>
+			</trkpt>
+			<trkpt lat="47.245569" lon="16.485393">
+				<ele>256.086</ele>
+			</trkpt>
+			<trkpt lat="47.245139" lon="16.485060">
+				<ele>254.643</ele>
+			</trkpt>
+			<trkpt lat="47.244819" lon="16.484610">
+				<ele>253.013</ele>
+			</trkpt>
+			<trkpt lat="47.244025" lon="16.483140">
+				<ele>250.232</ele>
+			</trkpt>
+			<trkpt lat="47.243653" lon="16.482496">
+				<ele>251.007</ele>
+			</trkpt>
+			<trkpt lat="47.243151" lon="16.481520">
+				<ele>253.791</ele>
+			</trkpt>
+			<trkpt lat="47.242663" lon="16.480458">
+				<ele>258.500</ele>
+			</trkpt>
+			<trkpt lat="47.242240" lon="16.479245">
+				<ele>266.151</ele>
+			</trkpt>
+			<trkpt lat="47.241963" lon="16.478215">
+				<ele>274.374</ele>
+			</trkpt>
+			<trkpt lat="47.241789" lon="16.477218">
+				<ele>283.408</ele>
+			</trkpt>
+			<trkpt lat="47.241555" lon="16.475705">
+				<ele>288.842</ele>
+			</trkpt>
+			<trkpt lat="47.241322" lon="16.474085">
+				<ele>294.496</ele>
+			</trkpt>
+			<trkpt lat="47.241184" lon="16.473259">
+				<ele>295.213</ele>
+			</trkpt>
+			<trkpt lat="47.241024" lon="16.472529">
+				<ele>294.597</ele>
+			</trkpt>
+			<trkpt lat="47.240769" lon="16.471649">
+				<ele>293.034</ele>
+			</trkpt>
+			<trkpt lat="47.240623" lon="16.471059">
+				<ele>291.611</ele>
+			</trkpt>
+			<trkpt lat="47.240514" lon="16.470083">
+				<ele>289.199</ele>
+			</trkpt>
+			<trkpt lat="47.240281" lon="16.467272">
+				<ele>287.181</ele>
+			</trkpt>
+			<trkpt lat="47.239902" lon="16.462895">
+				<ele>281.892</ele>
+			</trkpt>
+			<trkpt lat="47.239698" lon="16.462079">
+				<ele>280.495</ele>
+			</trkpt>
+			<trkpt lat="47.239545" lon="16.461661">
+				<ele>279.999</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

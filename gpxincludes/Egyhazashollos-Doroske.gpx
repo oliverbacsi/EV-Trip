@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Egyhazashollos-Doroske</name>
+		<desc>Egyhazashollos-Doroske</desc>
+	</metadata>
+	<trk>
+		<name>Egyhazashollos-Doroske</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.052969" lon="16.692320">
+				<ele>181.000</ele>
+			</trkpt>
+			<trkpt lat="47.051719" lon="16.690689">
+				<ele>181.938</ele>
+			</trkpt>
+			<trkpt lat="47.050958" lon="16.689434">
+				<ele>180.369</ele>
+			</trkpt>
+			<trkpt lat="47.049862" lon="16.686945">
+				<ele>182.945</ele>
+			</trkpt>
+			<trkpt lat="47.048115" lon="16.682771">
+				<ele>181.155</ele>
+			</trkpt>
+			<trkpt lat="47.047172" lon="16.680207">
+				<ele>182.849</ele>
+			</trkpt>
+			<trkpt lat="47.045936" lon="16.676946">
+				<ele>183.294</ele>
+			</trkpt>
+			<trkpt lat="47.043845" lon="16.679639">
+				<ele>183.563</ele>
+			</trkpt>
+			<trkpt lat="47.042880" lon="16.680315">
+				<ele>181.623</ele>
+			</trkpt>
+			<trkpt lat="47.042405" lon="16.680593">
+				<ele>181.745</ele>
+			</trkpt>
+			<trkpt lat="47.042076" lon="16.680679">
+				<ele>183.221</ele>
+			</trkpt>
+			<trkpt lat="47.041652" lon="16.680626">
+				<ele>185.218</ele>
+			</trkpt>
+			<trkpt lat="47.040752" lon="16.680368">
+				<ele>183.825</ele>
+			</trkpt>
+			<trkpt lat="47.040365" lon="16.680336">
+				<ele>182.507</ele>
+			</trkpt>
+			<trkpt lat="47.039919" lon="16.680411">
+				<ele>180.916</ele>
+			</trkpt>
+			<trkpt lat="47.039561" lon="16.680583">
+				<ele>180.074</ele>
+			</trkpt>
+			<trkpt lat="47.039005" lon="16.681044">
+				<ele>179.049</ele>
+			</trkpt>
+			<trkpt lat="47.034786" lon="16.685529">
+				<ele>180.906</ele>
+			</trkpt>
+			<trkpt lat="47.032161" lon="16.688297">
+				<ele>180.000</ele>
+			</trkpt>
+			<trkpt lat="47.029433" lon="16.691194">
+				<ele>179.862</ele>
+			</trkpt>
+			<trkpt lat="47.025820" lon="16.695195">
+				<ele>180.738</ele>
+			</trkpt>
+			<trkpt lat="47.023231" lon="16.697985">
+				<ele>180.949</ele>
+			</trkpt>
+			<trkpt lat="47.022588" lon="16.698725">
+				<ele>181.891</ele>
+			</trkpt>
+			<trkpt lat="47.021154" lon="16.700517">
+				<ele>180.380</ele>
+			</trkpt>
+			<trkpt lat="47.020284" lon="16.701407">
+				<ele>180.660</ele>
+			</trkpt>
+			<trkpt lat="47.019903" lon="16.701708">
+				<ele>181.641</ele>
+			</trkpt>
+			<trkpt lat="47.019428" lon="16.701880">
+				<ele>185.038</ele>
+			</trkpt>
+			<trkpt lat="47.018894" lon="16.701815">
+				<ele>188.112</ele>
+			</trkpt>
+			<trkpt lat="47.018382" lon="16.701547">
+				<ele>191.697</ele>
+			</trkpt>
+			<trkpt lat="47.016912" lon="16.700721">
+				<ele>203.842</ele>
+			</trkpt>
+			<trkpt lat="47.016034" lon="16.700206">
+				<ele>210.530</ele>
+			</trkpt>
+			<trkpt lat="47.014849" lon="16.700420">
+				<ele>210.351</ele>
+			</trkpt>
+			<trkpt lat="47.014564" lon="16.700431">
+				<ele>210.004</ele>
+			</trkpt>
+			<trkpt lat="47.014198" lon="16.700345">
+				<ele>211.215</ele>
+			</trkpt>
+			<trkpt lat="47.013978" lon="16.700367">
+				<ele>211.164</ele>
+			</trkpt>
+			<trkpt lat="47.013715" lon="16.700517">
+				<ele>209.193</ele>
+			</trkpt>
+			<trkpt lat="47.012969" lon="16.700646">
+				<ele>208.408</ele>
+			</trkpt>
+			<trkpt lat="47.012654" lon="16.700678">
+				<ele>208.447</ele>
+			</trkpt>
+			<trkpt lat="47.012442" lon="16.700892">
+				<ele>206.357</ele>
+			</trkpt>
+			<trkpt lat="47.012091" lon="16.700935">
+				<ele>205.838</ele>
+			</trkpt>
+			<trkpt lat="47.011733" lon="16.700968">
+				<ele>205.402</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

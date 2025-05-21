@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Orimagyarosd-Vadasa</name>
+		<desc>Orimagyarosd-Vadasa</desc>
+	</metadata>
+	<trk>
+		<name>Orimagyarosd-Vadasa</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.889344" lon="16.541119">
+				<ele>230.427</ele>
+			</trkpt>
+			<trkpt lat="46.889154" lon="16.541483">
+				<ele>230.016</ele>
+			</trkpt>
+			<trkpt lat="46.888846" lon="16.542674">
+				<ele>232.785</ele>
+			</trkpt>
+			<trkpt lat="46.888069" lon="16.546268">
+				<ele>230.854</ele>
+			</trkpt>
+			<trkpt lat="46.887951" lon="16.547105">
+				<ele>232.970</ele>
+			</trkpt>
+			<trkpt lat="46.885554" lon="16.546547">
+				<ele>235.467</ele>
+			</trkpt>
+			<trkpt lat="46.885216" lon="16.546590">
+				<ele>233.990</ele>
+			</trkpt>
+			<trkpt lat="46.883757" lon="16.546944">
+				<ele>235.322</ele>
+			</trkpt>
+			<trkpt lat="46.881315" lon="16.548007">
+				<ele>234.703</ele>
+			</trkpt>
+			<trkpt lat="46.879276" lon="16.548854">
+				<ele>228.661</ele>
+			</trkpt>
+			<trkpt lat="46.876563" lon="16.550013">
+				<ele>216.490</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

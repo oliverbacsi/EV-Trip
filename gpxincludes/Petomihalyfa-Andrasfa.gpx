@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Petomihalyfa-Andrasfa</name>
+		<desc>Petomihalyfa-Andrasfa</desc>
+	</metadata>
+	<trk>
+		<name>Petomihalyfa-Andrasfa</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.980838" lon="16.786358">
+				<ele>166.143</ele>
+			</trkpt>
+			<trkpt lat="46.980304" lon="16.786337">
+				<ele>163.141</ele>
+			</trkpt>
+			<trkpt lat="46.979125" lon="16.786380">
+				<ele>158.296</ele>
+			</trkpt>
+			<trkpt lat="46.978430" lon="16.786369">
+				<ele>157.536</ele>
+			</trkpt>
+			<trkpt lat="46.977346" lon="16.786391">
+				<ele>158.785</ele>
+			</trkpt>
+			<trkpt lat="46.975611" lon="16.786391">
+				<ele>160.555</ele>
+			</trkpt>
+			<trkpt lat="46.974674" lon="16.786391">
+				<ele>164.577</ele>
+			</trkpt>
+			<trkpt lat="46.971775" lon="16.786509">
+				<ele>175.271</ele>
+			</trkpt>
+			<trkpt lat="46.971204" lon="16.786584">
+				<ele>175.100</ele>
+			</trkpt>
+			<trkpt lat="46.970772" lon="16.786702">
+				<ele>175.451</ele>
+			</trkpt>
+			<trkpt lat="46.969608" lon="16.787088">
+				<ele>180.208</ele>
+			</trkpt>
+			<trkpt lat="46.969250" lon="16.787152">
+				<ele>180.859</ele>
+			</trkpt>
+			<trkpt lat="46.969001" lon="16.787109">
+				<ele>181.597</ele>
+			</trkpt>
+			<trkpt lat="46.968020" lon="16.786637">
+				<ele>184.740</ele>
+			</trkpt>
+			<trkpt lat="46.966936" lon="16.786165">
+				<ele>187.836</ele>
+			</trkpt>
+			<trkpt lat="46.966665" lon="16.786079">
+				<ele>189.005</ele>
+			</trkpt>
+			<trkpt lat="46.966358" lon="16.786112">
+				<ele>190.113</ele>
+			</trkpt>
+			<trkpt lat="46.965735" lon="16.786294">
+				<ele>192.736</ele>
+			</trkpt>
+			<trkpt lat="46.964930" lon="16.786487">
+				<ele>194.659</ele>
+			</trkpt>
+			<trkpt lat="46.964710" lon="16.786616">
+				<ele>195.329</ele>
+			</trkpt>
+			<trkpt lat="46.964520" lon="16.786873">
+				<ele>195.499</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

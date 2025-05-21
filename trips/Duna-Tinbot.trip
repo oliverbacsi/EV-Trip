@@ -1,11 +1,13 @@
 # CAR <name> <pack capacity> <consumption> <Default motor power and charge power> <default cruising speed>
-CAR Tinbot | 5.5kWh 3.8kWh/100 1.52/1.0kW 40km/h
+CAR Tinbot | 5.5kWh 3.8kWh/100 1.70/1.0kW 40km/h
+
+# mért érték jó időben: 45-46 -os haladás, átlag nyilván kisebb, 25 fok, 3.8-as átlagfogyi , 1.68kW-os haladás , 145-ös hatótáv
 
 # 40km/h átlag : 150km nyáron , 3.7-es fogyi , 2.5h/100 -> 1.52kW haladás
 # 45km/h átlag : 137km nyáron , 4.0-ás fogyi , 2.22h/100 -> 1.8kW haladás
 # 50km/h átlag : 120km nyáron , 4.6-os fogyi , 2.00h/100 -> 2.3kW haladás
 
-# Töltő: Brutto 1.1kW, netto 1.0kW
+# Töltő: Brutto 1.2kW, netto 1.0+kW
 
 
 # TRIP <full name of the trip, one per file>

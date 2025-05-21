@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Mikosszeplak-Mikosd</name>
+		<desc>Mikosszeplak-Mikosd</desc>
+	</metadata>
+	<trk>
+		<name>Mikosszeplak-Mikosd</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.031991" lon="16.974108">
+				<ele>150.460</ele>
+			</trkpt>
+			<trkpt lat="47.032665" lon="16.975551">
+				<ele>150.927</ele>
+			</trkpt>
+			<trkpt lat="47.032972" lon="16.976280">
+				<ele>151.567</ele>
+			</trkpt>
+			<trkpt lat="47.033243" lon="16.977031">
+				<ele>151.017</ele>
+			</trkpt>
+			<trkpt lat="47.033514" lon="16.977975">
+				<ele>150.202</ele>
+			</trkpt>
+			<trkpt lat="47.033989" lon="16.979134">
+				<ele>149.674</ele>
+			</trkpt>
+			<trkpt lat="47.034435" lon="16.979907">
+				<ele>148.796</ele>
+			</trkpt>
+			<trkpt lat="47.035203" lon="16.980797">
+				<ele>150.243</ele>
+			</trkpt>
+			<trkpt lat="47.036439" lon="16.983340">
+				<ele>147.173</ele>
+			</trkpt>
+			<trkpt lat="47.037440" lon="16.985314">
+				<ele>146.202</ele>
+			</trkpt>
+			<trkpt lat="47.037747" lon="16.985722">
+				<ele>145.525</ele>
+			</trkpt>
+			<trkpt lat="47.039232" lon="16.987202">
+				<ele>146.485</ele>
+			</trkpt>
+			<trkpt lat="47.040197" lon="16.988211">
+				<ele>148.875</ele>
+			</trkpt>
+			<trkpt lat="47.040855" lon="16.989284">
+				<ele>150.992</ele>
+			</trkpt>
+			<trkpt lat="47.041301" lon="16.990045">
+				<ele>153.342</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

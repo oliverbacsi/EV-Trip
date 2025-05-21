@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Gyanogeregye-Puspokmolnari</name>
+		<desc>Gyanogeregye-Puspokmolnari</desc>
+	</metadata>
+	<trk>
+		<name>Gyanogeregye-Puspokmolnari</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.123067" lon="16.761307">
+				<ele>184.975</ele>
+			</trkpt>
+			<trkpt lat="47.122910" lon="16.761403">
+				<ele>184.648</ele>
+			</trkpt>
+			<trkpt lat="47.122688" lon="16.761451">
+				<ele>184.283</ele>
+			</trkpt>
+			<trkpt lat="47.122279" lon="16.761484">
+				<ele>183.734</ele>
+			</trkpt>
+			<trkpt lat="47.122122" lon="16.761446">
+				<ele>183.546</ele>
+			</trkpt>
+			<trkpt lat="47.121837" lon="16.761500">
+				<ele>183.204</ele>
+			</trkpt>
+			<trkpt lat="47.117906" lon="16.762320">
+				<ele>182.939</ele>
+			</trkpt>
+			<trkpt lat="47.114021" lon="16.763136">
+				<ele>184.154</ele>
+			</trkpt>
+			<trkpt lat="47.112861" lon="16.762717">
+				<ele>184.963</ele>
+			</trkpt>
+			<trkpt lat="47.112444" lon="16.762739">
+				<ele>186.258</ele>
+			</trkpt>
+			<trkpt lat="47.107910" lon="16.763704">
+				<ele>184.937</ele>
+			</trkpt>
+			<trkpt lat="47.104894" lon="16.764359">
+				<ele>185.583</ele>
+			</trkpt>
+			<trkpt lat="47.104361" lon="16.764616">
+				<ele>183.865</ele>
+			</trkpt>
+			<trkpt lat="47.099665" lon="16.768393">
+				<ele>180.526</ele>
+			</trkpt>
+			<trkpt lat="47.094764" lon="16.772320">
+				<ele>176.372</ele>
+			</trkpt>
+			<trkpt lat="47.090338" lon="16.775828">
+				<ele>175.810</ele>
+			</trkpt>
+			<trkpt lat="47.085801" lon="16.779422">
+				<ele>175.360</ele>
+			</trkpt>
+			<trkpt lat="47.085385" lon="16.779851">
+				<ele>176.014</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

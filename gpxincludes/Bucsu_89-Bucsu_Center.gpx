@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Bucsu_89-Bucsu_Center</name>
+		<desc>Bucsu_89-Bucsu_Center</desc>
+	</metadata>
+	<trk>
+		<name>Bucsu_89-Bucsu_Center</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.245387" lon="16.498697">
+				<ele>241.564</ele>
+			</trkpt>
+			<trkpt lat="47.246792" lon="16.498300">
+				<ele>243.923</ele>
+			</trkpt>
+			<trkpt lat="47.248832" lon="16.497463">
+				<ele>244.107</ele>
+			</trkpt>
+			<trkpt lat="47.249837" lon="16.497077">
+				<ele>244.607</ele>
+			</trkpt>
+			<trkpt lat="47.250412" lon="16.496787">
+				<ele>244.927</ele>
+			</trkpt>
+			<trkpt lat="47.252473" lon="16.495628">
+				<ele>247.754</ele>
+			</trkpt>
+			<trkpt lat="47.252917" lon="16.495425">
+				<ele>247.726</ele>
+			</trkpt>
+			<trkpt lat="47.253441" lon="16.495231">
+				<ele>247.315</ele>
+			</trkpt>
+			<trkpt lat="47.255196" lon="16.495049">
+				<ele>246.986</ele>
+			</trkpt>
+			<trkpt lat="47.257716" lon="16.494137">
+				<ele>248.571</ele>
+			</trkpt>
+			<trkpt lat="47.259398" lon="16.493365">
+				<ele>251.025</ele>
+			</trkpt>
+			<trkpt lat="47.261233" lon="16.493053">
+				<ele>253.326</ele>
+			</trkpt>
+			<trkpt lat="47.261517" lon="16.493150">
+				<ele>253.300</ele>
+			</trkpt>
+			<trkpt lat="47.262019" lon="16.494513">
+				<ele>254.998</ele>
+			</trkpt>
+			<trkpt lat="47.261946" lon="16.494598">
+				<ele>255.392</ele>
+			</trkpt>
+			<trkpt lat="47.261976" lon="16.494695">
+				<ele>255.766</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

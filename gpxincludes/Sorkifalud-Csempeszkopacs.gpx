@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Sorkifalud-Csempeszkopacs</name>
+		<desc>Sorkifalud-Csempeszkopacs</desc>
+	</metadata>
+	<trk>
+		<name>Sorkifalud-Csempeszkopacs</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.136505" lon="16.750846">
+				<ele>180.809</ele>
+			</trkpt>
+			<trkpt lat="47.136972" lon="16.754816">
+				<ele>180.941</ele>
+			</trkpt>
+			<trkpt lat="47.137169" lon="16.755438">
+				<ele>181.108</ele>
+			</trkpt>
+			<trkpt lat="47.137556" lon="16.755803">
+				<ele>181.966</ele>
+			</trkpt>
+			<trkpt lat="47.137987" lon="16.755867">
+				<ele>181.983</ele>
+			</trkpt>
+			<trkpt lat="47.138366" lon="16.755953">
+				<ele>181.966</ele>
+			</trkpt>
+			<trkpt lat="47.138731" lon="16.756361">
+				<ele>181.825</ele>
+			</trkpt>
+			<trkpt lat="47.139191" lon="16.757423">
+				<ele>182.026</ele>
+			</trkpt>
+			<trkpt lat="47.139402" lon="16.758238">
+				<ele>181.013</ele>
+			</trkpt>
+			<trkpt lat="47.139556" lon="16.759375">
+				<ele>180.717</ele>
+			</trkpt>
+			<trkpt lat="47.139687" lon="16.760684">
+				<ele>180.803</ele>
+			</trkpt>
+			<trkpt lat="47.139775" lon="16.761092">
+				<ele>180.419</ele>
+			</trkpt>
+			<trkpt lat="47.139986" lon="16.761425">
+				<ele>180.274</ele>
+			</trkpt>
+			<trkpt lat="47.140417" lon="16.761607">
+				<ele>180.536</ele>
+			</trkpt>
+			<trkpt lat="47.141088" lon="16.761671">
+				<ele>181.000</ele>
+			</trkpt>
+			<trkpt lat="47.141723" lon="16.761897">
+				<ele>181.601</ele>
+			</trkpt>
+			<trkpt lat="47.142095" lon="16.761961">
+				<ele>182.039</ele>
+			</trkpt>
+			<trkpt lat="47.141949" lon="16.763506">
+				<ele>182.070</ele>
+			</trkpt>
+			<trkpt lat="47.141971" lon="16.766467">
+				<ele>182.635</ele>
+			</trkpt>
+			<trkpt lat="47.142124" lon="16.767991">
+				<ele>182.451</ele>
+			</trkpt>
+			<trkpt lat="47.142161" lon="16.768742">
+				<ele>182.697</ele>
+			</trkpt>
+			<trkpt lat="47.142124" lon="16.769418">
+				<ele>183.301</ele>
+			</trkpt>
+			<trkpt lat="47.141854" lon="16.770426">
+				<ele>182.978</ele>
+			</trkpt>
+			<trkpt lat="47.141825" lon="16.770844">
+				<ele>181.984</ele>
+			</trkpt>
+			<trkpt lat="47.141862" lon="16.771241">
+				<ele>181.396</ele>
+			</trkpt>
+			<trkpt lat="47.142124" lon="16.771842">
+				<ele>180.546</ele>
+			</trkpt>
+			<trkpt lat="47.143599" lon="16.773452">
+				<ele>179.955</ele>
+			</trkpt>
+			<trkpt lat="47.143796" lon="16.773956">
+				<ele>179.586</ele>
+			</trkpt>
+			<trkpt lat="47.143861" lon="16.774546">
+				<ele>179.200</ele>
+			</trkpt>
+			<trkpt lat="47.144336" lon="16.781262">
+				<ele>179.023</ele>
+			</trkpt>
+			<trkpt lat="47.144467" lon="16.781734">
+				<ele>179.692</ele>
+			</trkpt>
+			<trkpt lat="47.144766" lon="16.782035">
+				<ele>179.405</ele>
+			</trkpt>
+			<trkpt lat="47.146984" lon="16.783472">
+				<ele>182.843</ele>
+			</trkpt>
+			<trkpt lat="47.149100" lon="16.784813">
+				<ele>182.462</ele>
+			</trkpt>
+			<trkpt lat="47.152362" lon="16.791079">
+				<ele>179.246</ele>
+			</trkpt>
+			<trkpt lat="47.152902" lon="16.797001">
+				<ele>177.289</ele>
+			</trkpt>
+			<trkpt lat="47.153070" lon="16.797720">
+				<ele>177.181</ele>
+			</trkpt>
+			<trkpt lat="47.153165" lon="16.798364">
+				<ele>177.805</ele>
+			</trkpt>
+			<trkpt lat="47.153143" lon="16.799415">
+				<ele>178.000</ele>
+			</trkpt>
+			<trkpt lat="47.153238" lon="16.800435">
+				<ele>178.000</ele>
+			</trkpt>
+			<trkpt lat="47.153383" lon="16.801207">
+				<ele>177.967</ele>
+			</trkpt>
+			<trkpt lat="47.153828" lon="16.802495">
+				<ele>177.784</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

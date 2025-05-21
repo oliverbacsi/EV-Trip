@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Rum-Kam</name>
+		<desc>Rum-Kam</desc>
+	</metadata>
+	<trk>
+		<name>Rum-Kam</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.126768" lon="16.841826">
+				<ele>172.000</ele>
+			</trkpt>
+			<trkpt lat="47.126593" lon="16.841912">
+				<ele>171.787</ele>
+			</trkpt>
+			<trkpt lat="47.126338" lon="16.842459">
+				<ele>171.567</ele>
+			</trkpt>
+			<trkpt lat="47.126053" lon="16.843586">
+				<ele>171.000</ele>
+			</trkpt>
+			<trkpt lat="47.125878" lon="16.843725">
+				<ele>171.000</ele>
+			</trkpt>
+			<trkpt lat="47.125900" lon="16.844047">
+				<ele>171.000</ele>
+			</trkpt>
+			<trkpt lat="47.125695" lon="16.844788">
+				<ele>169.965</ele>
+			</trkpt>
+			<trkpt lat="47.125710" lon="16.844991">
+				<ele>169.715</ele>
+			</trkpt>
+			<trkpt lat="47.125783" lon="16.845260">
+				<ele>169.274</ele>
+			</trkpt>
+			<trkpt lat="47.126724" lon="16.847277">
+				<ele>168.587</ele>
+			</trkpt>
+			<trkpt lat="47.127024" lon="16.848317">
+				<ele>169.269</ele>
+			</trkpt>
+			<trkpt lat="47.126213" lon="16.848693">
+				<ele>168.805</ele>
+			</trkpt>
+			<trkpt lat="47.125009" lon="16.849133">
+				<ele>168.193</ele>
+			</trkpt>
+			<trkpt lat="47.124213" lon="16.849658">
+				<ele>170.209</ele>
+			</trkpt>
+			<trkpt lat="47.123512" lon="16.850270">
+				<ele>170.067</ele>
+			</trkpt>
+			<trkpt lat="47.117431" lon="16.856965">
+				<ele>167.506</ele>
+			</trkpt>
+			<trkpt lat="47.114394" lon="16.860183">
+				<ele>168.667</ele>
+			</trkpt>
+			<trkpt lat="47.112861" lon="16.861664">
+				<ele>168.701</ele>
+			</trkpt>
+			<trkpt lat="47.109896" lon="16.864325">
+				<ele>167.709</ele>
+			</trkpt>
+			<trkpt lat="47.108027" lon="16.865999">
+				<ele>166.000</ele>
+			</trkpt>
+			<trkpt lat="47.106289" lon="16.867501">
+				<ele>168.092</ele>
+			</trkpt>
+			<trkpt lat="47.105653" lon="16.868155">
+				<ele>167.386</ele>
+			</trkpt>
+			<trkpt lat="47.104960" lon="16.869067">
+				<ele>168.168</ele>
+			</trkpt>
+			<trkpt lat="47.103587" lon="16.871384">
+				<ele>168.932</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

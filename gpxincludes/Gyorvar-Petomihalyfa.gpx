@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Gyorvar-Petomihalyfa</name>
+		<desc>Gyorvar-Petomihalyfa</desc>
+	</metadata>
+	<trk>
+		<name>Gyorvar-Petomihalyfa</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.983638" lon="16.839820">
+				<ele>159.299</ele>
+			</trkpt>
+			<trkpt lat="46.983327" lon="16.839080">
+				<ele>156.769</ele>
+			</trkpt>
+			<trkpt lat="46.983268" lon="16.835293">
+				<ele>152.324</ele>
+			</trkpt>
+			<trkpt lat="46.982953" lon="16.834102">
+				<ele>152.085</ele>
+			</trkpt>
+			<trkpt lat="46.980779" lon="16.826527">
+				<ele>153.222</ele>
+			</trkpt>
+			<trkpt lat="46.980662" lon="16.825883">
+				<ele>154.905</ele>
+			</trkpt>
+			<trkpt lat="46.980626" lon="16.825347">
+				<ele>156.852</ele>
+			</trkpt>
+			<trkpt lat="46.980611" lon="16.824017">
+				<ele>158.505</ele>
+			</trkpt>
+			<trkpt lat="46.980552" lon="16.823684">
+				<ele>157.889</ele>
+			</trkpt>
+			<trkpt lat="46.980465" lon="16.823362">
+				<ele>157.165</ele>
+			</trkpt>
+			<trkpt lat="46.980421" lon="16.822922">
+				<ele>157.254</ele>
+			</trkpt>
+			<trkpt lat="46.980501" lon="16.821839">
+				<ele>158.079</ele>
+			</trkpt>
+			<trkpt lat="46.980509" lon="16.821474">
+				<ele>158.593</ele>
+			</trkpt>
+			<trkpt lat="46.980465" lon="16.821131">
+				<ele>159.117</ele>
+			</trkpt>
+			<trkpt lat="46.980340" lon="16.820648">
+				<ele>159.802</ele>
+			</trkpt>
+			<trkpt lat="46.980106" lon="16.819832">
+				<ele>161.657</ele>
+			</trkpt>
+			<trkpt lat="46.980025" lon="16.819339">
+				<ele>162.648</ele>
+			</trkpt>
+			<trkpt lat="46.979982" lon="16.818663">
+				<ele>162.960</ele>
+			</trkpt>
+			<trkpt lat="46.979974" lon="16.818137">
+				<ele>163.425</ele>
+			</trkpt>
+			<trkpt lat="46.980018" lon="16.817408">
+				<ele>165.152</ele>
+			</trkpt>
+			<trkpt lat="46.980135" lon="16.816281">
+				<ele>165.775</ele>
+			</trkpt>
+			<trkpt lat="46.980106" lon="16.815895">
+				<ele>165.319</ele>
+			</trkpt>
+			<trkpt lat="46.979945" lon="16.815069">
+				<ele>166.653</ele>
+			</trkpt>
+			<trkpt lat="46.979901" lon="16.813717">
+				<ele>170.135</ele>
+			</trkpt>
+			<trkpt lat="46.979960" lon="16.813395">
+				<ele>171.542</ele>
+			</trkpt>
+			<trkpt lat="46.980172" lon="16.812901">
+				<ele>171.382</ele>
+			</trkpt>
+			<trkpt lat="46.980230" lon="16.812462">
+				<ele>170.862</ele>
+			</trkpt>
+			<trkpt lat="46.980260" lon="16.811711">
+				<ele>168.158</ele>
+			</trkpt>
+			<trkpt lat="46.980267" lon="16.811045">
+				<ele>168.000</ele>
+			</trkpt>
+			<trkpt lat="46.980208" lon="16.810133">
+				<ele>165.901</ele>
+			</trkpt>
+			<trkpt lat="46.980179" lon="16.809511">
+				<ele>163.084</ele>
+			</trkpt>
+			<trkpt lat="46.980208" lon="16.809093">
+				<ele>161.168</ele>
+			</trkpt>
+			<trkpt lat="46.980318" lon="16.808771">
+				<ele>160.045</ele>
+			</trkpt>
+			<trkpt lat="46.981848" lon="16.807365">
+				<ele>159.330</ele>
+			</trkpt>
+			<trkpt lat="46.983246" lon="16.805027">
+				<ele>158.822</ele>
+			</trkpt>
+			<trkpt lat="46.984359" lon="16.803074">
+				<ele>156.149</ele>
+			</trkpt>
+			<trkpt lat="46.984505" lon="16.802591">
+				<ele>155.921</ele>
+			</trkpt>
+			<trkpt lat="46.984593" lon="16.802098">
+				<ele>156.989</ele>
+			</trkpt>
+			<trkpt lat="46.984607" lon="16.801561">
+				<ele>158.118</ele>
+			</trkpt>
+			<trkpt lat="46.984527" lon="16.800982">
+				<ele>158.331</ele>
+			</trkpt>
+			<trkpt lat="46.983678" lon="16.797377">
+				<ele>157.679</ele>
+			</trkpt>
+			<trkpt lat="46.982214" lon="16.791197">
+				<ele>160.497</ele>
+			</trkpt>
+			<trkpt lat="46.981892" lon="16.789738">
+				<ele>165.085</ele>
+			</trkpt>
+			<trkpt lat="46.981665" lon="16.788944">
+				<ele>166.261</ele>
+			</trkpt>
+			<trkpt lat="46.980838" lon="16.786358">
+				<ele>166.143</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

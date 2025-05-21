@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Csehi-Berbaltavar</name>
+		<desc>Csehi-Berbaltavar</desc>
+	</metadata>
+	<trk>
+		<name>Csehi-Berbaltavar</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.027925" lon="16.948930">
+				<ele>167.694</ele>
+			</trkpt>
+			<trkpt lat="47.027839" lon="16.949211">
+				<ele>166.909</ele>
+			</trkpt>
+			<trkpt lat="47.027568" lon="16.949490">
+				<ele>165.570</ele>
+			</trkpt>
+			<trkpt lat="47.026135" lon="16.950434">
+				<ele>162.074</ele>
+			</trkpt>
+			<trkpt lat="47.025316" lon="16.951057">
+				<ele>160.630</ele>
+			</trkpt>
+			<trkpt lat="47.024555" lon="16.951786">
+				<ele>159.399</ele>
+			</trkpt>
+			<trkpt lat="47.023890" lon="16.952655">
+				<ele>160.203</ele>
+			</trkpt>
+			<trkpt lat="47.022727" lon="16.954554">
+				<ele>157.867</ele>
+			</trkpt>
+			<trkpt lat="47.022061" lon="16.956378">
+				<ele>160.672</ele>
+			</trkpt>
+			<trkpt lat="47.021608" lon="16.957290">
+				<ele>156.653</ele>
+			</trkpt>
+			<trkpt lat="47.020079" lon="16.959286">
+				<ele>154.224</ele>
+			</trkpt>
+			<trkpt lat="47.018075" lon="16.961979">
+				<ele>163.262</ele>
+			</trkpt>
+			<trkpt lat="47.015741" lon="16.965852">
+				<ele>161.534</ele>
+			</trkpt>
+			<trkpt lat="47.014608" lon="16.967171">
+				<ele>154.923</ele>
+			</trkpt>
+			<trkpt lat="47.013042" lon="16.968813">
+				<ele>149.054</ele>
+			</trkpt>
+			<trkpt lat="47.012676" lon="16.969081">
+				<ele>148.174</ele>
+			</trkpt>
+			<trkpt lat="47.010965" lon="16.969231">
+				<ele>151.707</ele>
+			</trkpt>
+			<trkpt lat="47.010160" lon="16.969414">
+				<ele>154.538</ele>
+			</trkpt>
+			<trkpt lat="47.006553" lon="16.970251">
+				<ele>162.874</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

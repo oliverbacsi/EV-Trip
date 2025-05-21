@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Nagykolked-Radockolked</name>
+		<desc>Nagykolked-Radockolked</desc>
+	</metadata>
+	<trk>
+		<name>Nagykolked-Radockolked</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.066278" lon="16.553285">
+				<ele>211.915</ele>
+			</trkpt>
+			<trkpt lat="47.066070" lon="16.553409">
+				<ele>211.961</ele>
+			</trkpt>
+			<trkpt lat="47.065956" lon="16.553816">
+				<ele>211.592</ele>
+			</trkpt>
+			<trkpt lat="47.065967" lon="16.554101">
+				<ele>211.376</ele>
+			</trkpt>
+			<trkpt lat="47.066095" lon="16.554803">
+				<ele>211.345</ele>
+			</trkpt>
+			<trkpt lat="47.066322" lon="16.556729">
+				<ele>209.398</ele>
+			</trkpt>
+			<trkpt lat="47.067520" lon="16.563145">
+				<ele>204.520</ele>
+			</trkpt>
+			<trkpt lat="47.068324" lon="16.567533">
+				<ele>201.989</ele>
+			</trkpt>
+			<trkpt lat="47.068624" lon="16.569496">
+				<ele>201.697</ele>
+			</trkpt>
+			<trkpt lat="47.068923" lon="16.570816">
+				<ele>201.029</ele>
+			</trkpt>
+			<trkpt lat="47.069406" lon="16.572061">
+				<ele>201.337</ele>
+			</trkpt>
+			<trkpt lat="47.069866" lon="16.573466">
+				<ele>202.386</ele>
+			</trkpt>
+			<trkpt lat="47.070180" lon="16.573756">
+				<ele>201.773</ele>
+			</trkpt>
+			<trkpt lat="47.070516" lon="16.574271">
+				<ele>201.125</ele>
+			</trkpt>
+			<trkpt lat="47.070823" lon="16.575118">
+				<ele>202.140</ele>
+			</trkpt>
+			<trkpt lat="47.071174" lon="16.576695">
+				<ele>203.000</ele>
+			</trkpt>
+			<trkpt lat="47.071430" lon="16.577672">
+				<ele>202.941</ele>
+			</trkpt>
+			<trkpt lat="47.071656" lon="16.577994">
+				<ele>202.993</ele>
+			</trkpt>
+			<trkpt lat="47.074060" lon="16.580729">
+				<ele>201.016</ele>
+			</trkpt>
+			<trkpt lat="47.074594" lon="16.581438">
+				<ele>201.884</ele>
+			</trkpt>
+			<trkpt lat="47.075376" lon="16.583680">
+				<ele>202.638</ele>
+			</trkpt>
+			<trkpt lat="47.076150" lon="16.585515">
+				<ele>203.617</ele>
+			</trkpt>
+			<trkpt lat="47.076903" lon="16.587542">
+				<ele>203.501</ele>
+			</trkpt>
+			<trkpt lat="47.077027" lon="16.588154">
+				<ele>202.741</ele>
+			</trkpt>
+			<trkpt lat="47.077290" lon="16.590203">
+				<ele>203.496</ele>
+			</trkpt>
+			<trkpt lat="47.077356" lon="16.590858">
+				<ele>203.596</ele>
+			</trkpt>
+			<trkpt lat="47.077480" lon="16.591533">
+				<ele>202.272</ele>
+			</trkpt>
+			<trkpt lat="47.077721" lon="16.592295">
+				<ele>202.796</ele>
+			</trkpt>
+			<trkpt lat="47.077853" lon="16.592960">
+				<ele>203.269</ele>
+			</trkpt>
+			<trkpt lat="47.078254" lon="16.593980">
+				<ele>203.165</ele>
+			</trkpt>
+			<trkpt lat="47.078539" lon="16.596608">
+				<ele>201.565</ele>
+			</trkpt>
+			<trkpt lat="47.078649" lon="16.598454">
+				<ele>200.757</ele>
+			</trkpt>
+			<trkpt lat="47.078927" lon="16.600631">
+				<ele>199.196</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

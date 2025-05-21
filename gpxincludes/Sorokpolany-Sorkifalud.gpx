@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Sorokpolany-Sorkifalud</name>
+		<desc>Sorokpolany-Sorkifalud</desc>
+	</metadata>
+	<trk>
+		<name>Sorokpolany-Sorkifalud</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.135761" lon="16.680239">
+				<ele>200.338</ele>
+			</trkpt>
+			<trkpt lat="47.135761" lon="16.680583">
+				<ele>199.514</ele>
+			</trkpt>
+			<trkpt lat="47.135783" lon="16.680856">
+				<ele>198.806</ele>
+			</trkpt>
+			<trkpt lat="47.135841" lon="16.681178">
+				<ele>196.918</ele>
+			</trkpt>
+			<trkpt lat="47.136111" lon="16.682417">
+				<ele>189.129</ele>
+			</trkpt>
+			<trkpt lat="47.136640" lon="16.684874">
+				<ele>184.324</ele>
+			</trkpt>
+			<trkpt lat="47.137122" lon="16.687031">
+				<ele>184.506</ele>
+			</trkpt>
+			<trkpt lat="47.138173" lon="16.691859">
+				<ele>185.473</ele>
+			</trkpt>
+			<trkpt lat="47.139034" lon="16.694959">
+				<ele>187.653</ele>
+			</trkpt>
+			<trkpt lat="47.139559" lon="16.696773">
+				<ele>186.058</ele>
+			</trkpt>
+			<trkpt lat="47.139837" lon="16.698318">
+				<ele>184.815</ele>
+			</trkpt>
+			<trkpt lat="47.139924" lon="16.699669">
+				<ele>183.397</ele>
+			</trkpt>
+			<trkpt lat="47.139917" lon="16.700817">
+				<ele>183.883</ele>
+			</trkpt>
+			<trkpt lat="47.139764" lon="16.703242">
+				<ele>183.779</ele>
+			</trkpt>
+			<trkpt lat="47.139698" lon="16.704047">
+				<ele>184.804</ele>
+			</trkpt>
+			<trkpt lat="47.139603" lon="16.704755">
+				<ele>185.706</ele>
+			</trkpt>
+			<trkpt lat="47.139070" lon="16.707158">
+				<ele>184.953</ele>
+			</trkpt>
+			<trkpt lat="47.138414" lon="16.708767">
+				<ele>184.042</ele>
+			</trkpt>
+			<trkpt lat="47.136158" lon="16.714336">
+				<ele>182.565</ele>
+			</trkpt>
+			<trkpt lat="47.135553" lon="16.715838">
+				<ele>182.998</ele>
+			</trkpt>
+			<trkpt lat="47.135487" lon="16.716288">
+				<ele>182.773</ele>
+			</trkpt>
+			<trkpt lat="47.135465" lon="16.716760">
+				<ele>182.608</ele>
+			</trkpt>
+			<trkpt lat="47.135458" lon="16.720912">
+				<ele>182.948</ele>
+			</trkpt>
+			<trkpt lat="47.135436" lon="16.725698">
+				<ele>182.322</ele>
+			</trkpt>
+			<trkpt lat="47.135407" lon="16.732070">
+				<ele>181.997</ele>
+			</trkpt>
+			<trkpt lat="47.135414" lon="16.736298">
+				<ele>181.503</ele>
+			</trkpt>
+			<trkpt lat="47.135385" lon="16.740557">
+				<ele>182.411</ele>
+			</trkpt>
+			<trkpt lat="47.135436" lon="16.741222">
+				<ele>182.032</ele>
+			</trkpt>
+			<trkpt lat="47.135786" lon="16.744312">
+				<ele>180.779</ele>
+			</trkpt>
+			<trkpt lat="47.136505" lon="16.750846">
+				<ele>180.809</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Ikervar-Sotony</name>
+		<desc>Ikervar-Sotony</desc>
+	</metadata>
+	<trk>
+		<name>Ikervar-Sotony</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.209103" lon="16.896071">
+				<ele>162.384</ele>
+			</trkpt>
+			<trkpt lat="47.208914" lon="16.898282">
+				<ele>162.320</ele>
+			</trkpt>
+			<trkpt lat="47.208870" lon="16.898957">
+				<ele>161.409</ele>
+			</trkpt>
+			<trkpt lat="47.208746" lon="16.899043">
+				<ele>161.737</ele>
+			</trkpt>
+			<trkpt lat="47.208513" lon="16.899022">
+				<ele>162.664</ele>
+			</trkpt>
+			<trkpt lat="47.208316" lon="16.899097">
+				<ele>163.146</ele>
+			</trkpt>
+			<trkpt lat="47.208214" lon="16.899301">
+				<ele>162.535</ele>
+			</trkpt>
+			<trkpt lat="47.207988" lon="16.902047">
+				<ele>159.775</ele>
+			</trkpt>
+			<trkpt lat="47.207981" lon="16.902519">
+				<ele>159.973</ele>
+			</trkpt>
+			<trkpt lat="47.207718" lon="16.905148">
+				<ele>159.598</ele>
+			</trkpt>
+			<trkpt lat="47.207602" lon="16.906468">
+				<ele>157.117</ele>
+			</trkpt>
+			<trkpt lat="47.207361" lon="16.907251">
+				<ele>156.582</ele>
+			</trkpt>
+			<trkpt lat="47.207193" lon="16.907616">
+				<ele>156.874</ele>
+			</trkpt>
+			<trkpt lat="47.206938" lon="16.908045">
+				<ele>158.002</ele>
+			</trkpt>
+			<trkpt lat="47.206144" lon="16.908753">
+				<ele>158.808</ele>
+			</trkpt>
+			<trkpt lat="47.205247" lon="16.909665">
+				<ele>156.594</ele>
+			</trkpt>
+			<trkpt lat="47.204934" lon="16.910266">
+				<ele>156.000</ele>
+			</trkpt>
+			<trkpt lat="47.204701" lon="16.910920">
+				<ele>156.075</ele>
+			</trkpt>
+			<trkpt lat="47.204591" lon="16.911532">
+				<ele>156.822</ele>
+			</trkpt>
+			<trkpt lat="47.204548" lon="16.912133">
+				<ele>156.782</ele>
+			</trkpt>
+			<trkpt lat="47.204621" lon="16.913978">
+				<ele>156.650</ele>
+			</trkpt>
+			<trkpt lat="47.205306" lon="16.924599">
+				<ele>157.457</ele>
+			</trkpt>
+			<trkpt lat="47.205801" lon="16.932989">
+				<ele>155.007</ele>
+			</trkpt>
+			<trkpt lat="47.206479" lon="16.943944">
+				<ele>162.292</ele>
+			</trkpt>
+			<trkpt lat="47.206457" lon="16.944405">
+				<ele>164.512</ele>
+			</trkpt>
+			<trkpt lat="47.206304" lon="16.944695">
+				<ele>167.332</ele>
+			</trkpt>
+			<trkpt lat="47.204635" lon="16.946014">
+				<ele>183.359</ele>
+			</trkpt>
+			<trkpt lat="47.204205" lon="16.946250">
+				<ele>185.862</ele>
+			</trkpt>
+			<trkpt lat="47.203432" lon="16.946379">
+				<ele>188.402</ele>
+			</trkpt>
+			<trkpt lat="47.202776" lon="16.946411">
+				<ele>193.933</ele>
+			</trkpt>
+			<trkpt lat="47.202091" lon="16.946357">
+				<ele>198.340</ele>
+			</trkpt>
+			<trkpt lat="47.201428" lon="16.946272">
+				<ele>200.558</ele>
+			</trkpt>
+			<trkpt lat="47.200954" lon="16.946121">
+				<ele>201.974</ele>
+			</trkpt>
+			<trkpt lat="47.200334" lon="16.945703">
+				<ele>205.994</ele>
+			</trkpt>
+			<trkpt lat="47.199948" lon="16.945542">
+				<ele>207.385</ele>
+			</trkpt>
+			<trkpt lat="47.199554" lon="16.945660">
+				<ele>208.230</ele>
+			</trkpt>
+			<trkpt lat="47.199212" lon="16.945885">
+				<ele>209.002</ele>
+			</trkpt>
+			<trkpt lat="47.198862" lon="16.946379">
+				<ele>210.386</ele>
+			</trkpt>
+			<trkpt lat="47.198250" lon="16.948246">
+				<ele>210.195</ele>
+			</trkpt>
+			<trkpt lat="47.198060" lon="16.948525">
+				<ele>210.482</ele>
+			</trkpt>
+			<trkpt lat="47.196515" lon="16.949067">
+				<ele>211.161</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

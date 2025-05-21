@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Nemesrempehollos-Egyhazashollos</name>
+		<desc>Nemesrempehollos-Egyhazashollos</desc>
+	</metadata>
+	<trk>
+		<name>Nemesrempehollos-Egyhazashollos</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.089541" lon="16.680658">
+				<ele>193.116</ele>
+			</trkpt>
+			<trkpt lat="47.089198" lon="16.680915">
+				<ele>192.902</ele>
+			</trkpt>
+			<trkpt lat="47.089037" lon="16.681173">
+				<ele>192.564</ele>
+			</trkpt>
+			<trkpt lat="47.088453" lon="16.681656">
+				<ele>192.847</ele>
+			</trkpt>
+			<trkpt lat="47.085677" lon="16.682514">
+				<ele>193.140</ele>
+			</trkpt>
+			<trkpt lat="47.083843" lon="16.683029">
+				<ele>190.001</ele>
+			</trkpt>
+			<trkpt lat="47.083427" lon="16.683040">
+				<ele>189.185</ele>
+			</trkpt>
+			<trkpt lat="47.082821" lon="16.682922">
+				<ele>189.919</ele>
+			</trkpt>
+			<trkpt lat="47.082105" lon="16.683040">
+				<ele>190.352</ele>
+			</trkpt>
+			<trkpt lat="47.077253" lon="16.683995">
+				<ele>189.061</ele>
+			</trkpt>
+			<trkpt lat="47.075010" lon="16.684413">
+				<ele>187.708</ele>
+			</trkpt>
+			<trkpt lat="47.070509" lon="16.684370">
+				<ele>187.199</ele>
+			</trkpt>
+			<trkpt lat="47.065079" lon="16.684327">
+				<ele>184.172</ele>
+			</trkpt>
+			<trkpt lat="47.064809" lon="16.684391">
+				<ele>184.062</ele>
+			</trkpt>
+			<trkpt lat="47.064604" lon="16.684499">
+				<ele>184.189</ele>
+			</trkpt>
+			<trkpt lat="47.063713" lon="16.685261">
+				<ele>184.626</ele>
+			</trkpt>
+			<trkpt lat="47.060482" lon="16.687599">
+				<ele>184.881</ele>
+			</trkpt>
+			<trkpt lat="47.060095" lon="16.687964">
+				<ele>184.443</ele>
+			</trkpt>
+			<trkpt lat="47.059291" lon="16.688415">
+				<ele>182.284</ele>
+			</trkpt>
+			<trkpt lat="47.059013" lon="16.688479">
+				<ele>182.032</ele>
+			</trkpt>
+			<trkpt lat="47.058034" lon="16.688565">
+				<ele>182.278</ele>
+			</trkpt>
+			<trkpt lat="47.057690" lon="16.688458">
+				<ele>182.149</ele>
+			</trkpt>
+			<trkpt lat="47.056967" lon="16.687846">
+				<ele>182.850</ele>
+			</trkpt>
+			<trkpt lat="47.056360" lon="16.687417">
+				<ele>183.000</ele>
+			</trkpt>
+			<trkpt lat="47.056221" lon="16.687417">
+				<ele>183.000</ele>
+			</trkpt>
+			<trkpt lat="47.052969" lon="16.692320">
+				<ele>181.000</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Jak-Balogunyom</name>
+		<desc>Jak-Balogunyom</desc>
+	</metadata>
+	<trk>
+		<name>Jak-Balogunyom</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.141006" lon="16.580848">
+				<ele>205.190</ele>
+			</trkpt>
+			<trkpt lat="47.140971" lon="16.581244">
+				<ele>204.672</ele>
+			</trkpt>
+			<trkpt lat="47.141074" lon="16.581727">
+				<ele>204.267</ele>
+			</trkpt>
+			<trkpt lat="47.141519" lon="16.582671">
+				<ele>204.073</ele>
+			</trkpt>
+			<trkpt lat="47.141789" lon="16.583390">
+				<ele>203.952</ele>
+			</trkpt>
+			<trkpt lat="47.141964" lon="16.584131">
+				<ele>203.726</ele>
+			</trkpt>
+			<trkpt lat="47.142446" lon="16.587135">
+				<ele>203.425</ele>
+			</trkpt>
+			<trkpt lat="47.143460" lon="16.590461">
+				<ele>202.599</ele>
+			</trkpt>
+			<trkpt lat="47.145270" lon="16.593207">
+				<ele>201.451</ele>
+			</trkpt>
+			<trkpt lat="47.146204" lon="16.594774">
+				<ele>199.069</ele>
+			</trkpt>
+			<trkpt lat="47.149443" lon="16.601168">
+				<ele>198.600</ele>
+			</trkpt>
+			<trkpt lat="47.152698" lon="16.607691">
+				<ele>195.716</ele>
+			</trkpt>
+			<trkpt lat="47.153865" lon="16.610974">
+				<ele>194.638</ele>
+			</trkpt>
+			<trkpt lat="47.155995" lon="16.616886">
+				<ele>194.348</ele>
+			</trkpt>
+			<trkpt lat="47.156236" lon="16.618162">
+				<ele>193.007</ele>
+			</trkpt>
+			<trkpt lat="47.156346" lon="16.619707">
+				<ele>193.088</ele>
+			</trkpt>
+			<trkpt lat="47.156535" lon="16.620888">
+				<ele>191.990</ele>
+			</trkpt>
+			<trkpt lat="47.157775" lon="16.626102">
+				<ele>192.776</ele>
+			</trkpt>
+			<trkpt lat="47.158520" lon="16.629492">
+				<ele>192.920</ele>
+			</trkpt>
+			<trkpt lat="47.158855" lon="16.631144">
+				<ele>191.905</ele>
+			</trkpt>
+			<trkpt lat="47.159162" lon="16.634513">
+				<ele>194.997</ele>
+			</trkpt>
+			<trkpt lat="47.159497" lon="16.637946">
+				<ele>194.057</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

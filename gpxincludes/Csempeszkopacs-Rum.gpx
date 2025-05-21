@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Csempeszkopacs-Rum</name>
+		<desc>Csempeszkopacs-Rum</desc>
+	</metadata>
+	<trk>
+		<name>Csempeszkopacs-Rum</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.153982" lon="16.802816">
+				<ele>178.334</ele>
+			</trkpt>
+			<trkpt lat="47.152632" lon="16.805391">
+				<ele>175.391</ele>
+			</trkpt>
+			<trkpt lat="47.152340" lon="16.805992">
+				<ele>175.000</ele>
+			</trkpt>
+			<trkpt lat="47.151049" lon="16.809415">
+				<ele>174.258</ele>
+			</trkpt>
+			<trkpt lat="47.148816" lon="16.815230">
+				<ele>172.579</ele>
+			</trkpt>
+			<trkpt lat="47.146948" lon="16.820122">
+				<ele>172.000</ele>
+			</trkpt>
+			<trkpt lat="47.145474" lon="16.823920">
+				<ele>175.483</ele>
+			</trkpt>
+			<trkpt lat="47.145211" lon="16.824499">
+				<ele>176.134</ele>
+			</trkpt>
+			<trkpt lat="47.144810" lon="16.825111">
+				<ele>175.521</ele>
+			</trkpt>
+			<trkpt lat="47.144489" lon="16.825529">
+				<ele>175.815</ele>
+			</trkpt>
+			<trkpt lat="47.143175" lon="16.826913">
+				<ele>174.304</ele>
+			</trkpt>
+			<trkpt lat="47.142570" lon="16.827407">
+				<ele>173.805</ele>
+			</trkpt>
+			<trkpt lat="47.141577" lon="16.827933">
+				<ele>174.450</ele>
+			</trkpt>
+			<trkpt lat="47.139899" lon="16.828651">
+				<ele>171.925</ele>
+			</trkpt>
+			<trkpt lat="47.139286" lon="16.828952">
+				<ele>171.779</ele>
+			</trkpt>
+			<trkpt lat="47.138680" lon="16.829370">
+				<ele>171.314</ele>
+			</trkpt>
+			<trkpt lat="47.138074" lon="16.830025">
+				<ele>170.698</ele>
+			</trkpt>
+			<trkpt lat="47.136593" lon="16.832331">
+				<ele>171.383</ele>
+			</trkpt>
+			<trkpt lat="47.133878" lon="16.836591">
+				<ele>169.059</ele>
+			</trkpt>
+			<trkpt lat="47.132958" lon="16.838039">
+				<ele>169.806</ele>
+			</trkpt>
+			<trkpt lat="47.132688" lon="16.837653">
+				<ele>169.816</ele>
+			</trkpt>
+			<trkpt lat="47.132403" lon="16.837900">
+				<ele>169.995</ele>
+			</trkpt>
+			<trkpt lat="47.131644" lon="16.838372">
+				<ele>170.902</ele>
+			</trkpt>
+			<trkpt lat="47.130381" lon="16.839348">
+				<ele>170.018</ele>
+			</trkpt>
+			<trkpt lat="47.129768" lon="16.839681">
+				<ele>170.617</ele>
+			</trkpt>
+			<trkpt lat="47.129301" lon="16.839852">
+				<ele>170.823</ele>
+			</trkpt>
+			<trkpt lat="47.128688" lon="16.840045">
+				<ele>170.379</ele>
+			</trkpt>
+			<trkpt lat="47.127608" lon="16.840636">
+				<ele>170.000</ele>
+			</trkpt>
+			<trkpt lat="47.127338" lon="16.840904">
+				<ele>170.347</ele>
+			</trkpt>
+			<trkpt lat="47.126863" lon="16.841515">
+				<ele>171.776</ele>
+			</trkpt>
+			<trkpt lat="47.126768" lon="16.841826">
+				<ele>172.000</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

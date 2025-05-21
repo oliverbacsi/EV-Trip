@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Mikosd-Szajki_tavak</name>
+		<desc>Mikosd-Szajki_tavak</desc>
+	</metadata>
+	<trk>
+		<name>Mikosd-Szajki_tavak</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.041301" lon="16.990045">
+				<ele>153.342</ele>
+			</trkpt>
+			<trkpt lat="47.042566" lon="16.992213">
+				<ele>163.219</ele>
+			</trkpt>
+			<trkpt lat="47.044386" lon="16.995281">
+				<ele>171.746</ele>
+			</trkpt>
+			<trkpt lat="47.046155" lon="16.998317">
+				<ele>174.758</ele>
+			</trkpt>
+			<trkpt lat="47.048531" lon="17.002180">
+				<ele>173.097</ele>
+			</trkpt>
+			<trkpt lat="47.049781" lon="17.004454">
+				<ele>172.744</ele>
+			</trkpt>
+			<trkpt lat="47.051338" lon="17.006954">
+				<ele>171.797</ele>
+			</trkpt>
+			<trkpt lat="47.052036496066" lon="17.008171677589">
+				<ele>169.108</ele>
+			</trkpt>
+			<trkpt lat="47.052208278893" lon="17.008520364761">
+				<ele>165.942</ele>
+			</trkpt>
+			<trkpt lat="47.052372751292" lon="17.008928060532">
+				<ele>161.010</ele>
+			</trkpt>
+			<trkpt lat="47.052486054197" lon="17.009282112122">
+				<ele>158.070</ele>
+			</trkpt>
+			<trkpt lat="47.052661" lon="17.009786">
+				<ele>157.712</ele>
+			</trkpt>
+			<trkpt lat="47.052877" lon="17.010435">
+				<ele>159.895</ele>
+			</trkpt>
+			<trkpt lat="47.053085459157" lon="17.011073827744">
+				<ele>164.723</ele>
+			</trkpt>
+			<trkpt lat="47.053308406850" lon="17.011776566505">
+				<ele>169.979</ele>
+			</trkpt>
+			<trkpt lat="47.053985" lon="17.013810">
+				<ele>170.254</ele>
+			</trkpt>
+			<trkpt lat="47.055735" lon="17.013150">
+				<ele>171.855</ele>
+			</trkpt>
+			<trkpt lat="47.055245" lon="17.011503">
+				<ele>170.080</ele>
+			</trkpt>
+			<trkpt lat="47.055874" lon="17.010918">
+				<ele>167.987</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

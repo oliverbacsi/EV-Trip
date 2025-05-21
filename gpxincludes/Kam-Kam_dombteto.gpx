@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Kam-Kam_dombteto</name>
+		<desc>Kam-Kam_dombteto</desc>
+	</metadata>
+	<trk>
+		<name>Kam-Kam_dombteto</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.103587" lon="16.871384">
+				<ele>168.932</ele>
+			</trkpt>
+			<trkpt lat="47.102133" lon="16.873777">
+				<ele>167.738</ele>
+			</trkpt>
+			<trkpt lat="47.101155" lon="16.875408">
+				<ele>169.516</ele>
+			</trkpt>
+			<trkpt lat="47.100790" lon="16.876427">
+				<ele>174.242</ele>
+			</trkpt>
+			<trkpt lat="47.100636" lon="16.877521">
+				<ele>177.518</ele>
+			</trkpt>
+			<trkpt lat="47.100578" lon="16.878380">
+				<ele>179.324</ele>
+			</trkpt>
+			<trkpt lat="47.100461" lon="16.878852">
+				<ele>179.725</ele>
+			</trkpt>
+			<trkpt lat="47.100300" lon="16.879195">
+				<ele>180.434</ele>
+			</trkpt>
+			<trkpt lat="47.100768" lon="16.879849">
+				<ele>181.054</ele>
+			</trkpt>
+			<trkpt lat="47.101184" lon="16.880568">
+				<ele>179.451</ele>
+			</trkpt>
+			<trkpt lat="47.101542" lon="16.881394">
+				<ele>176.926</ele>
+			</trkpt>
+			<trkpt lat="47.101870" lon="16.882639">
+				<ele>175.970</ele>
+			</trkpt>
+			<trkpt lat="47.102017" lon="16.883819">
+				<ele>179.151</ele>
+			</trkpt>
+			<trkpt lat="47.102002" lon="16.885246">
+				<ele>185.699</ele>
+			</trkpt>
+			<trkpt lat="47.101812" lon="16.886437">
+				<ele>196.767</ele>
+			</trkpt>
+			<trkpt lat="47.101462" lon="16.887628">
+				<ele>203.657</ele>
+			</trkpt>
+			<trkpt lat="47.101031" lon="16.888561">
+				<ele>202.343</ele>
+			</trkpt>
+			<trkpt lat="47.100037" lon="16.889913">
+				<ele>206.721</ele>
+			</trkpt>
+			<trkpt lat="47.098737" lon="16.891587">
+				<ele>211.901</ele>
+			</trkpt>
+			<trkpt lat="47.097649" lon="16.893035">
+				<ele>212.284</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

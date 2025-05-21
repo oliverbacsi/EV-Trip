@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Radockolked-Kormend_Center</name>
+		<desc>Radockolked-Kormend_Center</desc>
+	</metadata>
+	<trk>
+		<name>Radockolked-Kormend_Center</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.078927" lon="16.600631">
+				<ele>199.196</ele>
+			</trkpt>
+			<trkpt lat="47.078642" lon="16.600084">
+				<ele>200.168</ele>
+			</trkpt>
+			<trkpt lat="47.078284" lon="16.599569">
+				<ele>199.881</ele>
+			</trkpt>
+			<trkpt lat="47.077896" lon="16.599044">
+				<ele>199.029</ele>
+			</trkpt>
+			<trkpt lat="47.077443" lon="16.598582">
+				<ele>198.654</ele>
+			</trkpt>
+			<trkpt lat="47.073768" lon="16.596040">
+				<ele>197.145</ele>
+			</trkpt>
+			<trkpt lat="47.070553" lon="16.593851">
+				<ele>197.952</ele>
+			</trkpt>
+			<trkpt lat="47.070078" lon="16.593604">
+				<ele>197.673</ele>
+			</trkpt>
+			<trkpt lat="47.069413" lon="16.593432">
+				<ele>197.965</ele>
+			</trkpt>
+			<trkpt lat="47.068828" lon="16.593390">
+				<ele>199.136</ele>
+			</trkpt>
+			<trkpt lat="47.068331" lon="16.593411">
+				<ele>200.727</ele>
+			</trkpt>
+			<trkpt lat="47.067710" lon="16.593615">
+				<ele>201.724</ele>
+			</trkpt>
+			<trkpt lat="47.066958" lon="16.593947">
+				<ele>200.453</ele>
+			</trkpt>
+			<trkpt lat="47.064042" lon="16.595492">
+				<ele>198.529</ele>
+			</trkpt>
+			<trkpt lat="47.062090" lon="16.596479">
+				<ele>199.029</ele>
+			</trkpt>
+			<trkpt lat="47.061637" lon="16.596640">
+				<ele>201.014</ele>
+			</trkpt>
+			<trkpt lat="47.061221" lon="16.596683">
+				<ele>202.676</ele>
+			</trkpt>
+			<trkpt lat="47.057844" lon="16.596597">
+				<ele>205.519</ele>
+			</trkpt>
+			<trkpt lat="47.057193" lon="16.596426">
+				<ele>208.365</ele>
+			</trkpt>
+			<trkpt lat="47.056631" lon="16.596147">
+				<ele>207.989</ele>
+			</trkpt>
+			<trkpt lat="47.055417" lon="16.595331">
+				<ele>206.303</ele>
+			</trkpt>
+			<trkpt lat="47.050081" lon="16.591662">
+				<ele>200.005</ele>
+			</trkpt>
+			<trkpt lat="47.046345" lon="16.589077">
+				<ele>199.590</ele>
+			</trkpt>
+			<trkpt lat="47.045592" lon="16.588701">
+				<ele>199.270</ele>
+			</trkpt>
+			<trkpt lat="47.044971" lon="16.588551">
+				<ele>198.800</ele>
+			</trkpt>
+			<trkpt lat="47.044430" lon="16.588486">
+				<ele>200.059</ele>
+			</trkpt>
+			<trkpt lat="47.043597" lon="16.588562">
+				<ele>199.271</ele>
+			</trkpt>
+			<trkpt lat="47.042800" lon="16.588765">
+				<ele>197.841</ele>
+			</trkpt>
+			<trkpt lat="47.038756" lon="16.590911">
+				<ele>197.093</ele>
+			</trkpt>
+			<trkpt lat="47.032234" lon="16.594430">
+				<ele>194.681</ele>
+			</trkpt>
+			<trkpt lat="47.028124" lon="16.596597">
+				<ele>191.355</ele>
+			</trkpt>
+			<trkpt lat="47.023517" lon="16.599065">
+				<ele>189.973</ele>
+			</trkpt>
+			<trkpt lat="47.017826" lon="16.602101">
+				<ele>189.666</ele>
+			</trkpt>
+			<trkpt lat="47.017716" lon="16.602294">
+				<ele>189.311</ele>
+			</trkpt>
+			<trkpt lat="47.017731" lon="16.602627">
+				<ele>189.000</ele>
+			</trkpt>
+			<trkpt lat="47.018148" lon="16.604612">
+				<ele>189.119</ele>
+			</trkpt>
+			<trkpt lat="47.018163" lon="16.604773">
+				<ele>189.149</ele>
+			</trkpt>
+			<trkpt lat="47.018060" lon="16.604955">
+				<ele>189.310</ele>
+			</trkpt>
+			<trkpt lat="47.017490" lon="16.605234">
+				<ele>190.000</ele>
+			</trkpt>
+			<trkpt lat="47.017351" lon="16.605202">
+				<ele>190.000</ele>
+			</trkpt>
+			<trkpt lat="47.016736" lon="16.602670">
+				<ele>190.104</ele>
+			</trkpt>
+			<trkpt lat="47.014066" lon="16.604129">
+				<ele>191.955</ele>
+			</trkpt>
+			<trkpt lat="47.010979" lon="16.605738">
+				<ele>192.000</ele>
+			</trkpt>
+			<trkpt lat="47.010760" lon="16.604869">
+				<ele>192.490</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

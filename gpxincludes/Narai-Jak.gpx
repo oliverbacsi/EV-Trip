@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Narai-Jak</name>
+		<desc>Narai-Jak</desc>
+	</metadata>
+	<trk>
+		<name>Narai-Jak</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.193390660496" lon="16.553757190704">
+				<ele>247.176</ele>
+			</trkpt>
+			<trkpt lat="47.193001" lon="16.554798">
+				<ele>244.884</ele>
+			</trkpt>
+			<trkpt lat="47.191572" lon="16.555699">
+				<ele>241.351</ele>
+			</trkpt>
+			<trkpt lat="47.190726" lon="16.556472">
+				<ele>239.135</ele>
+			</trkpt>
+			<trkpt lat="47.190128" lon="16.557126">
+				<ele>237.602</ele>
+			</trkpt>
+			<trkpt lat="47.189640" lon="16.557448">
+				<ele>237.063</ele>
+			</trkpt>
+			<trkpt lat="47.187875" lon="16.558971">
+				<ele>236.129</ele>
+			</trkpt>
+			<trkpt lat="47.186723" lon="16.561031">
+				<ele>234.000</ele>
+			</trkpt>
+			<trkpt lat="47.186329" lon="16.561396">
+				<ele>234.131</ele>
+			</trkpt>
+			<trkpt lat="47.185848" lon="16.561611">
+				<ele>234.066</ele>
+			</trkpt>
+			<trkpt lat="47.184813" lon="16.561836">
+				<ele>231.158</ele>
+			</trkpt>
+			<trkpt lat="47.184032" lon="16.561643">
+				<ele>231.038</ele>
+			</trkpt>
+			<trkpt lat="47.183653" lon="16.562008">
+				<ele>230.748</ele>
+			</trkpt>
+			<trkpt lat="47.181641" lon="16.565570">
+				<ele>228.369</ele>
+			</trkpt>
+			<trkpt lat="47.174173" lon="16.572007">
+				<ele>223.995</ele>
+			</trkpt>
+			<trkpt lat="47.169607" lon="16.573380">
+				<ele>221.028</ele>
+			</trkpt>
+			<trkpt lat="47.163115" lon="16.575183">
+				<ele>217.000</ele>
+			</trkpt>
+			<trkpt lat="47.156696" lon="16.576964">
+				<ele>216.379</ele>
+			</trkpt>
+			<trkpt lat="47.151610" lon="16.578294">
+				<ele>212.108</ele>
+			</trkpt>
+			<trkpt lat="47.151238" lon="16.578541">
+				<ele>212.756</ele>
+			</trkpt>
+			<trkpt lat="47.151120" lon="16.578863">
+				<ele>213.093</ele>
+			</trkpt>
+			<trkpt lat="47.150616" lon="16.578766">
+				<ele>212.604</ele>
+			</trkpt>
+			<trkpt lat="47.150259" lon="16.578820">
+				<ele>211.908</ele>
+			</trkpt>
+			<trkpt lat="47.149332" lon="16.579195">
+				<ele>210.260</ele>
+			</trkpt>
+			<trkpt lat="47.148697" lon="16.579238">
+				<ele>211.201</ele>
+			</trkpt>
+			<trkpt lat="47.148252" lon="16.579185">
+				<ele>211.903</ele>
+			</trkpt>
+			<trkpt lat="47.147676" lon="16.578863">
+				<ele>211.057</ele>
+			</trkpt>
+			<trkpt lat="47.147355" lon="16.578766">
+				<ele>210.826</ele>
+			</trkpt>
+			<trkpt lat="47.146647" lon="16.578927">
+				<ele>209.983</ele>
+			</trkpt>
+			<trkpt lat="47.144932" lon="16.579292">
+				<ele>207.919</ele>
+			</trkpt>
+			<trkpt lat="47.144458" lon="16.579539">
+				<ele>207.349</ele>
+			</trkpt>
+			<trkpt lat="47.143217" lon="16.580268">
+				<ele>206.232</ele>
+			</trkpt>
+			<trkpt lat="47.142568" lon="16.581084">
+				<ele>205.439</ele>
+			</trkpt>
+			<trkpt lat="47.142276" lon="16.581105">
+				<ele>205.420</ele>
+			</trkpt>
+			<trkpt lat="47.141882" lon="16.580933">
+				<ele>205.684</ele>
+			</trkpt>
+			<trkpt lat="47.141006" lon="16.580848">
+				<ele>205.190</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

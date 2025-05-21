@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Kisunyom-Sorokpolany</name>
+		<desc>Kisunyom-Sorokpolany</desc>
+	</metadata>
+	<trk>
+		<name>Kisunyom-Sorokpolany</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.136454" lon="16.646883">
+				<ele>202.643</ele>
+			</trkpt>
+			<trkpt lat="47.136396" lon="16.648375">
+				<ele>203.501</ele>
+			</trkpt>
+			<trkpt lat="47.136279" lon="16.650295">
+				<ele>204.097</ele>
+			</trkpt>
+			<trkpt lat="47.136228" lon="16.651368">
+				<ele>208.906</ele>
+			</trkpt>
+			<trkpt lat="47.136235" lon="16.652194">
+				<ele>211.266</ele>
+			</trkpt>
+			<trkpt lat="47.136374" lon="16.654222">
+				<ele>213.391</ele>
+			</trkpt>
+			<trkpt lat="47.136505" lon="16.656486">
+				<ele>212.517</ele>
+			</trkpt>
+			<trkpt lat="47.136286" lon="16.658943">
+				<ele>212.708</ele>
+			</trkpt>
+			<trkpt lat="47.136293" lon="16.659629">
+				<ele>214.168</ele>
+			</trkpt>
+			<trkpt lat="47.136578" lon="16.662387">
+				<ele>208.543</ele>
+			</trkpt>
+			<trkpt lat="47.136593" lon="16.663148">
+				<ele>206.533</ele>
+			</trkpt>
+			<trkpt lat="47.136279" lon="16.667097">
+				<ele>203.912</ele>
+			</trkpt>
+			<trkpt lat="47.136235" lon="16.669221">
+				<ele>203.296</ele>
+			</trkpt>
+			<trkpt lat="47.136133" lon="16.670938">
+				<ele>204.877</ele>
+			</trkpt>
+			<trkpt lat="47.136162" lon="16.671624">
+				<ele>204.442</ele>
+			</trkpt>
+			<trkpt lat="47.136366" lon="16.672472">
+				<ele>204.947</ele>
+			</trkpt>
+			<trkpt lat="47.137052" lon="16.674360">
+				<ele>205.719</ele>
+			</trkpt>
+			<trkpt lat="47.137432" lon="16.676753">
+				<ele>204.134</ele>
+			</trkpt>
+			<trkpt lat="47.137403" lon="16.677225">
+				<ele>203.602</ele>
+			</trkpt>
+			<trkpt lat="47.137104" lon="16.678995">
+				<ele>200.909</ele>
+			</trkpt>
+			<trkpt lat="47.136899" lon="16.679435">
+				<ele>200.692</ele>
+			</trkpt>
+			<trkpt lat="47.136644" lon="16.679767">
+				<ele>201.558</ele>
+			</trkpt>
+			<trkpt lat="47.136286" lon="16.680046">
+				<ele>200.859</ele>
+			</trkpt>
+			<trkpt lat="47.135761" lon="16.680239">
+				<ele>200.338</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

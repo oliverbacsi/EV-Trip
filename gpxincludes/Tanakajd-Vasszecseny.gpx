@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Tanakajd-Vasszecseny</name>
+		<desc>Tanakajd-Vasszecseny</desc>
+	</metadata>
+	<trk>
+		<name>Tanakajd-Vasszecseny</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.188553" lon="16.730311">
+				<ele>190.000</ele>
+			</trkpt>
+			<trkpt lat="47.188446" lon="16.730287">
+				<ele>190.000</ele>
+			</trkpt>
+			<trkpt lat="47.188398" lon="16.730442">
+				<ele>190.000</ele>
+			</trkpt>
+			<trkpt lat="47.188344" lon="16.730469">
+				<ele>190.000</ele>
+			</trkpt>
+			<trkpt lat="47.188132" lon="16.731054">
+				<ele>189.558</ele>
+			</trkpt>
+			<trkpt lat="47.187913" lon="16.731596">
+				<ele>189.042</ele>
+			</trkpt>
+			<trkpt lat="47.187552" lon="16.732341">
+				<ele>189.861</ele>
+			</trkpt>
+			<trkpt lat="47.187275" lon="16.732964">
+				<ele>190.287</ele>
+			</trkpt>
+			<trkpt lat="47.187261" lon="16.733189">
+				<ele>190.540</ele>
+			</trkpt>
+			<trkpt lat="47.187151" lon="16.733200">
+				<ele>190.421</ele>
+			</trkpt>
+			<trkpt lat="47.186434" lon="16.734729">
+				<ele>190.254</ele>
+			</trkpt>
+			<trkpt lat="47.186044" lon="16.735689">
+				<ele>188.550</ele>
+			</trkpt>
+			<trkpt lat="47.185683" lon="16.736842">
+				<ele>189.489</ele>
+			</trkpt>
+			<trkpt lat="47.185377" lon="16.738269">
+				<ele>187.051</ele>
+			</trkpt>
+			<trkpt lat="47.185235" lon="16.738382">
+				<ele>186.589</ele>
+			</trkpt>
+			<trkpt lat="47.185165" lon="16.738709">
+				<ele>186.669</ele>
+			</trkpt>
+			<trkpt lat="47.184877" lon="16.740511">
+				<ele>186.000</ele>
+			</trkpt>
+			<trkpt lat="47.184615" lon="16.741783">
+				<ele>185.861</ele>
+			</trkpt>
+			<trkpt lat="47.184352" lon="16.742764">
+				<ele>184.859</ele>
+			</trkpt>
+			<trkpt lat="47.183919" lon="16.743939">
+				<ele>184.489</ele>
+			</trkpt>
+			<trkpt lat="47.182759" lon="16.746171">
+				<ele>185.059</ele>
+			</trkpt>
+			<trkpt lat="47.181931" lon="16.747330">
+				<ele>185.935</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

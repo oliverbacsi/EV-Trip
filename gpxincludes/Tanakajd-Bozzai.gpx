@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Tanakajd-Bozzai</name>
+		<desc>Tanakajd-Bozzai</desc>
+	</metadata>
+	<trk>
+		<name>Tanakajd-Bozzai</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.188553" lon="16.730311">
+				<ele>190.000</ele>
+			</trkpt>
+			<trkpt lat="47.189771" lon="16.730397">
+				<ele>189.620</ele>
+			</trkpt>
+			<trkpt lat="47.192089" lon="16.731277">
+				<ele>188.730</ele>
+			</trkpt>
+			<trkpt lat="47.192680" lon="16.731384">
+				<ele>188.050</ele>
+			</trkpt>
+			<trkpt lat="47.193613" lon="16.731931">
+				<ele>186.894</ele>
+			</trkpt>
+			<trkpt lat="47.193970" lon="16.732060">
+				<ele>186.640</ele>
+			</trkpt>
+			<trkpt lat="47.195457" lon="16.732328">
+				<ele>187.113</ele>
+			</trkpt>
+			<trkpt lat="47.195749" lon="16.732489">
+				<ele>187.012</ele>
+			</trkpt>
+			<trkpt lat="47.196500" lon="16.733369">
+				<ele>185.434</ele>
+			</trkpt>
+			<trkpt lat="47.197156" lon="16.734066">
+				<ele>185.363</ele>
+			</trkpt>
+			<trkpt lat="47.197615" lon="16.734442">
+				<ele>185.377</ele>
+			</trkpt>
+			<trkpt lat="47.199934" lon="16.735933">
+				<ele>184.890</ele>
+			</trkpt>
+			<trkpt lat="47.205473" lon="16.739441">
+				<ele>187.516</ele>
+			</trkpt>
+			<trkpt lat="47.205823" lon="16.739548">
+				<ele>187.911</ele>
+			</trkpt>
+			<trkpt lat="47.210779" lon="16.739463">
+				<ele>189.668</ele>
+			</trkpt>
+			<trkpt lat="47.211173" lon="16.739162">
+				<ele>189.994</ele>
+			</trkpt>
+			<trkpt lat="47.211355" lon="16.738604">
+				<ele>189.495</ele>
+			</trkpt>
+			<trkpt lat="47.211450" lon="16.736201">
+				<ele>185.041</ele>
+			</trkpt>
+			<trkpt lat="47.211515" lon="16.735772">
+				<ele>184.800</ele>
+			</trkpt>
+			<trkpt lat="47.211712" lon="16.735246">
+				<ele>184.447</ele>
+			</trkpt>
+			<trkpt lat="47.212215" lon="16.734313">
+				<ele>182.816</ele>
+			</trkpt>
+			<trkpt lat="47.212477" lon="16.734130">
+				<ele>181.162</ele>
+			</trkpt>
+			<trkpt lat="47.212842" lon="16.734034">
+				<ele>179.835</ele>
+			</trkpt>
+			<trkpt lat="47.213563" lon="16.733959">
+				<ele>178.526</ele>
+			</trkpt>
+			<trkpt lat="47.214554" lon="16.733851">
+				<ele>180.598</ele>
+			</trkpt>
+			<trkpt lat="47.216945" lon="16.733615">
+				<ele>185.888</ele>
+			</trkpt>
+			<trkpt lat="47.217207" lon="16.733755">
+				<ele>186.617</ele>
+			</trkpt>
+			<trkpt lat="47.217382" lon="16.733948">
+				<ele>186.942</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

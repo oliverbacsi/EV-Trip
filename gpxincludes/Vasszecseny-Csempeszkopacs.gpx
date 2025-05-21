@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Vasszecseny-Csempeszkopacs</name>
+		<desc>Vasszecseny-Csempeszkopacs</desc>
+	</metadata>
+	<trk>
+		<name>Vasszecseny-Csempeszkopacs</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.181931" lon="16.747330">
+				<ele>185.935</ele>
+			</trkpt>
+			<trkpt lat="47.181710" lon="16.747670">
+				<ele>185.806</ele>
+			</trkpt>
+			<trkpt lat="47.180485" lon="16.749188">
+				<ele>184.582</ele>
+			</trkpt>
+			<trkpt lat="47.180066" lon="16.749913">
+				<ele>184.079</ele>
+			</trkpt>
+			<trkpt lat="47.179788" lon="16.750642">
+				<ele>183.746</ele>
+			</trkpt>
+			<trkpt lat="47.179504" lon="16.751978">
+				<ele>183.405</ele>
+			</trkpt>
+			<trkpt lat="47.179304" lon="16.752568">
+				<ele>183.219</ele>
+			</trkpt>
+			<trkpt lat="47.179077" lon="16.753115">
+				<ele>183.631</ele>
+			</trkpt>
+			<trkpt lat="47.178742" lon="16.753930">
+				<ele>183.490</ele>
+			</trkpt>
+			<trkpt lat="47.178541" lon="16.754558">
+				<ele>182.780</ele>
+			</trkpt>
+			<trkpt lat="47.178410" lon="16.755196">
+				<ele>182.542</ele>
+			</trkpt>
+			<trkpt lat="47.178279" lon="16.756167">
+				<ele>183.908</ele>
+			</trkpt>
+			<trkpt lat="47.178432" lon="16.756838">
+				<ele>184.070</ele>
+			</trkpt>
+			<trkpt lat="47.179183" lon="16.760641">
+				<ele>184.735</ele>
+			</trkpt>
+			<trkpt lat="47.178855" lon="16.761162">
+				<ele>183.611</ele>
+			</trkpt>
+			<trkpt lat="47.178819" lon="16.761328">
+				<ele>183.225</ele>
+			</trkpt>
+			<trkpt lat="47.178822" lon="16.761467">
+				<ele>182.966</ele>
+			</trkpt>
+			<trkpt lat="47.178848" lon="16.761532">
+				<ele>182.879</ele>
+			</trkpt>
+			<trkpt lat="47.177998" lon="16.762835">
+				<ele>182.357</ele>
+			</trkpt>
+			<trkpt lat="47.176864" lon="16.764643">
+				<ele>181.000</ele>
+			</trkpt>
+			<trkpt lat="47.174950" lon="16.767653">
+				<ele>179.757</ele>
+			</trkpt>
+			<trkpt lat="47.172780" lon="16.771075">
+				<ele>178.433</ele>
+			</trkpt>
+			<trkpt lat="47.172696" lon="16.771134">
+				<ele>178.320</ele>
+			</trkpt>
+			<trkpt lat="47.172660" lon="16.771397">
+				<ele>178.321</ele>
+			</trkpt>
+			<trkpt lat="47.172554" lon="16.771456">
+				<ele>178.113</ele>
+			</trkpt>
+			<trkpt lat="47.171394" lon="16.773285">
+				<ele>179.308</ele>
+			</trkpt>
+			<trkpt lat="47.169618" lon="16.776085">
+				<ele>178.156</ele>
+			</trkpt>
+			<trkpt lat="47.169596" lon="16.776225">
+				<ele>178.014</ele>
+			</trkpt>
+			<trkpt lat="47.169469" lon="16.776193">
+				<ele>178.206</ele>
+			</trkpt>
+			<trkpt lat="47.169378" lon="16.776461">
+				<ele>177.994</ele>
+			</trkpt>
+			<trkpt lat="47.167259" lon="16.779814">
+				<ele>179.000</ele>
+			</trkpt>
+			<trkpt lat="47.165253" lon="16.782947">
+				<ele>179.323</ele>
+			</trkpt>
+			<trkpt lat="47.163568" lon="16.785532">
+				<ele>179.561</ele>
+			</trkpt>
+			<trkpt lat="47.161773" lon="16.788332">
+				<ele>180.126</ele>
+			</trkpt>
+			<trkpt lat="47.160686" lon="16.790092">
+				<ele>179.000</ele>
+			</trkpt>
+			<trkpt lat="47.159840" lon="16.791669">
+				<ele>179.803</ele>
+			</trkpt>
+			<trkpt lat="47.158031" lon="16.795113">
+				<ele>178.227</ele>
+			</trkpt>
+			<trkpt lat="47.155485" lon="16.799952">
+				<ele>176.697</ele>
+			</trkpt>
+			<trkpt lat="47.153982" lon="16.802816">
+				<ele>178.334</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

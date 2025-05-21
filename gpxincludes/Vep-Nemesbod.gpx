@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Vep-Nemesbod</name>
+		<desc>Vep-Nemesbod</desc>
+	</metadata>
+	<trk>
+		<name>Vep-Nemesbod</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.231029" lon="16.723348">
+				<ele>192.004</ele>
+			</trkpt>
+			<trkpt lat="47.231299" lon="16.723219">
+				<ele>191.923</ele>
+			</trkpt>
+			<trkpt lat="47.231561" lon="16.723284">
+				<ele>191.948</ele>
+			</trkpt>
+			<trkpt lat="47.232268" lon="16.723702">
+				<ele>192.845</ele>
+			</trkpt>
+			<trkpt lat="47.232501" lon="16.723691">
+				<ele>193.000</ele>
+			</trkpt>
+			<trkpt lat="47.233186" lon="16.723605">
+				<ele>192.731</ele>
+			</trkpt>
+			<trkpt lat="47.234373" lon="16.723208">
+				<ele>193.571</ele>
+			</trkpt>
+			<trkpt lat="47.236500" lon="16.722522">
+				<ele>194.153</ele>
+			</trkpt>
+			<trkpt lat="47.238802" lon="16.722189">
+				<ele>194.047</ele>
+			</trkpt>
+			<trkpt lat="47.240900" lon="16.721878">
+				<ele>195.413</ele>
+			</trkpt>
+			<trkpt lat="47.243384" lon="16.721545">
+				<ele>195.249</ele>
+			</trkpt>
+			<trkpt lat="47.245977" lon="16.721170">
+				<ele>194.192</ele>
+			</trkpt>
+			<trkpt lat="47.248802" lon="16.720773">
+				<ele>195.607</ele>
+			</trkpt>
+			<trkpt lat="47.251716" lon="16.720365">
+				<ele>194.712</ele>
+			</trkpt>
+			<trkpt lat="47.253653" lon="16.720086">
+				<ele>196.026</ele>
+			</trkpt>
+			<trkpt lat="47.254184" lon="16.719958">
+				<ele>197.070</ele>
+			</trkpt>
+			<trkpt lat="47.254658" lon="16.719754">
+				<ele>197.536</ele>
+			</trkpt>
+			<trkpt lat="47.255655" lon="16.719303">
+				<ele>197.164</ele>
+			</trkpt>
+			<trkpt lat="47.256180" lon="16.719078">
+				<ele>197.647</ele>
+			</trkpt>
+			<trkpt lat="47.256828" lon="16.718949">
+				<ele>198.261</ele>
+			</trkpt>
+			<trkpt lat="47.257381" lon="16.718831">
+				<ele>198.403</ele>
+			</trkpt>
+			<trkpt lat="47.257862" lon="16.718670">
+				<ele>198.679</ele>
+			</trkpt>
+			<trkpt lat="47.259347" lon="16.717865">
+				<ele>198.123</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

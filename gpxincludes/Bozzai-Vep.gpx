@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Bozzai-Vep</name>
+		<desc>Bozzai-Vep</desc>
+	</metadata>
+	<trk>
+		<name>Bozzai-Vep</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.217382" lon="16.733948">
+				<ele>186.942</ele>
+			</trkpt>
+			<trkpt lat="47.217943" lon="16.733272">
+				<ele>187.931</ele>
+			</trkpt>
+			<trkpt lat="47.218898" lon="16.732736">
+				<ele>186.454</ele>
+			</trkpt>
+			<trkpt lat="47.221623" lon="16.731405">
+				<ele>187.912</ele>
+			</trkpt>
+			<trkpt lat="47.224079" lon="16.730204">
+				<ele>186.913</ele>
+			</trkpt>
+			<trkpt lat="47.226658" lon="16.728948">
+				<ele>188.741</ele>
+			</trkpt>
+			<trkpt lat="47.228916" lon="16.727833">
+				<ele>191.279</ele>
+			</trkpt>
+			<trkpt lat="47.231474" lon="16.726588">
+				<ele>191.768</ele>
+			</trkpt>
+			<trkpt lat="47.231634" lon="16.726266">
+				<ele>191.961</ele>
+			</trkpt>
+			<trkpt lat="47.231648" lon="16.725891">
+				<ele>191.978</ele>
+			</trkpt>
+			<trkpt lat="47.231452" lon="16.725161">
+				<ele>192.757</ele>
+			</trkpt>
+			<trkpt lat="47.231029" lon="16.723348">
+				<ele>192.004</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

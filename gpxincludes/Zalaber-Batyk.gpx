@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Zalaber-Batyk</name>
+		<desc>Zalaber-Batyk</desc>
+	</metadata>
+	<trk>
+		<name>Zalaber-Batyk</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.978027" lon="17.017082">
+				<ele>129.265</ele>
+			</trkpt>
+			<trkpt lat="46.978115" lon="17.017297">
+				<ele>129.476</ele>
+			</trkpt>
+			<trkpt lat="46.978474" lon="17.018938">
+				<ele>128.978</ele>
+			</trkpt>
+			<trkpt lat="46.978488" lon="17.019292">
+				<ele>128.165</ele>
+			</trkpt>
+			<trkpt lat="46.978371" lon="17.020086">
+				<ele>126.995</ele>
+			</trkpt>
+			<trkpt lat="46.978261" lon="17.021760">
+				<ele>125.629</ele>
+			</trkpt>
+			<trkpt lat="46.978327" lon="17.022232">
+				<ele>125.300</ele>
+			</trkpt>
+			<trkpt lat="46.979176" lon="17.025343">
+				<ele>124.405</ele>
+			</trkpt>
+			<trkpt lat="46.980230" lon="17.029206">
+				<ele>123.269</ele>
+			</trkpt>
+			<trkpt lat="46.980721" lon="17.031029">
+				<ele>126.682</ele>
+			</trkpt>
+			<trkpt lat="46.980904" lon="17.031480">
+				<ele>125.587</ele>
+			</trkpt>
+			<trkpt lat="46.981189" lon="17.032059">
+				<ele>123.832</ele>
+			</trkpt>
+			<trkpt lat="46.981533" lon="17.032553">
+				<ele>123.053</ele>
+			</trkpt>
+			<trkpt lat="46.981929" lon="17.032971">
+				<ele>124.153</ele>
+			</trkpt>
+			<trkpt lat="46.982639" lon="17.033358">
+				<ele>124.971</ele>
+			</trkpt>
+			<trkpt lat="46.983224" lon="17.033476">
+				<ele>124.829</ele>
+			</trkpt>
+			<trkpt lat="46.983275" lon="17.033465">
+				<ele>124.842</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

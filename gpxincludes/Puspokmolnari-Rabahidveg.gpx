@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Puspokmolnari-Rabahidveg</name>
+		<desc>Puspokmolnari-Rabahidveg</desc>
+	</metadata>
+	<trk>
+		<name>Puspokmolnari-Rabahidveg</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.085385" lon="16.779851">
+				<ele>176.014</ele>
+			</trkpt>
+			<trkpt lat="47.085074" lon="16.779342">
+				<ele>176.649</ele>
+			</trkpt>
+			<trkpt lat="47.084600" lon="16.778322">
+				<ele>177.454</ele>
+			</trkpt>
+			<trkpt lat="47.084271" lon="16.777679">
+				<ele>176.304</ele>
+			</trkpt>
+			<trkpt lat="47.083832" lon="16.776928">
+				<ele>175.303</ele>
+			</trkpt>
+			<trkpt lat="47.083380" lon="16.775855">
+				<ele>174.969</ele>
+			</trkpt>
+			<trkpt lat="47.083036" lon="16.774621">
+				<ele>175.194</ele>
+			</trkpt>
+			<trkpt lat="47.082934" lon="16.773913">
+				<ele>175.000</ele>
+			</trkpt>
+			<trkpt lat="47.082656" lon="16.771756">
+				<ele>175.913</ele>
+			</trkpt>
+			<trkpt lat="47.082488" lon="16.770726">
+				<ele>177.025</ele>
+			</trkpt>
+			<trkpt lat="47.082072" lon="16.768677">
+				<ele>177.502</ele>
+			</trkpt>
+			<trkpt lat="47.081575" lon="16.766607">
+				<ele>177.000</ele>
+			</trkpt>
+			<trkpt lat="47.081093" lon="16.765341">
+				<ele>177.000</ele>
+			</trkpt>
+			<trkpt lat="47.078200" lon="16.757787">
+				<ele>178.129</ele>
+			</trkpt>
+			<trkpt lat="47.076490" lon="16.753314">
+				<ele>179.783</ele>
+			</trkpt>
+			<trkpt lat="47.074729" lon="16.748679">
+				<ele>178.056</ele>
+			</trkpt>
+			<trkpt lat="47.074312" lon="16.747552">
+				<ele>180.536</ele>
+			</trkpt>
+			<trkpt lat="47.073976" lon="16.745921">
+				<ele>179.228</ele>
+			</trkpt>
+			<trkpt lat="47.073626" lon="16.743937">
+				<ele>179.373</ele>
+			</trkpt>
+			<trkpt lat="47.073516" lon="16.743572">
+				<ele>179.067</ele>
+			</trkpt>
+			<trkpt lat="47.073238" lon="16.743110">
+				<ele>179.228</ele>
+			</trkpt>
+			<trkpt lat="47.073005" lon="16.742306">
+				<ele>180.071</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

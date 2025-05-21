@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Csehimindszent-Csehi</name>
+		<desc>Csehimindszent-Csehi</desc>
+	</metadata>
+	<trk>
+		<name>Csehimindszent-Csehi</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.046287" lon="16.955434">
+				<ele>169.679</ele>
+			</trkpt>
+			<trkpt lat="47.046139" lon="16.955614">
+				<ele>168.904</ele>
+			</trkpt>
+			<trkpt lat="47.045276" lon="16.955893">
+				<ele>164.781</ele>
+			</trkpt>
+			<trkpt lat="47.044684" lon="16.955946">
+				<ele>162.970</ele>
+			</trkpt>
+			<trkpt lat="47.044048" lon="16.955893">
+				<ele>161.583</ele>
+			</trkpt>
+			<trkpt lat="47.043456" lon="16.955710">
+				<ele>159.999</ele>
+			</trkpt>
+			<trkpt lat="47.043010" lon="16.955378">
+				<ele>158.379</ele>
+			</trkpt>
+			<trkpt lat="47.042125" lon="16.954444">
+				<ele>159.417</ele>
+			</trkpt>
+			<trkpt lat="47.041884" lon="16.954090">
+				<ele>160.889</ele>
+			</trkpt>
+			<trkpt lat="47.041562" lon="16.953329">
+				<ele>166.380</ele>
+			</trkpt>
+			<trkpt lat="47.041394" lon="16.953071">
+				<ele>167.090</ele>
+			</trkpt>
+			<trkpt lat="47.041182" lon="16.952889">
+				<ele>167.658</ele>
+			</trkpt>
+			<trkpt lat="47.039902" lon="16.952127">
+				<ele>173.008</ele>
+			</trkpt>
+			<trkpt lat="47.039690" lon="16.951805">
+				<ele>172.613</ele>
+			</trkpt>
+			<trkpt lat="47.039259" lon="16.950614">
+				<ele>175.673</ele>
+			</trkpt>
+			<trkpt lat="47.038674" lon="16.949080">
+				<ele>173.061</ele>
+			</trkpt>
+			<trkpt lat="47.037256" lon="16.945357">
+				<ele>170.153</ele>
+			</trkpt>
+			<trkpt lat="47.036641" lon="16.943673">
+				<ele>174.155</ele>
+			</trkpt>
+			<trkpt lat="47.036502" lon="16.943522">
+				<ele>174.349</ele>
+			</trkpt>
+			<trkpt lat="47.036342" lon="16.943479">
+				<ele>174.259</ele>
+			</trkpt>
+			<trkpt lat="47.036108" lon="16.943597">
+				<ele>173.695</ele>
+			</trkpt>
+			<trkpt lat="47.034258" lon="16.945089">
+				<ele>166.884</ele>
+			</trkpt>
+			<trkpt lat="47.032481" lon="16.946119">
+				<ele>164.346</ele>
+			</trkpt>
+			<trkpt lat="47.032071" lon="16.946398">
+				<ele>164.509</ele>
+			</trkpt>
+			<trkpt lat="47.030901" lon="16.947438">
+				<ele>165.971</ele>
+			</trkpt>
+			<trkpt lat="47.029073" lon="16.948758">
+				<ele>165.244</ele>
+			</trkpt>
+			<trkpt lat="47.028546" lon="16.948973">
+				<ele>165.991</ele>
+			</trkpt>
+			<trkpt lat="47.028298" lon="16.949005">
+				<ele>166.660</ele>
+			</trkpt>
+			<trkpt lat="47.027925" lon="16.948930">
+				<ele>167.694</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

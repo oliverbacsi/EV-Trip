@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Gebart-Gebarti_to</name>
+		<desc>Gebart-Gebarti_to</desc>
+	</metadata>
+	<trk>
+		<name>Gebart-Gebarti_to</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.866984" lon="16.802419">
+				<ele>168.903</ele>
+			</trkpt>
+			<trkpt lat="46.866837" lon="16.802634">
+				<ele>169.355</ele>
+			</trkpt>
+			<trkpt lat="46.866727" lon="16.803031">
+				<ele>170.321</ele>
+			</trkpt>
+			<trkpt lat="46.866668" lon="16.803557">
+				<ele>171.538</ele>
+			</trkpt>
+			<trkpt lat="46.866632" lon="16.804587">
+				<ele>174.512</ele>
+			</trkpt>
+			<trkpt lat="46.866478" lon="16.807140">
+				<ele>173.553</ele>
+			</trkpt>
+			<trkpt lat="46.865656" lon="16.807097">
+				<ele>174.168</ele>
+			</trkpt>
+			<trkpt lat="46.864783" lon="16.806979">
+				<ele>172.057</ele>
+			</trkpt>
+			<trkpt lat="46.863925" lon="16.806979">
+				<ele>168.795</ele>
+			</trkpt>
+			<trkpt lat="46.862384" lon="16.806850">
+				<ele>166.584</ele>
+			</trkpt>
+			<trkpt lat="46.862223" lon="16.806786">
+				<ele>166.003</ele>
+			</trkpt>
+			<trkpt lat="46.862208" lon="16.807301">
+				<ele>165.950</ele>
+			</trkpt>
+			<trkpt lat="46.862062" lon="16.807891">
+				<ele>166.385</ele>
+			</trkpt>
+			<trkpt lat="46.861299" lon="16.810015">
+				<ele>165.021</ele>
+			</trkpt>
+			<trkpt lat="46.859736" lon="16.814768">
+				<ele>157.809</ele>
+			</trkpt>
+			<trkpt lat="46.859127" lon="16.816506">
+				<ele>152.328</ele>
+			</trkpt>
+			<trkpt lat="46.859531" lon="16.816474">
+				<ele>154.075</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

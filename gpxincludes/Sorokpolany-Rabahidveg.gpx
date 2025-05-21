@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Sorokpolany-Rabahidveg</name>
+		<desc>Sorokpolany-Rabahidveg</desc>
+	</metadata>
+	<trk>
+		<name>Sorokpolany-Rabahidveg</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.135761" lon="16.680239">
+				<ele>200.338</ele>
+			</trkpt>
+			<trkpt lat="47.134826" lon="16.680239">
+				<ele>198.920</ele>
+			</trkpt>
+			<trkpt lat="47.134476" lon="16.680347">
+				<ele>197.805</ele>
+			</trkpt>
+			<trkpt lat="47.134126" lon="16.680765">
+				<ele>196.902</ele>
+			</trkpt>
+			<trkpt lat="47.133184" lon="16.682900">
+				<ele>191.434</ele>
+			</trkpt>
+			<trkpt lat="47.132827" lon="16.683319">
+				<ele>190.420</ele>
+			</trkpt>
+			<trkpt lat="47.130360" lon="16.685035">
+				<ele>187.659</ele>
+			</trkpt>
+			<trkpt lat="47.130126" lon="16.685228">
+				<ele>188.588</ele>
+			</trkpt>
+			<trkpt lat="47.129907" lon="16.685679">
+				<ele>190.151</ele>
+			</trkpt>
+			<trkpt lat="47.129732" lon="16.686280">
+				<ele>189.135</ele>
+			</trkpt>
+			<trkpt lat="47.129659" lon="16.686934">
+				<ele>188.181</ele>
+			</trkpt>
+			<trkpt lat="47.129644" lon="16.687621">
+				<ele>188.125</ele>
+			</trkpt>
+			<trkpt lat="47.129418" lon="16.688629">
+				<ele>187.752</ele>
+			</trkpt>
+			<trkpt lat="47.128754" lon="16.690378">
+				<ele>188.229</ele>
+			</trkpt>
+			<trkpt lat="47.128571" lon="16.691086">
+				<ele>187.982</ele>
+			</trkpt>
+			<trkpt lat="47.128454" lon="16.691955">
+				<ele>186.799</ele>
+			</trkpt>
+			<trkpt lat="47.128243" lon="16.692417">
+				<ele>186.100</ele>
+			</trkpt>
+			<trkpt lat="47.125155" lon="16.697084">
+				<ele>188.314</ele>
+			</trkpt>
+			<trkpt lat="47.122680" lon="16.699605">
+				<ele>187.846</ele>
+			</trkpt>
+			<trkpt lat="47.119198" lon="16.703457">
+				<ele>190.275</ele>
+			</trkpt>
+			<trkpt lat="47.117234" lon="16.705602">
+				<ele>187.303</ele>
+			</trkpt>
+			<trkpt lat="47.113262" lon="16.708714">
+				<ele>187.046</ele>
+			</trkpt>
+			<trkpt lat="47.111086" lon="16.711246">
+				<ele>187.307</ele>
+			</trkpt>
+			<trkpt lat="47.108815" lon="16.714851">
+				<ele>188.811</ele>
+			</trkpt>
+			<trkpt lat="47.105610" lon="16.717737">
+				<ele>190.355</ele>
+			</trkpt>
+			<trkpt lat="47.101454" lon="16.720923">
+				<ele>187.175</ele>
+			</trkpt>
+			<trkpt lat="47.098233" lon="16.723402">
+				<ele>188.982</ele>
+			</trkpt>
+			<trkpt lat="47.093449" lon="16.727103">
+				<ele>186.451</ele>
+			</trkpt>
+			<trkpt lat="47.090491" lon="16.729410">
+				<ele>185.537</ele>
+			</trkpt>
+			<trkpt lat="47.086371" lon="16.732575">
+				<ele>182.444</ele>
+			</trkpt>
+			<trkpt lat="47.082609" lon="16.735504">
+				<ele>181.474</ele>
+			</trkpt>
+			<trkpt lat="47.080782" lon="16.736963">
+				<ele>179.978</ele>
+			</trkpt>
+			<trkpt lat="47.078444" lon="16.738626">
+				<ele>179.608</ele>
+			</trkpt>
+			<trkpt lat="47.077801" lon="16.739012">
+				<ele>180.747</ele>
+			</trkpt>
+			<trkpt lat="47.076822" lon="16.739302">
+				<ele>181.000</ele>
+			</trkpt>
+			<trkpt lat="47.076187" lon="16.739806">
+				<ele>181.000</ele>
+			</trkpt>
+			<trkpt lat="47.075792" lon="16.740214">
+				<ele>181.049</ele>
+			</trkpt>
+			<trkpt lat="47.075493" lon="16.740450">
+				<ele>181.409</ele>
+			</trkpt>
+			<trkpt lat="47.075098" lon="16.740589">
+				<ele>181.882</ele>
+			</trkpt>
+			<trkpt lat="47.074630" lon="16.740654">
+				<ele>181.461</ele>
+			</trkpt>
+			<trkpt lat="47.073527" lon="16.740793">
+				<ele>180.952</ele>
+			</trkpt>
+			<trkpt lat="47.073271" lon="16.740943">
+				<ele>180.935</ele>
+			</trkpt>
+			<trkpt lat="47.073067" lon="16.741179">
+				<ele>180.813</ele>
+			</trkpt>
+			<trkpt lat="47.072986" lon="16.742027">
+				<ele>180.496</ele>
+			</trkpt>
+			<trkpt lat="47.073005" lon="16.742306">
+				<ele>180.071</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

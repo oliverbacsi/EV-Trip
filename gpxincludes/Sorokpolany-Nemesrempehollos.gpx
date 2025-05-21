@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Sorokpolany-Nemesrempehollos</name>
+		<desc>Sorokpolany-Nemesrempehollos</desc>
+	</metadata>
+	<trk>
+		<name>Sorokpolany-Nemesrempehollos</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.135761" lon="16.680239">
+				<ele>200.338</ele>
+			</trkpt>
+			<trkpt lat="47.134826" lon="16.680239">
+				<ele>198.920</ele>
+			</trkpt>
+			<trkpt lat="47.134476" lon="16.680347">
+				<ele>197.805</ele>
+			</trkpt>
+			<trkpt lat="47.134126" lon="16.680765">
+				<ele>196.902</ele>
+			</trkpt>
+			<trkpt lat="47.133184" lon="16.682900">
+				<ele>191.434</ele>
+			</trkpt>
+			<trkpt lat="47.132827" lon="16.683319">
+				<ele>190.420</ele>
+			</trkpt>
+			<trkpt lat="47.130360" lon="16.685035">
+				<ele>187.659</ele>
+			</trkpt>
+			<trkpt lat="47.130126" lon="16.685228">
+				<ele>188.588</ele>
+			</trkpt>
+			<trkpt lat="47.129338" lon="16.685507">
+				<ele>188.064</ele>
+			</trkpt>
+			<trkpt lat="47.128330" lon="16.686409">
+				<ele>187.692</ele>
+			</trkpt>
+			<trkpt lat="47.124951" lon="16.688769">
+				<ele>192.076</ele>
+			</trkpt>
+			<trkpt lat="47.119979" lon="16.692224">
+				<ele>191.269</ele>
+			</trkpt>
+			<trkpt lat="47.119439" lon="16.692438">
+				<ele>189.424</ele>
+			</trkpt>
+			<trkpt lat="47.118767" lon="16.692481">
+				<ele>188.521</ele>
+			</trkpt>
+			<trkpt lat="47.113481" lon="16.693017">
+				<ele>190.511</ele>
+			</trkpt>
+			<trkpt lat="47.108384" lon="16.693554">
+				<ele>189.487</ele>
+			</trkpt>
+			<trkpt lat="47.103492" lon="16.694026">
+				<ele>188.842</ele>
+			</trkpt>
+			<trkpt lat="47.099796" lon="16.694434">
+				<ele>188.486</ele>
+			</trkpt>
+			<trkpt lat="47.099460" lon="16.694326">
+				<ele>188.715</ele>
+			</trkpt>
+			<trkpt lat="47.099205" lon="16.694144">
+				<ele>188.954</ele>
+			</trkpt>
+			<trkpt lat="47.099000" lon="16.693758">
+				<ele>189.094</ele>
+			</trkpt>
+			<trkpt lat="47.098883" lon="16.693157">
+				<ele>189.540</ele>
+			</trkpt>
+			<trkpt lat="47.098255" lon="16.687578">
+				<ele>189.178</ele>
+			</trkpt>
+			<trkpt lat="47.098197" lon="16.687310">
+				<ele>189.556</ele>
+			</trkpt>
+			<trkpt lat="47.097985" lon="16.687084">
+				<ele>190.334</ele>
+			</trkpt>
+			<trkpt lat="47.097729" lon="16.686956">
+				<ele>191.102</ele>
+			</trkpt>
+			<trkpt lat="47.097408" lon="16.687020">
+				<ele>191.576</ele>
+			</trkpt>
+			<trkpt lat="47.095772" lon="16.687535">
+				<ele>190.708</ele>
+			</trkpt>
+			<trkpt lat="47.095648" lon="16.687363">
+				<ele>190.332</ele>
+			</trkpt>
+			<trkpt lat="47.095348" lon="16.683211">
+				<ele>193.558</ele>
+			</trkpt>
+			<trkpt lat="47.095334" lon="16.681870">
+				<ele>193.098</ele>
+			</trkpt>
+			<trkpt lat="47.095042" lon="16.680121">
+				<ele>193.762</ele>
+			</trkpt>
+			<trkpt lat="47.094925" lon="16.679853">
+				<ele>193.808</ele>
+			</trkpt>
+			<trkpt lat="47.094713" lon="16.679746">
+				<ele>193.590</ele>
+			</trkpt>
+			<trkpt lat="47.094501" lon="16.679778">
+				<ele>193.574</ele>
+			</trkpt>
+			<trkpt lat="47.092456" lon="16.680679">
+				<ele>192.815</ele>
+			</trkpt>
+			<trkpt lat="47.090491" lon="16.681581">
+				<ele>193.160</ele>
+			</trkpt>
+			<trkpt lat="47.090221" lon="16.681634">
+				<ele>192.548</ele>
+			</trkpt>
+			<trkpt lat="47.089994" lon="16.681548">
+				<ele>192.142</ele>
+			</trkpt>
+			<trkpt lat="47.089709" lon="16.681173">
+				<ele>192.593</ele>
+			</trkpt>
+			<trkpt lat="47.089541" lon="16.680658">
+				<ele>193.116</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

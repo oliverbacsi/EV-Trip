@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Doborhegy-Szarvaskend</name>
+		<desc>Doborhegy-Szarvaskend</desc>
+	</metadata>
+	<trk>
+		<name>Doborhegy-Szarvaskend</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.994231" lon="16.682010">
+				<ele>229.008</ele>
+			</trkpt>
+			<trkpt lat="46.994017" lon="16.681835">
+				<ele>228.300</ele>
+			</trkpt>
+			<trkpt lat="46.993703" lon="16.681664">
+				<ele>227.543</ele>
+			</trkpt>
+			<trkpt lat="46.993417" lon="16.681428">
+				<ele>226.323</ele>
+			</trkpt>
+			<trkpt lat="46.992510" lon="16.680451">
+				<ele>218.123</ele>
+			</trkpt>
+			<trkpt lat="46.992180" lon="16.680183">
+				<ele>216.327</ele>
+			</trkpt>
+			<trkpt lat="46.991910" lon="16.680054">
+				<ele>214.528</ele>
+			</trkpt>
+			<trkpt lat="46.991514" lon="16.680076">
+				<ele>213.504</ele>
+			</trkpt>
+			<trkpt lat="46.990988" lon="16.680054">
+				<ele>212.801</ele>
+			</trkpt>
+			<trkpt lat="46.990563" lon="16.680044">
+				<ele>212.814</ele>
+			</trkpt>
+			<trkpt lat="46.990351" lon="16.679947">
+				<ele>213.050</ele>
+			</trkpt>
+			<trkpt lat="46.990197" lon="16.679733">
+				<ele>215.086</ele>
+			</trkpt>
+			<trkpt lat="46.990029" lon="16.679368">
+				<ele>218.303</ele>
+			</trkpt>
+			<trkpt lat="46.989912" lon="16.678853">
+				<ele>223.979</ele>
+			</trkpt>
+			<trkpt lat="46.989795" lon="16.678177">
+				<ele>231.669</ele>
+			</trkpt>
+			<trkpt lat="46.989736" lon="16.677758">
+				<ele>234.807</ele>
+			</trkpt>
+			<trkpt lat="46.989495" lon="16.677018">
+				<ele>236.393</ele>
+			</trkpt>
+			<trkpt lat="46.989297" lon="16.676471">
+				<ele>236.355</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Rabahidveg-Vasvar_Also</name>
+		<desc>Rabahidveg-Vasvar_Also</desc>
+	</metadata>
+	<trk>
+		<name>Rabahidveg-Vasvar_Also</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.073005" lon="16.742306">
+				<ele>180.071</ele>
+			</trkpt>
+			<trkpt lat="47.072738" lon="16.742467">
+				<ele>180.452</ele>
+			</trkpt>
+			<trkpt lat="47.072387" lon="16.742746">
+				<ele>180.769</ele>
+			</trkpt>
+			<trkpt lat="47.070772" lon="16.743443">
+				<ele>179.868</ele>
+			</trkpt>
+			<trkpt lat="47.070166" lon="16.743400">
+				<ele>179.920</ele>
+			</trkpt>
+			<trkpt lat="47.069793" lon="16.743464">
+				<ele>180.091</ele>
+			</trkpt>
+			<trkpt lat="47.067323" lon="16.744387">
+				<ele>178.627</ele>
+			</trkpt>
+			<trkpt lat="47.067067" lon="16.744344">
+				<ele>177.655</ele>
+			</trkpt>
+			<trkpt lat="47.066760" lon="16.743979">
+				<ele>176.935</ele>
+			</trkpt>
+			<trkpt lat="47.066585" lon="16.743593">
+				<ele>178.058</ele>
+			</trkpt>
+			<trkpt lat="47.065854" lon="16.743969">
+				<ele>177.968</ele>
+			</trkpt>
+			<trkpt lat="47.064926" lon="16.744763">
+				<ele>177.145</ele>
+			</trkpt>
+			<trkpt lat="47.063450" lon="16.745760">
+				<ele>175.925</ele>
+			</trkpt>
+			<trkpt lat="47.062880" lon="16.746190">
+				<ele>176.622</ele>
+			</trkpt>
+			<trkpt lat="47.062507" lon="16.746597">
+				<ele>176.924</ele>
+			</trkpt>
+			<trkpt lat="47.062185" lon="16.747166">
+				<ele>176.925</ele>
+			</trkpt>
+			<trkpt lat="47.059613" lon="16.755288">
+				<ele>176.375</ele>
+			</trkpt>
+			<trkpt lat="47.059408" lon="16.756232">
+				<ele>175.302</ele>
+			</trkpt>
+			<trkpt lat="47.059284" lon="16.757262">
+				<ele>175.614</ele>
+			</trkpt>
+			<trkpt lat="47.059181" lon="16.758785">
+				<ele>175.000</ele>
+			</trkpt>
+			<trkpt lat="47.058977" lon="16.762497">
+				<ele>176.002</ele>
+			</trkpt>
+			<trkpt lat="47.058611" lon="16.768667">
+				<ele>174.534</ele>
+			</trkpt>
+			<trkpt lat="47.058239" lon="16.774653">
+				<ele>176.000</ele>
+			</trkpt>
+			<trkpt lat="47.057895" lon="16.779706">
+				<ele>174.185</ele>
+			</trkpt>
+			<trkpt lat="47.057764" lon="16.780543">
+				<ele>174.206</ele>
+			</trkpt>
+			<trkpt lat="47.057530" lon="16.781359">
+				<ele>174.058</ele>
+			</trkpt>
+			<trkpt lat="47.056484" lon="16.783848">
+				<ele>174.299</ele>
+			</trkpt>
+			<trkpt lat="47.055739" lon="16.785736">
+				<ele>174.343</ele>
+			</trkpt>
+			<trkpt lat="47.055461" lon="16.786584">
+				<ele>177.192</ele>
+			</trkpt>
+			<trkpt lat="47.055293" lon="16.787410">
+				<ele>177.384</ele>
+			</trkpt>
+			<trkpt lat="47.055205" lon="16.787989">
+				<ele>176.072</ele>
+			</trkpt>
+			<trkpt lat="47.055015" lon="16.788311">
+				<ele>175.072</ele>
+			</trkpt>
+			<trkpt lat="47.054818" lon="16.788440">
+				<ele>174.909</ele>
+			</trkpt>
+			<trkpt lat="47.054642" lon="16.788665">
+				<ele>174.969</ele>
+			</trkpt>
+			<trkpt lat="47.054401" lon="16.789362">
+				<ele>175.215</ele>
+			</trkpt>
+			<trkpt lat="47.053349" lon="16.792742">
+				<ele>176.280</ele>
+			</trkpt>
+			<trkpt lat="47.051148" lon="16.796669">
+				<ele>181.257</ele>
+			</trkpt>
+			<trkpt lat="47.051053" lon="16.796991">
+				<ele>183.416</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

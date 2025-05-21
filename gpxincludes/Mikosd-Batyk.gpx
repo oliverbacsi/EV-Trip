@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Mikosd-Batyk</name>
+		<desc>Mikosd-Batyk</desc>
+	</metadata>
+	<trk>
+		<name>Mikosd-Batyk</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.041301" lon="16.990045">
+				<ele>153.342</ele>
+			</trkpt>
+			<trkpt lat="47.039875" lon="16.992652">
+				<ele>149.916</ele>
+			</trkpt>
+			<trkpt lat="47.036380" lon="16.999025">
+				<ele>155.628</ele>
+			</trkpt>
+			<trkpt lat="47.035005" lon="17.001514">
+				<ele>154.850</ele>
+			</trkpt>
+			<trkpt lat="47.032665" lon="17.005806">
+				<ele>156.133</ele>
+			</trkpt>
+			<trkpt lat="47.030691" lon="17.009411">
+				<ele>156.951</ele>
+			</trkpt>
+			<trkpt lat="47.028534" lon="17.013348">
+				<ele>157.996</ele>
+			</trkpt>
+			<trkpt lat="47.026976" lon="17.014067">
+				<ele>157.552</ele>
+			</trkpt>
+			<trkpt lat="47.025528" lon="17.015280">
+				<ele>155.000</ele>
+			</trkpt>
+			<trkpt lat="47.021403" lon="17.018670">
+				<ele>154.724</ele>
+			</trkpt>
+			<trkpt lat="47.018572" lon="17.020966">
+				<ele>155.455</ele>
+			</trkpt>
+			<trkpt lat="47.013803" lon="17.022650">
+				<ele>153.921</ele>
+			</trkpt>
+			<trkpt lat="47.010591" lon="17.023809">
+				<ele>151.305</ele>
+			</trkpt>
+			<trkpt lat="47.007168" lon="17.025386">
+				<ele>150.258</ele>
+			</trkpt>
+			<trkpt lat="47.006546" lon="17.025976">
+				<ele>149.314</ele>
+			</trkpt>
+			<trkpt lat="47.006151" lon="17.026159">
+				<ele>148.439</ele>
+			</trkpt>
+			<trkpt lat="47.005470" lon="17.026320">
+				<ele>147.049</ele>
+			</trkpt>
+			<trkpt lat="47.004702" lon="17.026534">
+				<ele>146.493</ele>
+			</trkpt>
+			<trkpt lat="47.003766" lon="17.026985">
+				<ele>147.606</ele>
+			</trkpt>
+			<trkpt lat="47.003195" lon="17.027049">
+				<ele>149.006</ele>
+			</trkpt>
+			<trkpt lat="47.001066" lon="17.026609">
+				<ele>147.558</ele>
+			</trkpt>
+			<trkpt lat="46.999793" lon="17.026384">
+				<ele>148.247</ele>
+			</trkpt>
+			<trkpt lat="46.998900" lon="17.026255">
+				<ele>147.000</ele>
+			</trkpt>
+			<trkpt lat="46.996588" lon="17.025826">
+				<ele>147.999</ele>
+			</trkpt>
+			<trkpt lat="46.994561" lon="17.025440">
+				<ele>146.473</ele>
+			</trkpt>
+			<trkpt lat="46.992153" lon="17.025107">
+				<ele>144.766</ele>
+			</trkpt>
+			<trkpt lat="46.991868" lon="17.025139">
+				<ele>144.535</ele>
+			</trkpt>
+			<trkpt lat="46.991538" lon="17.025257">
+				<ele>144.155</ele>
+			</trkpt>
+			<trkpt lat="46.991136" lon="17.025418">
+				<ele>143.092</ele>
+			</trkpt>
+			<trkpt lat="46.989562" lon="17.026126">
+				<ele>139.301</ele>
+			</trkpt>
+			<trkpt lat="46.988091" lon="17.026749">
+				<ele>135.255</ele>
+			</trkpt>
+			<trkpt lat="46.986664" lon="17.027339">
+				<ele>131.800</ele>
+			</trkpt>
+			<trkpt lat="46.985347" lon="17.027929">
+				<ele>129.931</ele>
+			</trkpt>
+			<trkpt lat="46.984278" lon="17.028379">
+				<ele>131.581</ele>
+			</trkpt>
+			<trkpt lat="46.983619" lon="17.028712">
+				<ele>127.890</ele>
+			</trkpt>
+			<trkpt lat="46.983261" lon="17.028991">
+				<ele>126.684</ele>
+			</trkpt>
+			<trkpt lat="46.983012" lon="17.029334">
+				<ele>126.614</ele>
+			</trkpt>
+			<trkpt lat="46.982792" lon="17.029828">
+				<ele>126.351</ele>
+			</trkpt>
+			<trkpt lat="46.982653" lon="17.030343">
+				<ele>126.184</ele>
+			</trkpt>
+			<trkpt lat="46.982587" lon="17.030976">
+				<ele>126.123</ele>
+			</trkpt>
+			<trkpt lat="46.982624" lon="17.031480">
+				<ele>126.264</ele>
+			</trkpt>
+			<trkpt lat="46.982763" lon="17.032081">
+				<ele>126.631</ele>
+			</trkpt>
+			<trkpt lat="46.983034" lon="17.032639">
+				<ele>126.901</ele>
+			</trkpt>
+			<trkpt lat="46.983319" lon="17.033100">
+				<ele>125.830</ele>
+			</trkpt>
+			<trkpt lat="46.983275" lon="17.033465">
+				<ele>124.842</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

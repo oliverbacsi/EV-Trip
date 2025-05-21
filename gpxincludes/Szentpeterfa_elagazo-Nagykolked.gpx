@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Szentpeterfa_elagazo-Nagykolked</name>
+		<desc>Szentpeterfa_elagazo-Nagykolked</desc>
+	</metadata>
+	<trk>
+		<name>Szentpeterfa_elagazo-Nagykolked</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.098606" lon="16.555924">
+				<ele>229.035</ele>
+			</trkpt>
+			<trkpt lat="47.097299" lon="16.555688">
+				<ele>227.699</ele>
+			</trkpt>
+			<trkpt lat="47.094275" lon="16.555045">
+				<ele>232.010</ele>
+			</trkpt>
+			<trkpt lat="47.092127" lon="16.554315">
+				<ele>237.073</ele>
+			</trkpt>
+			<trkpt lat="47.090140" lon="16.553349">
+				<ele>233.827</ele>
+			</trkpt>
+			<trkpt lat="47.088519" lon="16.552126">
+				<ele>236.528</ele>
+			</trkpt>
+			<trkpt lat="47.088007" lon="16.551719">
+				<ele>237.900</ele>
+			</trkpt>
+			<trkpt lat="47.087306" lon="16.551375">
+				<ele>237.058</ele>
+			</trkpt>
+			<trkpt lat="47.086795" lon="16.551311">
+				<ele>234.185</ele>
+			</trkpt>
+			<trkpt lat="47.082514" lon="16.551547">
+				<ele>231.849</ele>
+			</trkpt>
+			<trkpt lat="47.079387" lon="16.551676">
+				<ele>226.574</ele>
+			</trkpt>
+			<trkpt lat="47.074331" lon="16.551976">
+				<ele>225.298</ele>
+			</trkpt>
+			<trkpt lat="47.072124" lon="16.552470">
+				<ele>222.020</ele>
+			</trkpt>
+			<trkpt lat="47.071408" lon="16.552598">
+				<ele>221.955</ele>
+			</trkpt>
+			<trkpt lat="47.069230" lon="16.552384">
+				<ele>217.871</ele>
+			</trkpt>
+			<trkpt lat="47.066278" lon="16.553285">
+				<ele>211.915</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

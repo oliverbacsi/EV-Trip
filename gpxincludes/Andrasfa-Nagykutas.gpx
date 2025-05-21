@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Andrasfa-Nagykutas</name>
+		<desc>Andrasfa-Nagykutas</desc>
+	</metadata>
+	<trk>
+		<name>Andrasfa-Nagykutas</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.964520" lon="16.786873">
+				<ele>195.499</ele>
+			</trkpt>
+			<trkpt lat="46.964606" lon="16.788137">
+				<ele>191.919</ele>
+			</trkpt>
+			<trkpt lat="46.964547" lon="16.788501">
+				<ele>190.158</ele>
+			</trkpt>
+			<trkpt lat="46.964459" lon="16.788888">
+				<ele>188.332</ele>
+			</trkpt>
+			<trkpt lat="46.964459" lon="16.790508">
+				<ele>175.362</ele>
+			</trkpt>
+			<trkpt lat="46.964474" lon="16.790980">
+				<ele>172.169</ele>
+			</trkpt>
+			<trkpt lat="46.964525" lon="16.792235">
+				<ele>167.366</ele>
+			</trkpt>
+			<trkpt lat="46.964503" lon="16.793061">
+				<ele>163.498</ele>
+			</trkpt>
+			<trkpt lat="46.964416" lon="16.793920">
+				<ele>160.996</ele>
+			</trkpt>
+			<trkpt lat="46.964247" lon="16.794585">
+				<ele>160.305</ele>
+			</trkpt>
+			<trkpt lat="46.964049" lon="16.795422">
+				<ele>160.000</ele>
+			</trkpt>
+			<trkpt lat="46.962849" lon="16.796494">
+				<ele>160.702</ele>
+			</trkpt>
+			<trkpt lat="46.962526" lon="16.796677">
+				<ele>160.992</ele>
+			</trkpt>
+			<trkpt lat="46.960762" lon="16.796838">
+				<ele>165.513</ele>
+			</trkpt>
+			<trkpt lat="46.960527" lon="16.796999">
+				<ele>166.574</ele>
+			</trkpt>
+			<trkpt lat="46.960125" lon="16.797481">
+				<ele>167.716</ele>
+			</trkpt>
+			<trkpt lat="46.958199" lon="16.797868">
+				<ele>171.205</ele>
+			</trkpt>
+			<trkpt lat="46.957130" lon="16.798136">
+				<ele>173.865</ele>
+			</trkpt>
+			<trkpt lat="46.956383" lon="16.798157">
+				<ele>174.635</ele>
+			</trkpt>
+			<trkpt lat="46.953417" lon="16.798093">
+				<ele>179.252</ele>
+			</trkpt>
+			<trkpt lat="46.950707" lon="16.798007">
+				<ele>184.879</ele>
+			</trkpt>
+			<trkpt lat="46.948605" lon="16.797964">
+				<ele>190.628</ele>
+			</trkpt>
+			<trkpt lat="46.948122" lon="16.798072">
+				<ele>193.481</ele>
+			</trkpt>
+			<trkpt lat="46.947243" lon="16.798490">
+				<ele>198.130</ele>
+			</trkpt>
+			<trkpt lat="46.946965" lon="16.798554">
+				<ele>198.095</ele>
+			</trkpt>
+			<trkpt lat="46.945983" lon="16.798876">
+				<ele>198.534</ele>
+			</trkpt>
+			<trkpt lat="46.945404" lon="16.798984">
+				<ele>197.751</ele>
+			</trkpt>
+			<trkpt lat="46.944540" lon="16.799262">
+				<ele>196.190</ele>
+			</trkpt>
+			<trkpt lat="46.944027" lon="16.799348">
+				<ele>195.654</ele>
+			</trkpt>
+			<trkpt lat="46.942995" lon="16.799702">
+				<ele>196.667</ele>
+			</trkpt>
+			<trkpt lat="46.940856" lon="16.800271">
+				<ele>195.982</ele>
+			</trkpt>
+			<trkpt lat="46.937340" lon="16.801247">
+				<ele>201.185</ele>
+			</trkpt>
+			<trkpt lat="46.936819" lon="16.801333">
+				<ele>202.179</ele>
+			</trkpt>
+			<trkpt lat="46.933515" lon="16.801408">
+				<ele>204.897</ele>
+			</trkpt>
+			<trkpt lat="46.931076" lon="16.801462">
+				<ele>203.823</ele>
+			</trkpt>
+			<trkpt lat="46.929149" lon="16.801505">
+				<ele>198.417</ele>
+			</trkpt>
+			<trkpt lat="46.927508" lon="16.801526">
+				<ele>199.151</ele>
+			</trkpt>
+			<trkpt lat="46.926636" lon="16.801558">
+				<ele>196.541</ele>
+			</trkpt>
+			<trkpt lat="46.926299" lon="16.801666">
+				<ele>196.114</ele>
+			</trkpt>
+			<trkpt lat="46.925896" lon="16.801816">
+				<ele>195.893</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

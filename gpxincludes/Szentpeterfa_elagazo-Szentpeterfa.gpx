@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Szentpeterfa_elagazo-Szentpeterfa</name>
+		<desc>Szentpeterfa_elagazo-Szentpeterfa</desc>
+	</metadata>
+	<trk>
+		<name>Szentpeterfa_elagazo-Szentpeterfa</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.098606" lon="16.555924">
+				<ele>229.035</ele>
+			</trkpt>
+			<trkpt lat="47.098350" lon="16.546912">
+				<ele>233.559</ele>
+			</trkpt>
+			<trkpt lat="47.098000" lon="16.536913">
+				<ele>237.921</ele>
+			</trkpt>
+			<trkpt lat="47.097649" lon="16.526892">
+				<ele>241.561</ele>
+			</trkpt>
+			<trkpt lat="47.097503" lon="16.522021">
+				<ele>235.851</ele>
+			</trkpt>
+			<trkpt lat="47.097182" lon="16.513288">
+				<ele>242.600</ele>
+			</trkpt>
+			<trkpt lat="47.097079" lon="16.510606">
+				<ele>237.138</ele>
+			</trkpt>
+			<trkpt lat="47.096568" lon="16.503139">
+				<ele>227.063</ele>
+			</trkpt>
+			<trkpt lat="47.096320" lon="16.499898">
+				<ele>228.756</ele>
+			</trkpt>
+			<trkpt lat="47.095546" lon="16.490157">
+				<ele>224.720</ele>
+			</trkpt>
+			<trkpt lat="47.095458" lon="16.488869">
+				<ele>227.392</ele>
+			</trkpt>
+			<trkpt lat="47.095166" lon="16.485393">
+				<ele>218.671</ele>
+			</trkpt>
+			<trkpt lat="47.094830" lon="16.481960">
+				<ele>216.072</ele>
+			</trkpt>
+			<trkpt lat="47.094567" lon="16.479278">
+				<ele>215.867</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

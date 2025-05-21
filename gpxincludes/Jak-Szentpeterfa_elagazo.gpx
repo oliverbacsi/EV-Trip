@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Jak-Szentpeterfa_elagazo</name>
+		<desc>Jak-Szentpeterfa_elagazo</desc>
+	</metadata>
+	<trk>
+		<name>Jak-Szentpeterfa_elagazo</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.141006" lon="16.580848">
+				<ele>205.190</ele>
+			</trkpt>
+			<trkpt lat="47.140650" lon="16.580848">
+				<ele>204.990</ele>
+			</trkpt>
+			<trkpt lat="47.140037" lon="16.581384">
+				<ele>205.602</ele>
+			</trkpt>
+			<trkpt lat="47.139899" lon="16.581588">
+				<ele>206.809</ele>
+			</trkpt>
+			<trkpt lat="47.139862" lon="16.581995">
+				<ele>208.967</ele>
+			</trkpt>
+			<trkpt lat="47.139899" lon="16.582371">
+				<ele>210.456</ele>
+			</trkpt>
+			<trkpt lat="47.139862" lon="16.582704">
+				<ele>211.735</ele>
+			</trkpt>
+			<trkpt lat="47.139497" lon="16.583283">
+				<ele>213.908</ele>
+			</trkpt>
+			<trkpt lat="47.139256" lon="16.583476">
+				<ele>214.714</ele>
+			</trkpt>
+			<trkpt lat="47.138921" lon="16.583626">
+				<ele>215.486</ele>
+			</trkpt>
+			<trkpt lat="47.137921" lon="16.583465">
+				<ele>216.842</ele>
+			</trkpt>
+			<trkpt lat="47.137520" lon="16.583455">
+				<ele>216.854</ele>
+			</trkpt>
+			<trkpt lat="47.136082" lon="16.583841">
+				<ele>219.497</ele>
+			</trkpt>
+			<trkpt lat="47.134899" lon="16.584034">
+				<ele>220.179</ele>
+			</trkpt>
+			<trkpt lat="47.134381" lon="16.584034">
+				<ele>219.458</ele>
+			</trkpt>
+			<trkpt lat="47.133899" lon="16.583927">
+				<ele>219.152</ele>
+			</trkpt>
+			<trkpt lat="47.133440" lon="16.583648">
+				<ele>219.837</ele>
+			</trkpt>
+			<trkpt lat="47.131462" lon="16.581877">
+				<ele>219.191</ele>
+			</trkpt>
+			<trkpt lat="47.130235" lon="16.580805">
+				<ele>218.990</ele>
+			</trkpt>
+			<trkpt lat="47.126418" lon="16.578069">
+				<ele>221.573</ele>
+			</trkpt>
+			<trkpt lat="47.123520" lon="16.574528">
+				<ele>220.000</ele>
+			</trkpt>
+			<trkpt lat="47.120935" lon="16.571352">
+				<ele>220.715</ele>
+			</trkpt>
+			<trkpt lat="47.118263" lon="16.569142">
+				<ele>219.945</ele>
+			</trkpt>
+			<trkpt lat="47.117387" lon="16.567919">
+				<ele>219.865</ele>
+			</trkpt>
+			<trkpt lat="47.116102" lon="16.566417">
+				<ele>218.821</ele>
+			</trkpt>
+			<trkpt lat="47.114978" lon="16.565344">
+				<ele>219.011</ele>
+			</trkpt>
+			<trkpt lat="47.114350" lon="16.564872">
+				<ele>219.120</ele>
+			</trkpt>
+			<trkpt lat="47.110042" lon="16.562619">
+				<ele>220.950</ele>
+			</trkpt>
+			<trkpt lat="47.106449" lon="16.560881">
+				<ele>220.000</ele>
+			</trkpt>
+			<trkpt lat="47.103163" lon="16.559358">
+				<ele>226.470</ele>
+			</trkpt>
+			<trkpt lat="47.098606" lon="16.555924">
+				<ele>229.035</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

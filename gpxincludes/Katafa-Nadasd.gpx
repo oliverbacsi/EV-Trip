@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Katafa-Nadasd</name>
+		<desc>Katafa-Nadasd</desc>
+	</metadata>
+	<trk>
+		<name>Katafa-Nadasd</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.972830" lon="16.634567">
+				<ele>240.019</ele>
+			</trkpt>
+			<trkpt lat="46.973437" lon="16.634181">
+				<ele>238.611</ele>
+			</trkpt>
+			<trkpt lat="46.973789" lon="16.633869">
+				<ele>236.809</ele>
+			</trkpt>
+			<trkpt lat="46.974030" lon="16.633430">
+				<ele>234.867</ele>
+			</trkpt>
+			<trkpt lat="46.974162" lon="16.632957">
+				<ele>233.115</ele>
+			</trkpt>
+			<trkpt lat="46.974199" lon="16.632271">
+				<ele>230.580</ele>
+			</trkpt>
+			<trkpt lat="46.974235" lon="16.630822">
+				<ele>223.017</ele>
+			</trkpt>
+			<trkpt lat="46.974316" lon="16.630125">
+				<ele>218.929</ele>
+			</trkpt>
+			<trkpt lat="46.974484" lon="16.629610">
+				<ele>218.024</ele>
+			</trkpt>
+			<trkpt lat="46.974674" lon="16.629288">
+				<ele>217.568</ele>
+			</trkpt>
+			<trkpt lat="46.974814" lon="16.629031">
+				<ele>218.040</ele>
+			</trkpt>
+			<trkpt lat="46.974770" lon="16.628741">
+				<ele>219.830</ele>
+			</trkpt>
+			<trkpt lat="46.974755" lon="16.628065">
+				<ele>222.483</ele>
+			</trkpt>
+			<trkpt lat="46.974792" lon="16.627883">
+				<ele>222.521</ele>
+			</trkpt>
+			<trkpt lat="46.974850" lon="16.627754">
+				<ele>222.430</ele>
+			</trkpt>
+			<trkpt lat="46.974125" lon="16.626638">
+				<ele>224.050</ele>
+			</trkpt>
+			<trkpt lat="46.972881" lon="16.624814">
+				<ele>225.070</ele>
+			</trkpt>
+			<trkpt lat="46.971563" lon="16.622787">
+				<ele>228.330</ele>
+			</trkpt>
+			<trkpt lat="46.970194" lon="16.620716">
+				<ele>230.469</ele>
+			</trkpt>
+			<trkpt lat="46.968964" lon="16.618881">
+				<ele>230.303</ele>
+			</trkpt>
+			<trkpt lat="46.968137" lon="16.617594">
+				<ele>229.697</ele>
+			</trkpt>
+			<trkpt lat="46.967566" lon="16.616714">
+				<ele>229.105</ele>
+			</trkpt>
+			<trkpt lat="46.967331" lon="16.616424">
+				<ele>229.349</ele>
+			</trkpt>
+			<trkpt lat="46.967170" lon="16.616060">
+				<ele>230.215</ele>
+			</trkpt>
+			<trkpt lat="46.966892" lon="16.614836">
+				<ele>234.408</ele>
+			</trkpt>
+			<trkpt lat="46.966760" lon="16.614085">
+				<ele>236.362</ele>
+			</trkpt>
+			<trkpt lat="46.966350" lon="16.611843">
+				<ele>231.073</ele>
+			</trkpt>
+			<trkpt lat="46.966175" lon="16.610363">
+				<ele>229.206</ele>
+			</trkpt>
+			<trkpt lat="46.965933" lon="16.607831">
+				<ele>224.674</ele>
+			</trkpt>
+			<trkpt lat="46.965604" lon="16.604569">
+				<ele>224.069</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

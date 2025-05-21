@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Sorkifalud-Gyanogeregye</name>
+		<desc>Sorkifalud-Gyanogeregye</desc>
+	</metadata>
+	<trk>
+		<name>Sorkifalud-Gyanogeregye</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.136505" lon="16.750846">
+				<ele>180.809</ele>
+			</trkpt>
+			<trkpt lat="47.131622" lon="16.751382">
+				<ele>179.018</ele>
+			</trkpt>
+			<trkpt lat="47.131469" lon="16.751608">
+				<ele>179.017</ele>
+			</trkpt>
+			<trkpt lat="47.131491" lon="16.752337">
+				<ele>179.635</ele>
+			</trkpt>
+			<trkpt lat="47.131454" lon="16.753346">
+				<ele>180.483</ele>
+			</trkpt>
+			<trkpt lat="47.131863" lon="16.756436">
+				<ele>179.131</ele>
+			</trkpt>
+			<trkpt lat="47.131885" lon="16.756843">
+				<ele>178.889</ele>
+			</trkpt>
+			<trkpt lat="47.131827" lon="16.757208">
+				<ele>178.751</ele>
+			</trkpt>
+			<trkpt lat="47.131491" lon="16.757863">
+				<ele>178.446</ele>
+			</trkpt>
+			<trkpt lat="47.130761" lon="16.758710">
+				<ele>177.500</ele>
+			</trkpt>
+			<trkpt lat="47.130411" lon="16.758957">
+				<ele>177.124</ele>
+			</trkpt>
+			<trkpt lat="47.129265" lon="16.759257">
+				<ele>177.799</ele>
+			</trkpt>
+			<trkpt lat="47.127564" lon="16.759375">
+				<ele>176.923</ele>
+			</trkpt>
+			<trkpt lat="47.127067" lon="16.759547">
+				<ele>176.763</ele>
+			</trkpt>
+			<trkpt lat="47.125535" lon="16.760309">
+				<ele>178.192</ele>
+			</trkpt>
+			<trkpt lat="47.124943" lon="16.760663">
+				<ele>179.327</ele>
+			</trkpt>
+			<trkpt lat="47.124607" lon="16.760824">
+				<ele>181.350</ele>
+			</trkpt>
+			<trkpt lat="47.124155" lon="16.760877">
+				<ele>183.976</ele>
+			</trkpt>
+			<trkpt lat="47.123374" lon="16.761113">
+				<ele>185.567</ele>
+			</trkpt>
+			<trkpt lat="47.123067" lon="16.761307">
+				<ele>184.975</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

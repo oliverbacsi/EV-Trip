@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Ikervar-Meggyeskovacsi</name>
+		<desc>Ikervar-Meggyeskovacsi</desc>
+	</metadata>
+	<trk>
+		<name>Ikervar-Meggyeskovacsi</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.209103" lon="16.896071">
+				<ele>162.384</ele>
+			</trkpt>
+			<trkpt lat="47.209212" lon="16.895401">
+				<ele>161.510</ele>
+			</trkpt>
+			<trkpt lat="47.208914" lon="16.895304">
+				<ele>161.862</ele>
+			</trkpt>
+			<trkpt lat="47.207897" lon="16.895100">
+				<ele>162.602</ele>
+			</trkpt>
+			<trkpt lat="47.206607" lon="16.894494">
+				<ele>160.393</ele>
+			</trkpt>
+			<trkpt lat="47.206209" lon="16.894172">
+				<ele>160.007</ele>
+			</trkpt>
+			<trkpt lat="47.205430" lon="16.893282">
+				<ele>160.971</ele>
+			</trkpt>
+			<trkpt lat="47.204806" lon="16.892745">
+				<ele>161.226</ele>
+			</trkpt>
+			<trkpt lat="47.203585" lon="16.891099">
+				<ele>160.971</ele>
+			</trkpt>
+			<trkpt lat="47.202656" lon="16.889870">
+				<ele>160.844</ele>
+			</trkpt>
+			<trkpt lat="47.202430" lon="16.889656">
+				<ele>160.621</ele>
+			</trkpt>
+			<trkpt lat="47.202146" lon="16.889500">
+				<ele>160.655</ele>
+			</trkpt>
+			<trkpt lat="47.200688" lon="16.888974">
+				<ele>162.056</ele>
+			</trkpt>
+			<trkpt lat="47.198049" lon="16.888062">
+				<ele>162.643</ele>
+			</trkpt>
+			<trkpt lat="47.195899" lon="16.887322">
+				<ele>161.062</ele>
+			</trkpt>
+			<trkpt lat="47.192450" lon="16.886120">
+				<ele>162.920</ele>
+			</trkpt>
+			<trkpt lat="47.187740" lon="16.884447">
+				<ele>161.522</ele>
+			</trkpt>
+			<trkpt lat="47.184926" lon="16.883428">
+				<ele>162.856</ele>
+			</trkpt>
+			<trkpt lat="47.181921" lon="16.882301">
+				<ele>162.223</ele>
+			</trkpt>
+			<trkpt lat="47.178231" lon="16.880853">
+				<ele>162.878</ele>
+			</trkpt>
+			<trkpt lat="47.173870" lon="16.879200">
+				<ele>163.026</ele>
+			</trkpt>
+			<trkpt lat="47.173404" lon="16.878900">
+				<ele>162.680</ele>
+			</trkpt>
+			<trkpt lat="47.170187" lon="16.876346">
+				<ele>163.138</ele>
+			</trkpt>
+			<trkpt lat="47.169531" lon="16.875713">
+				<ele>163.063</ele>
+			</trkpt>
+			<trkpt lat="47.167481" lon="16.872903">
+				<ele>162.562</ele>
+			</trkpt>
+			<trkpt lat="47.166671" lon="16.871830">
+				<ele>165.594</ele>
+			</trkpt>
+			<trkpt lat="47.165417" lon="16.870628">
+				<ele>164.623</ele>
+			</trkpt>
+			<trkpt lat="47.164359" lon="16.869952">
+				<ele>165.058</ele>
+			</trkpt>
+			<trkpt lat="47.163068" lon="16.869105">
+				<ele>166.682</ele>
+			</trkpt>
+			<trkpt lat="47.162339" lon="16.868461">
+				<ele>165.970</ele>
+			</trkpt>
+			<trkpt lat="47.160369" lon="16.866401">
+				<ele>165.859</ele>
+			</trkpt>
+			<trkpt lat="47.159814" lon="16.865618">
+				<ele>166.000</ele>
+			</trkpt>
+			<trkpt lat="47.159340" lon="16.865156">
+				<ele>166.000</ele>
+			</trkpt>
+			<trkpt lat="47.158859" lon="16.864856">
+				<ele>165.827</ele>
+			</trkpt>
+			<trkpt lat="47.158261" lon="16.864727">
+				<ele>165.527</ele>
+			</trkpt>
+			<trkpt lat="47.156998" lon="16.864609">
+				<ele>164.282</ele>
+			</trkpt>
+			<trkpt lat="47.156371" lon="16.864427">
+				<ele>164.688</ele>
+			</trkpt>
+			<trkpt lat="47.154686" lon="16.863590">
+				<ele>166.507</ele>
+			</trkpt>
+			<trkpt lat="47.153730" lon="16.863043">
+				<ele>165.651</ele>
+			</trkpt>
+			<trkpt lat="47.153033" lon="16.862506">
+				<ele>165.370</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
