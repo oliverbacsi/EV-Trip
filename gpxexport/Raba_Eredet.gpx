@@ -9324,195 +9324,381 @@
 		</trkseg>
 	</trk>
 	<wpt lat="47.206545" lon="16.668481">
-		<ele>198.0</ele>
 		<name>100%</name>
 	</wpt>
 	<wpt lat="47.204546" lon="16.604462">
-		<ele>206.453</ele>
 		<name>95%</name>
 	</wpt>
 	<wpt lat="47.152054" lon="16.579303">
-		<ele>213.837</ele>
 		<name>90%</name>
 	</wpt>
 	<wpt lat="47.098606" lon="16.555924">
-		<ele>229.035</ele>
 		<name>85%</name>
 	</wpt>
 	<wpt lat="47.03706" lon="16.557984">
-		<ele>201.581</ele>
 		<name>80%</name>
 	</wpt>
 	<wpt lat="46.996148" lon="16.539005">
-		<ele>190.816</ele>
 		<name>75%</name>
 	</wpt>
 	<wpt lat="46.968093" lon="16.465513">
-		<ele>202.534</ele>
 		<name>70%</name>
 	</wpt>
 	<wpt lat="46.973503" lon="16.383265">
-		<ele>216.691</ele>
 		<name>65%</name>
 	</wpt>
 	<wpt lat="46.980351" lon="16.298856">
-		<ele>226.057</ele>
 		<name>60%</name>
 	</wpt>
 	<wpt lat="46.952295" lon="16.244654">
-		<ele>222.102</ele>
 		<name>100%</name>
 	</wpt>
 	<wpt lat="46.943051" lon="16.16231">
-		<ele>238.846</ele>
 		<name>95%</name>
 	</wpt>
 	<wpt lat="46.94222" lon="16.082659">
-		<ele>255.656</ele>
 		<name>90%</name>
 	</wpt>
 	<wpt lat="46.952767" lon="16.011667">
-		<ele>266.485</ele>
 		<name>85%</name>
 	</wpt>
 	<wpt lat="46.957395" lon="15.930793">
-		<ele>275.286</ele>
 		<name>80%</name>
 	</wpt>
 	<wpt lat="46.963936" lon="15.851426">
-		<ele>291.842</ele>
 		<name>75%</name>
 	</wpt>
 	<wpt lat="46.991899" lon="15.784682">
-		<ele>310.858</ele>
 		<name>70%</name>
 	</wpt>
 	<wpt lat="47.038713" lon="15.74851">
-		<ele>325.436</ele>
 		<name>65%</name>
 	</wpt>
 	<wpt lat="47.088623" lon="15.734761">
-		<ele>344.867</ele>
 		<name>60%</name>
 	</wpt>
 	<wpt lat="47.116869" lon="15.685274">
-		<ele>415.949</ele>
 		<name>55%</name>
 	</wpt>
 	<wpt lat="47.159869" lon="15.649225">
-		<ele>381.902</ele>
 		<name>50%</name>
 	</wpt>
 	<wpt lat="47.171467" lon="15.617323">
-		<ele>401.239</ele>
 		<name>70%</name>
 	</wpt>
 	<wpt lat="47.169666" lon="15.593462">
-		<ele>510.586</ele>
 		<name>65%</name>
 	</wpt>
 	<wpt lat="47.192352" lon="15.582575">
-		<ele>449.552</ele>
 		<name>60%</name>
 	</wpt>
 	<wpt lat="47.209959" lon="15.559937">
-		<ele>637.493</ele>
 		<name>55%</name>
 	</wpt>
 	<wpt lat="47.230102" lon="15.53806">
-		<ele>772.434</ele>
 		<name>50%</name>
 	</wpt>
 	<wpt lat="47.240527" lon="15.530625">
-		<ele>738.155</ele>
 		<name>45%</name>
 	</wpt>
 	<wpt lat="47.269622" lon="15.523404">
-		<ele>617.247</ele>
 		<name>40%</name>
 	</wpt>
 	<wpt lat="47.311351" lon="15.516434">
-		<ele>751.423</ele>
 		<name>35%</name>
 	</wpt>
 	<wpt lat="47.337176" lon="15.519835">
-		<ele>905.435</ele>
 		<name>100%</name>
 	</wpt>
 	<wpt lat="47.278279" lon="15.526037">
-		<ele>648.959</ele>
 		<name>95%</name>
 	</wpt>
 	<wpt lat="47.26709" lon="15.583543">
-		<ele>632.882</ele>
 		<name>90%</name>
 	</wpt>
 	<wpt lat="47.222629" lon="15.619372">
-		<ele>478.17</ele>
 		<name>85%</name>
 	</wpt>
 	<wpt lat="47.229714" lon="15.67844">
-		<ele>447.84</ele>
 		<name>80%</name>
 	</wpt>
 	<wpt lat="47.259849" lon="15.715905">
-		<ele>457.073</ele>
 		<name>75%</name>
 	</wpt>
 	<wpt lat="47.242852" lon="15.780171">
-		<ele>441.289</ele>
 		<name>70%</name>
 	</wpt>
 	<wpt lat="47.233717" lon="15.839839">
-		<ele>392.788</ele>
 		<name>65%</name>
 	</wpt>
 	<wpt lat="47.221688" lon="15.90974">
-		<ele>323.746</ele>
 		<name>60%</name>
 	</wpt>
 	<wpt lat="47.189755" lon="15.982052">
-		<ele>305.316</ele>
 		<name>55%</name>
 	</wpt>
 	<wpt lat="47.183342" lon="16.033143">
-		<ele>411.724</ele>
 		<name>50%</name>
 	</wpt>
 	<wpt lat="47.173111" lon="16.115015">
-		<ele>310.551</ele>
 		<name>45%</name>
 	</wpt>
 	<wpt lat="47.164399" lon="16.174557">
-		<ele>289.852</ele>
 		<name>40%</name>
 	</wpt>
 	<wpt lat="47.196515" lon="16.218095">
-		<ele>334.649</ele>
 		<name>35%</name>
 	</wpt>
 	<wpt lat="47.218971" lon="16.284335">
-		<ele>283.254</ele>
 		<name>30%</name>
 	</wpt>
 	<wpt lat="47.230082" lon="16.345253">
-		<ele>266.519</ele>
 		<name>25%</name>
 	</wpt>
 	<wpt lat="47.225856" lon="16.412652">
-		<ele>252.846</ele>
 		<name>20%</name>
 	</wpt>
 	<wpt lat="47.240514" lon="16.470083">
-		<ele>289.199</ele>
 		<name>15%</name>
 	</wpt>
 	<wpt lat="47.243639" lon="16.555098">
-		<ele>224.193</ele>
 		<name>10%</name>
 	</wpt>
 	<wpt lat="47.224924" lon="16.625715">
-		<ele>210.688</ele>
 		<name>5%</name>
+	</wpt>
+	<wpt lat="46.9" lon="15.5">
+		<name>46.9N  15.5E</name>
+	</wpt>
+	<wpt lat="46.9" lon="15.6">
+		<name>46.9N  15.6E</name>
+	</wpt>
+	<wpt lat="46.9" lon="15.7">
+		<name>46.9N  15.7E</name>
+	</wpt>
+	<wpt lat="46.9" lon="15.8">
+		<name>46.9N  15.8E</name>
+	</wpt>
+	<wpt lat="46.9" lon="15.9">
+		<name>46.9N  15.9E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.0">
+		<name>46.9N  16.0E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.1">
+		<name>46.9N  16.1E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.2">
+		<name>46.9N  16.2E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.3">
+		<name>46.9N  16.3E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.4">
+		<name>46.9N  16.4E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.5">
+		<name>46.9N  16.5E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.6">
+		<name>46.9N  16.6E</name>
+	</wpt>
+	<wpt lat="46.9" lon="16.7">
+		<name>46.9N  16.7E</name>
+	</wpt>
+	<wpt lat="47.0" lon="15.5">
+		<name>47.0N  15.5E</name>
+	</wpt>
+	<wpt lat="47.0" lon="15.6">
+		<name>47.0N  15.6E</name>
+	</wpt>
+	<wpt lat="47.0" lon="15.7">
+		<name>47.0N  15.7E</name>
+	</wpt>
+	<wpt lat="47.0" lon="15.8">
+		<name>47.0N  15.8E</name>
+	</wpt>
+	<wpt lat="47.0" lon="15.9">
+		<name>47.0N  15.9E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.0">
+		<name>47.0N  16.0E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.1">
+		<name>47.0N  16.1E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.2">
+		<name>47.0N  16.2E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.3">
+		<name>47.0N  16.3E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.4">
+		<name>47.0N  16.4E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.5">
+		<name>47.0N  16.5E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.6">
+		<name>47.0N  16.6E</name>
+	</wpt>
+	<wpt lat="47.0" lon="16.7">
+		<name>47.0N  16.7E</name>
+	</wpt>
+	<wpt lat="47.1" lon="15.5">
+		<name>47.1N  15.5E</name>
+	</wpt>
+	<wpt lat="47.1" lon="15.6">
+		<name>47.1N  15.6E</name>
+	</wpt>
+	<wpt lat="47.1" lon="15.7">
+		<name>47.1N  15.7E</name>
+	</wpt>
+	<wpt lat="47.1" lon="15.8">
+		<name>47.1N  15.8E</name>
+	</wpt>
+	<wpt lat="47.1" lon="15.9">
+		<name>47.1N  15.9E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.0">
+		<name>47.1N  16.0E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.1">
+		<name>47.1N  16.1E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.2">
+		<name>47.1N  16.2E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.3">
+		<name>47.1N  16.3E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.4">
+		<name>47.1N  16.4E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.5">
+		<name>47.1N  16.5E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.6">
+		<name>47.1N  16.6E</name>
+	</wpt>
+	<wpt lat="47.1" lon="16.7">
+		<name>47.1N  16.7E</name>
+	</wpt>
+	<wpt lat="47.2" lon="15.5">
+		<name>47.2N  15.5E</name>
+	</wpt>
+	<wpt lat="47.2" lon="15.6">
+		<name>47.2N  15.6E</name>
+	</wpt>
+	<wpt lat="47.2" lon="15.7">
+		<name>47.2N  15.7E</name>
+	</wpt>
+	<wpt lat="47.2" lon="15.8">
+		<name>47.2N  15.8E</name>
+	</wpt>
+	<wpt lat="47.2" lon="15.9">
+		<name>47.2N  15.9E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.0">
+		<name>47.2N  16.0E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.1">
+		<name>47.2N  16.1E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.2">
+		<name>47.2N  16.2E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.3">
+		<name>47.2N  16.3E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.4">
+		<name>47.2N  16.4E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.5">
+		<name>47.2N  16.5E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.6">
+		<name>47.2N  16.6E</name>
+	</wpt>
+	<wpt lat="47.2" lon="16.7">
+		<name>47.2N  16.7E</name>
+	</wpt>
+	<wpt lat="47.3" lon="15.5">
+		<name>47.3N  15.5E</name>
+	</wpt>
+	<wpt lat="47.3" lon="15.6">
+		<name>47.3N  15.6E</name>
+	</wpt>
+	<wpt lat="47.3" lon="15.7">
+		<name>47.3N  15.7E</name>
+	</wpt>
+	<wpt lat="47.3" lon="15.8">
+		<name>47.3N  15.8E</name>
+	</wpt>
+	<wpt lat="47.3" lon="15.9">
+		<name>47.3N  15.9E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.0">
+		<name>47.3N  16.0E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.1">
+		<name>47.3N  16.1E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.2">
+		<name>47.3N  16.2E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.3">
+		<name>47.3N  16.3E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.4">
+		<name>47.3N  16.4E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.5">
+		<name>47.3N  16.5E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.6">
+		<name>47.3N  16.6E</name>
+	</wpt>
+	<wpt lat="47.3" lon="16.7">
+		<name>47.3N  16.7E</name>
+	</wpt>
+	<wpt lat="47.4" lon="15.5">
+		<name>47.4N  15.5E</name>
+	</wpt>
+	<wpt lat="47.4" lon="15.6">
+		<name>47.4N  15.6E</name>
+	</wpt>
+	<wpt lat="47.4" lon="15.7">
+		<name>47.4N  15.7E</name>
+	</wpt>
+	<wpt lat="47.4" lon="15.8">
+		<name>47.4N  15.8E</name>
+	</wpt>
+	<wpt lat="47.4" lon="15.9">
+		<name>47.4N  15.9E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.0">
+		<name>47.4N  16.0E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.1">
+		<name>47.4N  16.1E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.2">
+		<name>47.4N  16.2E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.3">
+		<name>47.4N  16.3E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.4">
+		<name>47.4N  16.4E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.5">
+		<name>47.4N  16.5E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.6">
+		<name>47.4N  16.6E</name>
+	</wpt>
+	<wpt lat="47.4" lon="16.7">
+		<name>47.4N  16.7E</name>
 	</wpt>
 </gpx>

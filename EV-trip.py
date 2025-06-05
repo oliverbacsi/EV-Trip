@@ -65,6 +65,12 @@ class TRIP :
         # If no recharge at the day change, then no difference anyway
         self.WptedPercentages :set = set(())
 
+        # [TEST MODE !!!] Feature : Mark all coordinates that are multiplicant of 0.1 degree
+        self.LatSup :float = -1000.0
+        self.LatInf :float = 1000.0
+        self.LonSup :float = -1000.0
+        self.LonInf :float = 1000.0
+
     def addTripTime(self, ti :float) :
         self.TotTripTime = self.TotTripTime + ti
 
@@ -611,6 +617,11 @@ def loadGPXFile(_fld :str, _fnm :str, _rev :bool, _efh) -> list :
             _tempList.append(_itm)
             _pntValid = False
             _eleValid = False
+            # Collecting the Supremum/Infimum coordinates
+            t.LatSup = max(t.LatSup,_currLat)
+            t.LatInf = min(t.LatInf,_currLat)
+            t.LonSup = max(t.LonSup,_currLon)
+            t.LonInf = min(t.LonInf,_currLon)
 
     fg.close()
     if _rev : _tempList.reverse()
@@ -1062,7 +1073,21 @@ if ImportMode == "gpx" :
     fexp.write('\t\t</trkseg>\n\t</trk>\n')
     for wpt in t.WayPointList :
         fexp.write(f'\t<wpt lat="{wpt[0]}" lon="{wpt[1]}">\n')
-        fexp.write(f'\t\t<ele>{wpt[2]}</ele>\n')
+        #+++ Currently try to skip to add elevation value to percentage marker waypoints
+        #fexp.write(f'\t\t<ele>{wpt[2]}</ele>\n')
+        #***
         fexp.write(f'\t\t<name>{wpt[3]}</name>\n\t</wpt>\n')
+
+    # Expand the min-max coordinates to the multiplicant of 0.1
+    x0 :int = math.floor(10.0*t.LonInf)
+    x1 :int = math.ceil(10.0*t.LonSup)+1
+    y0 :int = math.floor(10.0*t.LatInf)
+    y1 :int = math.ceil(10.0*t.LatSup)+1
+    # Generate all 0.1 degree coordinate intersections as waypoints
+    for yy in range(y0,y1) :
+        for xx in range(x0,x1) :
+            fexp.write(f'\t<wpt lat="{round(yy*0.10,2)}" lon="{round(xx*0.10,2)}">\n')
+            fexp.write(f'\t\t<name>{round(yy*0.1,1)}N  {round(xx*0.1,1)}E</name>\n\t</wpt>\n')
+
     fexp.write('</gpx>\n')
     fexp.close()

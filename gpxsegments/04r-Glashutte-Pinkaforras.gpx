@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>04r-Glashutte-Pinkaforras</name>
+		<desc>04r-Glashutte-Pinkaforras</desc>
+	</metadata>
+	<trk>
+		<name>04r-Glashutte-Pinkaforras</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.491841" lon="15.995997">
+				<ele>1074.796</ele>
+			</trkpt>
+			<trkpt lat="47.491863" lon="15.996383">
+				<ele>1074.878</ele>
+			</trkpt>
+			<trkpt lat="47.491471" lon="15.996963">
+				<ele>1063.327</ele>
+			</trkpt>
+			<trkpt lat="47.491283" lon="15.997349">
+				<ele>1061.210</ele>
+			</trkpt>
+			<trkpt lat="47.491290" lon="15.997617">
+				<ele>1061.320</ele>
+			</trkpt>
+			<trkpt lat="47.491384" lon="15.997875">
+				<ele>1060.948</ele>
+			</trkpt>
+			<trkpt lat="47.491573" lon="15.998014">
+				<ele>1063.289</ele>
+			</trkpt>
+			<trkpt lat="47.491892" lon="15.998122">
+				<ele>1066.955</ele>
+			</trkpt>
+			<trkpt lat="47.492428" lon="15.998679">
+				<ele>1061.860</ele>
+			</trkpt>
+			<trkpt lat="47.492907" lon="15.998626">
+				<ele>1067.727</ele>
+			</trkpt>
+			<trkpt lat="47.493269" lon="15.998604">
+				<ele>1072.150</ele>
+			</trkpt>
+			<trkpt lat="47.493574" lon="15.998733">
+				<ele>1070.024</ele>
+			</trkpt>
+			<trkpt lat="47.494219" lon="15.998937">
+				<ele>1066.612</ele>
+			</trkpt>
+			<trkpt lat="47.494487" lon="15.999130">
+				<ele>1064.411</ele>
+			</trkpt>
+			<trkpt lat="47.494792" lon="15.999452">
+				<ele>1060.845</ele>
+			</trkpt>
+			<trkpt lat="47.495052" lon="15.999602">
+				<ele>1060.165</ele>
+			</trkpt>
+			<trkpt lat="47.495632" lon="15.999913">
+				<ele>1060.305</ele>
+			</trkpt>
+			<trkpt lat="47.495922" lon="15.999967">
+				<ele>1061.641</ele>
+			</trkpt>
+			<trkpt lat="47.496270" lon="15.999881">
+				<ele>1063.359</ele>
+			</trkpt>
+			<trkpt lat="47.496770" lon="15.999591">
+				<ele>1069.329</ele>
+			</trkpt>
+			<trkpt lat="47.497082" lon="15.999634">
+				<ele>1068.278</ele>
+			</trkpt>
+			<trkpt lat="47.497314" lon="15.999548">
+				<ele>1070.407</ele>
+			</trkpt>
+			<trkpt lat="47.497611" lon="15.999366">
+				<ele>1073.793</ele>
+			</trkpt>
+			<trkpt lat="47.497995" lon="15.998862">
+				<ele>1079.114</ele>
+			</trkpt>
+			<trkpt lat="47.498307" lon="15.998636">
+				<ele>1079.760</ele>
+			</trkpt>
+			<trkpt lat="47.500431" lon="15.997338">
+				<ele>1068.886</ele>
+			</trkpt>
+			<trkpt lat="47.501040" lon="15.997134">
+				<ele>1062.810</ele>
+			</trkpt>
+			<trkpt lat="47.501424" lon="15.996931">
+				<ele>1059.530</ele>
+			</trkpt>
+			<trkpt lat="47.502018" lon="15.996534">
+				<ele>1054.303</ele>
+			</trkpt>
+			<trkpt lat="47.503019" lon="15.995697">
+				<ele>1046.431</ele>
+			</trkpt>
+			<trkpt lat="47.503812" lon="15.994801">
+				<ele>1051.950</ele>
+			</trkpt>
+			<trkpt lat="47.504095" lon="15.994270">
+				<ele>1051.864</ele>
+			</trkpt>
+			<trkpt lat="47.504193" lon="15.994152">
+				<ele>1052.041</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
