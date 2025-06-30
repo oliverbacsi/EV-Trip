@@ -64,6 +64,11 @@ class TRIP :
         # Or at each new day, as a new day can be a recharge
         # If no recharge at the day change, then no difference anyway
         self.WptedPercentages :set = set(())
+        # This is to add a "charge segment" letter prefix before the percentage
+        # to avoid appearing "35%" two times and not knowing which one is which,
+        # this makes it to "A35%" and "B35%" so it is clear which charging
+        # Any charging activity or a new day that is not "prev" will increase this.
+        self.ChargeSegment :int =64 ; # 65 is letter 'A', but the very first day init will incr it by 1
 
         # [TEST MODE !!!] Feature : Mark all coordinates that are multiplicant of 0.1 degree
         self.LatSup :float = -1000.0
@@ -245,7 +250,7 @@ class ETAP :
         """Pretty print one row of data based on incoming information,
         as well as if VerboseMode and whether we are the last point
         """
-        global SimpleMode, LastSeenElev, VerboseMode
+        global SimpleMode, LastSeenElev, VerboseMode, LastSeenLati, LastSeenLong
 
         JournDist :float = t.JOURNEYDISTANCE + self.Len
         JournEngy :float = t.JOURNEYENERGY + self.UsedEnergy
@@ -258,12 +263,19 @@ class ETAP :
         EndPercent :float = 100.00 * EndEnergy / c.BattCapacity
         EndRange   :float = 100.00 * EndEnergy / c.AvgConsumption
 
+        # Theoretically these two variables are only used during GPX import,
+        # so touching them won't fuck up anything.
+        # So during prettyprint we can use them to memorize last coord
+        # to use them to generate a new wpt upon charging...
+        LastSeenLati = self.WptCoords[0]
+        LastSeenLong = self.WptCoords[1]
+
         # If it's a new 5%-rounded percentage, store the coords of a waypoint
         By5Perc :int = 5 * math.ceil(EndPercent/5.0)
         if By5Perc not in t.WptedPercentages :
             t.WptedPercentages.add(By5Perc)
             wpt :list = self.WptCoords
-            wpt.append(str(By5Perc)+"%")
+            wpt.append(chr(t.ChargeSegment)+str(By5Perc)+"%")
             t.WayPointList.append(wpt)
 
         Inclination :float = 0.0
@@ -414,7 +426,7 @@ class CHARGE :
 
     def prettyPrint(self) -> None :
         """Pretty print one row of data based on incoming information"""
-        global SimpleMode, LastSeenElev
+        global SimpleMode, LastSeenElev, LastSeenLati, LastSeenLong
 
         EndEnergy :float = t.REMAININGCHARGE
         EndRange  :float = 100.00 * EndEnergy / c.AvgConsumption
@@ -462,6 +474,20 @@ class CHARGE :
         t.REMAININGCHARGE = EndEnergy
         t.syncShownValues()
         t.addChrgTime(self.AddTotChrgTime)
+        t.ChargeSegment += 1
+        if t.ChargeSegment > 90 : t.ChargeSegment = 65
+        By5Perc :int = math.ceil(EndPercent)
+        t.WptedPercentages.add(By5Perc)
+        # Right after charging we show the exact percentage, rather than the
+        # rounded up one to 5%, but as at the next waypoint the rounded up will be
+        # calculated, so let's disable the display of that point by adding the
+        # rounded percentage also to the 'shown' list.
+        # It would look stupid that at the charger there is a '83%' waypoint
+        # and at the next coordinate 10m further there is a '85%' waypoint
+        t.WptedPercentages.add(5 * math.ceil(EndPercent/5.0))
+        wpt :list = getRecentCoords()
+        wpt.append(chr(t.ChargeSegment)+str(By5Perc)+"%")
+        t.WayPointList.append(wpt)
 
 
 
@@ -745,6 +771,12 @@ def INC2ANS(_prc :float =0.0) -> str:
     if _prc < -0.01 : return '\x1b[0;38;5;151m'
 
     return "\x1b[0;38;5;250m"
+
+
+def getRecentCoords() -> list :
+    global LastSeenLati, LastSeenLong, LastSeenElev
+    ret :list = [LastSeenLati, LastSeenLong, LastSeenElev]
+    return ret
 
 
 #################### MAIN PART ####################
@@ -1033,6 +1065,8 @@ for ID in t.Days :
     if t.InitCharge[ID].isdecimal() :
         t.REMAININGCHARGE = 0.01 * int(t.InitCharge[ID]) * c.BattCapacity
         PRINTPERC = float(t.InitCharge[ID])
+        t.ChargeSegment += 1
+        if t.ChargeSegment > 90 : t.ChargeSegment = 65
     else :
         PRINTPERC = 100.0 * t.REMAININGCHARGE / c.BattCapacity
     PRINTDIST = 100.0 * t.REMAININGCHARGE / c.AvgConsumption
