@@ -12,54 +12,7 @@
 		<name>04r-Glashutte-Pinkaforras</name>
 		<number>1</number>
 		<trkseg>
-			<trkpt lat="47.491841" lon="15.995997">
-				<ele>1074.796</ele>
-			</trkpt>
-			<trkpt lat="47.491863" lon="15.996383">
-				<ele>1074.878</ele>
-			</trkpt>
-			<trkpt lat="47.491471" lon="15.996963">
-				<ele>1063.327</ele>
-			</trkpt>
-			<trkpt lat="47.491283" lon="15.997349">
-				<ele>1061.210</ele>
-			</trkpt>
-			<trkpt lat="47.491290" lon="15.997617">
-				<ele>1061.320</ele>
-			</trkpt>
-			<trkpt lat="47.491384" lon="15.997875">
-				<ele>1060.948</ele>
-			</trkpt>
-			<trkpt lat="47.491573" lon="15.998014">
-				<ele>1063.289</ele>
-			</trkpt>
-			<trkpt lat="47.491892" lon="15.998122">
-				<ele>1066.955</ele>
-			</trkpt>
-			<trkpt lat="47.492428" lon="15.998679">
-				<ele>1061.860</ele>
-			</trkpt>
-			<trkpt lat="47.492907" lon="15.998626">
-				<ele>1067.727</ele>
-			</trkpt>
-			<trkpt lat="47.493269" lon="15.998604">
-				<ele>1072.150</ele>
-			</trkpt>
-			<trkpt lat="47.493574" lon="15.998733">
-				<ele>1070.024</ele>
-			</trkpt>
-			<trkpt lat="47.494219" lon="15.998937">
-				<ele>1066.612</ele>
-			</trkpt>
-			<trkpt lat="47.494487" lon="15.999130">
-				<ele>1064.411</ele>
-			</trkpt>
-			<trkpt lat="47.494792" lon="15.999452">
-				<ele>1060.845</ele>
-			</trkpt>
-			<trkpt lat="47.495052" lon="15.999602">
-				<ele>1060.165</ele>
-			</trkpt>
+			<name>54-98-0541-Pinka_masodszor</name>
 			<trkpt lat="47.495632" lon="15.999913">
 				<ele>1060.305</ele>
 			</trkpt>

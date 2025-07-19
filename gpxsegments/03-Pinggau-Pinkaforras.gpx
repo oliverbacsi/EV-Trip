@@ -12,6 +12,7 @@
 		<name>03-Pinggau-Pinkaforras</name>
 		<number>1</number>
 		<trkseg>
+			<name>66-87-0459-Baumgartenig</name>
 			<trkpt lat="47.444938" lon="16.064077">
 				<ele>521.942</ele>
 			</trkpt>
@@ -381,6 +382,9 @@
 			<trkpt lat="47.476419" lon="16.034245">
 				<ele>835.142</ele>
 			</trkpt>
+		</trkseg>
+		<trkseg>
+			<name>61-92-0511-Schaueregg</name>
 			<trkpt lat="47.476746" lon="16.034760">
 				<ele>832.943</ele>
 			</trkpt>
@@ -588,6 +592,9 @@
 			<trkpt lat="47.494512" lon="16.036665">
 				<ele>878.261</ele>
 			</trkpt>
+		</trkseg>
+		<trkseg>
+			<name>55-96-0530-Forras_eloszor</name>
 			<trkpt lat="47.494904" lon="16.036075">
 				<ele>885.254</ele>
 			</trkpt>

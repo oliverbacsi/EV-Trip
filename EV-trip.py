@@ -246,11 +246,11 @@ class ETAP :
         # This is to be added when displaying
         self.AddTotTripTime = self.Time
 
-    def prettyPrint(self) -> None :
+    def prettyPrint(self, fh) -> None :
         """Pretty print one row of data based on incoming information,
         as well as if VerboseMode and whether we are the last point
         """
-        global SimpleMode, LastSeenElev, VerboseMode, LastSeenLati, LastSeenLong
+        global SimpleMode, LastSeenElev, VerboseMode, LastSeenLati, LastSeenLong, ImportMode
 
         JournDist :float = t.JOURNEYDISTANCE + self.Len
         JournEngy :float = t.JOURNEYENERGY + self.UsedEnergy
@@ -267,8 +267,9 @@ class ETAP :
         # so touching them won't fuck up anything.
         # So during prettyprint we can use them to memorize last coord
         # to use them to generate a new wpt upon charging...
-        LastSeenLati = self.WptCoords[0]
-        LastSeenLong = self.WptCoords[1]
+        if ImportMode == "gpx" :
+            LastSeenLati = self.WptCoords[0]
+            LastSeenLong = self.WptCoords[1]
 
         # If it's a new 5%-rounded percentage, store the coords of a waypoint
         By5Perc :int = 5 * math.ceil(EndPercent/5.0)
@@ -350,6 +351,7 @@ class ETAP :
                 print(str(round(JournDist,1)).rjust(6),end=" | ")
                 print(str(round(JournEngy,1)).rjust(5),end=" | ")
                 print(str(round(JournTime,1)).rjust(4)+" |")
+            fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lemonchiffon\">etap</TD><TD bgcolor=\"lemonchiffon\">{_snm}</TD><TD>{self.EndAltitude}</TD><TD>{round(JournDist,1)}</TD><TD>{round(JournTime,1)}</TD><TD>{round(EndPercent,1)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
 
         t.JOURNEYDISTANCE = JournDist
         t.JOURNEYENERGY   = JournEngy
@@ -424,7 +426,7 @@ class CHARGE :
         # Now we have the time to be added
         self.AddTotChrgTime = self.Time
 
-    def prettyPrint(self) -> None :
+    def prettyPrint(self, fh) -> None :
         """Pretty print one row of data based on incoming information"""
         global SimpleMode, LastSeenElev, LastSeenLati, LastSeenLong
 
@@ -471,6 +473,9 @@ class CHARGE :
             print(str(round(t.JOURNEYDISTANCE,1)).rjust(6),end=" | ")
             print(str(round(t.JOURNEYENERGY,1)).rjust(5),end=" | ")
             print(str(round(t.JOURNEYTIME,1)).rjust(4)+" |")
+
+        fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lightcyan\">chrg</TD><TD bgcolor=\"lightcyan\">{self.Name}</TD><TD>{LastSeenElev}</TD><TD>{round(t.JOURNEYDISTANCE,1)}</TD><TD>{round(t.JOURNEYTIME,1)}</TD><TD>{round(EndPercent,1)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
+
         t.REMAININGCHARGE = EndEnergy
         t.syncShownValues()
         t.addChrgTime(self.AddTotChrgTime)
@@ -509,7 +514,7 @@ class PASSIVE :
         if m1 :
             self.Time = float(m1[1])
 
-    def prettyPrint(self) -> None :
+    def prettyPrint(self, fh) -> None :
         """Pretty print one row of data based on incoming information"""
         global SimpleMode, LastSeenElev
         t.JOURNEYTIME += self.Time
@@ -541,6 +546,9 @@ class PASSIVE :
             print(str(round(t.JOURNEYDISTANCE,1)).rjust(6),end=" | ")
             print(str(round(t.JOURNEYENERGY,1)).rjust(5),end=" | ")
             print(str(round(t.JOURNEYTIME,1)).rjust(4)+" |")
+
+        fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lightgray\">pass</TD><TD bgcolor=\"lightgray\">{self.Name}</TD><TD>{LastSeenElev}</TD><TD>{round(t.JOURNEYDISTANCE,1)}</TD><TD>{round(t.JOURNEYTIME,1)}</TD><TD>{round(EndPercent,1)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
+
         t.syncShownValues()
 
 
@@ -1048,6 +1056,12 @@ else :
     print("\x1b[0;48;5;240m\x1b[1;37m#" + JOURNEYTITLE.center(Wid-2) + "#\x1b[0m")
     print("\x1b[0;48;5;240m\x1b[1;37m"+"#"*Wid+"\x1b[0m")
 
+# Support for HTML export for printing and parameter finetuning
+HTMLName = os.path.splitext(os.path.split(InFName)[-1])[0]
+fhtm = open("gpxexport/"+HTMLName+".html","w")
+HTMLName = HTMLName.replace("_"," ")
+fhtm.write(f"<HTML>\n\t<HEAD>\n\t\t<TITLE>{HTMLName}</TITLE>\n\t\t<META name=\"Generator\" value=\"EV-Trip\"></META>\n\t</HEAD>\n")
+fhtm.write(f"\t<BODY>\n\t\t<P><H1><CENTER>{HTMLName}</CENTER></H1></P>\n\t\t<P>\n\t\t\t<TABLE border=\"1\" borderwidth=\"1\">\n")
 
 for ID in t.Days :
     t.DAYDISTANCE =0.00
@@ -1057,6 +1071,12 @@ for ID in t.Days :
     print("|" + " "*(Wid-2) + "|")
     print(f'|\x1b[0;36;44m Day \x1b[1m[{ID}] \x1b[1;32;44m {t.DayName[ID]} \x1b[0;36;44m',end="")
     print(" "*(Wid-12-len(ID)-len(t.DayName[ID])) +"\x1b[0m|")
+    fhtm.write(f"\t\t\t\t<TR><TH colspan=\"11\">[{ID}] : {t.DayName[ID]}</TH></TR>\n")
+    fhtm.write("\t\t\t\t<TR>\n\t\t\t\t\t")
+    for n,l in [["3","ETAP"],["3","PLAN"],["5","REAL"]] : fhtm.write(f"<TH colspan=\"{n}\">{l}</TH>")
+    fhtm.write("\n\t\t\t\t</TR>\n\t\t\t\t<TR>\n\t\t\t\t\t")
+    for l in ["type","NAME","alti","km","time","batt %","ODOMETER","DISTANCE","REALTIME","TIMEDIFF","BATT %"] : fhtm.write(f"<TH>{l}</TH>")
+    fhtm.write("\n\t\t\t\t</TR>\n")
     if SimpleMode :
         print("\x1b[1m|T|Trip Item                | alti | incl |   km   |   h  |   %   |\x1b[0m")
     else :
@@ -1087,11 +1107,12 @@ for ID in t.Days :
         print(str(round(t.JOURNEYDISTANCE,1)).rjust(6), end=" | ")
         print(str(round(t.JOURNEYENERGY,1)).rjust(5), end=" | ")
         print(str(round(t.JOURNEYTIME,1)).rjust(4), end=" |\x1b[0m\n")
+    fhtm.write(f"\t\t\t\t<TR><TD bgcolor=\"beige\">strt</TD><TD bgcolor=\"beige\">--- START ---</TD><TD>{t.Alti[ID]}</TD><TD>{round(t.JOURNEYDISTANCE,1)}</TD><TD>{round(t.JOURNEYTIME,1)}</TD><TD>{str(round(PRINTPERC,1))}</TD>"+"<TD>&nbsp</TD>"*5+"</TR>\n")
     LastSeenElev = int(float(t.Alti[ID]))
 
     t.syncShownValues()
 
-    for xx in t.Events[ID] : xx.prettyPrint()
+    for xx in t.Events[ID] : xx.prettyPrint(fhtm)
     prettyPrintSeparator()
 
 print(f"\n * TOTAL TRAVELLING TIME   : {str(round(t.TotTripTime,2)).rjust(5)} hrs  ({round(100.0*t.TotTripTime/t.JOURNEYTIME,1)}%)")
@@ -1102,6 +1123,10 @@ print(f" * AVERAGE SPEED (overall) : {str(round(t.JOURNEYDISTANCE/t.JOURNEYTIME,
 AvgCons :float = 100.0*t.JOURNEYENERGY/t.JOURNEYDISTANCE
 print(f" * AVERAGE CONSUMPTION     : {str(round(AvgCons,2)).rjust(5)} kWh/100km")
 print(f" * NOMINAL RANGE /JOURNEY/ : {str(round(100.0*c.BattCapacity/AvgCons,1)).rjust(5)} km\n")
+
+# End HTML export
+fhtm.write("\t\t\t</TABLE>\n\t\t</P>\n\t</BODY>\n</HTML>\n")
+fhtm.close()
 
 if ImportMode == "gpx" :
     fexp.write('\t\t</trkseg>\n\t</trk>\n')

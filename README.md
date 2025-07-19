@@ -78,6 +78,8 @@ It supports two different input file types:
 	* All GPX segments referred in the config files must exist as '.gpx' files. Everything is calculated automatically using the vehicle parameters and the GPX data.
 	* If there are track segments within the GPX file, they are treated as separate etaps by the program, automatically labeled as '-1', '-2', ...
 	* In case of verbose mode each point of the GPX file will be a separate etap...
+	* If the GPX file is segmented, there can be a _name_ tag specified for each piece, that will also appear in the output to make it more clear
+
 
 
 **Command line arguments:**
