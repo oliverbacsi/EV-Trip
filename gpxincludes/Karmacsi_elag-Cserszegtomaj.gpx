@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Karmacsi_elag-Cserszegtomaj</name>
+		<desc>Karmacsi_elag-Cserszegtomaj</desc>
+	</metadata>
+	<trk>
+		<name>Karmacsi_elag-Cserszegtomaj</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.831205" lon="17.194526">
+				<ele>122.624</ele>
+			</trkpt>
+			<trkpt lat="46.830119" lon="17.195910">
+				<ele>123.248</ele>
+			</trkpt>
+			<trkpt lat="46.828820" lon="17.197595">
+				<ele>121.858</ele>
+			</trkpt>
+			<trkpt lat="46.827895" lon="17.198507">
+				<ele>122.936</ele>
+			</trkpt>
+			<trkpt lat="46.825707" lon="17.200341">
+				<ele>125.030</ele>
+			</trkpt>
+			<trkpt lat="46.825340" lon="17.200588">
+				<ele>125.215</ele>
+			</trkpt>
+			<trkpt lat="46.824151" lon="17.201253">
+				<ele>124.506</ele>
+			</trkpt>
+			<trkpt lat="46.823703" lon="17.201414">
+				<ele>125.109</ele>
+			</trkpt>
+			<trkpt lat="46.820091" lon="17.202315">
+				<ele>122.974</ele>
+			</trkpt>
+			<trkpt lat="46.819247" lon="17.202337">
+				<ele>121.371</ele>
+			</trkpt>
+			<trkpt lat="46.818674" lon="17.202262">
+				<ele>120.265</ele>
+			</trkpt>
+			<trkpt lat="46.817588" lon="17.202047">
+				<ele>117.523</ele>
+			</trkpt>
+			<trkpt lat="46.817199" lon="17.202058">
+				<ele>117.430</ele>
+			</trkpt>
+			<trkpt lat="46.816501" lon="17.202219">
+				<ele>117.464</ele>
+			</trkpt>
+			<trkpt lat="46.816193" lon="17.202197">
+				<ele>117.068</ele>
+			</trkpt>
+			<trkpt lat="46.815157" lon="17.201929">
+				<ele>115.759</ele>
+			</trkpt>
+			<trkpt lat="46.814834" lon="17.201886">
+				<ele>115.422</ele>
+			</trkpt>
+			<trkpt lat="46.814475" lon="17.202058">
+				<ele>115.347</ele>
+			</trkpt>
+			<trkpt lat="46.813946" lon="17.202380">
+				<ele>115.265</ele>
+			</trkpt>
+			<trkpt lat="46.812323" lon="17.202895">
+				<ele>117.533</ele>
+			</trkpt>
+			<trkpt lat="46.811839" lon="17.203002">
+				<ele>118.123</ele>
+			</trkpt>
+			<trkpt lat="46.811046" lon="17.203356">
+				<ele>119.096</ele>
+			</trkpt>
+			<trkpt lat="46.810319" lon="17.203892">
+				<ele>120.395</ele>
+			</trkpt>
+			<trkpt lat="46.809672" lon="17.204450">
+				<ele>121.762</ele>
+			</trkpt>
+			<trkpt lat="46.808674" lon="17.205276">
+				<ele>123.281</ele>
+			</trkpt>
+			<trkpt lat="46.807917" lon="17.205899">
+				<ele>124.512</ele>
+			</trkpt>
+			<trkpt lat="46.807536" lon="17.206135">
+				<ele>125.602</ele>
+			</trkpt>
+			<trkpt lat="46.807146" lon="17.206253">
+				<ele>126.734</ele>
+			</trkpt>
+			<trkpt lat="46.805729" lon="17.206435">
+				<ele>127.792</ele>
+			</trkpt>
+			<trkpt lat="46.804767" lon="17.206542">
+				<ele>129.481</ele>
+			</trkpt>
+			<trkpt lat="46.803474" lon="17.206693">
+				<ele>129.950</ele>
+			</trkpt>
+			<trkpt lat="46.802321" lon="17.206714">
+				<ele>128.228</ele>
+			</trkpt>
+			<trkpt lat="46.800375" lon="17.206757">
+				<ele>131.622</ele>
+			</trkpt>
+			<trkpt lat="46.798708" lon="17.206800">
+				<ele>136.627</ele>
+			</trkpt>
+			<trkpt lat="46.798238" lon="17.206886">
+				<ele>135.797</ele>
+			</trkpt>
+			<trkpt lat="46.797526" lon="17.207283">
+				<ele>133.386</ele>
+			</trkpt>
+			<trkpt lat="46.795902" lon="17.208313">
+				<ele>127.222</ele>
+			</trkpt>
+			<trkpt lat="46.794331" lon="17.209343">
+				<ele>124.998</ele>
+			</trkpt>
+			<trkpt lat="46.791686" lon="17.211113">
+				<ele>121.488</ele>
+			</trkpt>
+			<trkpt lat="46.791414" lon="17.211188">
+				<ele>120.833</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

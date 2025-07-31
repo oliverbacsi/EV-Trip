@@ -1,4 +1,11 @@
-Melyik|Values
-Alap sacmográfia|5.5kWh 66/56/46/35/20km/h 1.0/1.4/1.85/3.0/5.0kW 1.0kW
-Celli tali mért adat|5.5kWh 70/58/45/35/20km/h 1.0/1.28/1.68/2.78/4.18kW 1.1kW
-Pinka-forrás mért adat|5.5kWh 68/55/38/22/12km/h 0.7/1.0/1.45/2.35/3.25kW 1.2kW
+Melyik                 | Values
+-----------------------|----------------------------------------------------------
+Alap sacmográfia       | 5.5kWh 66/56/46/35/20km/h 1.0/1.4/1.85/3.0/5.0kW    1.0kW
+Celli tali mért adat   | 5.5kWh 70/58/45/35/20km/h 1.0/1.28/1.68/2.78/4.18kW 1.1kW
+Pinka-forrás mért adat | 5.5kWh 68/55/38/22/12km/h 0.7/1.0/1.45/2.35/3.25kW  1.2kW
+
+Composite 1            | 5.5kWh 68/55/40/20/10km/h 0.9/1.2/1.55/2.5/3.3kW    1.2kW
+
+Balcsiról haza, mért   |
+
+Composite 2            |

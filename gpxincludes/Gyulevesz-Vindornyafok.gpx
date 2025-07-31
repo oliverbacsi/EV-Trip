@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Gyulevesz-Vindornyafok</name>
+		<desc>Gyulevesz-Vindornyafok</desc>
+	</metadata>
+	<trk>
+		<name>Gyulevesz-Vindornyafok</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.854931" lon="17.116420">
+				<ele>123.326</ele>
+			</trkpt>
+			<trkpt lat="46.854945" lon="17.116780">
+				<ele>124.324</ele>
+			</trkpt>
+			<trkpt lat="46.855092" lon="17.117745">
+				<ele>127.855</ele>
+			</trkpt>
+			<trkpt lat="46.855430" lon="17.120256">
+				<ele>132.278</ele>
+			</trkpt>
+			<trkpt lat="46.855818" lon="17.122981">
+				<ele>141.929</ele>
+			</trkpt>
+			<trkpt lat="46.856339" lon="17.126607">
+				<ele>143.593</ele>
+			</trkpt>
+			<trkpt lat="46.856875" lon="17.130266">
+				<ele>138.612</ele>
+			</trkpt>
+			<trkpt lat="46.857234" lon="17.132755">
+				<ele>136.792</ele>
+			</trkpt>
+			<trkpt lat="46.857440" lon="17.134021">
+				<ele>136.132</ele>
+			</trkpt>
+			<trkpt lat="46.857638" lon="17.134343">
+				<ele>136.035</ele>
+			</trkpt>
+			<trkpt lat="46.859003" lon="17.134997">
+				<ele>137.802</ele>
+			</trkpt>
+			<trkpt lat="46.860125" lon="17.135480">
+				<ele>139.812</ele>
+			</trkpt>
+			<trkpt lat="46.861181" lon="17.135974">
+				<ele>143.178</ele>
+			</trkpt>
+			<trkpt lat="46.861548" lon="17.136199">
+				<ele>145.071</ele>
+			</trkpt>
+			<trkpt lat="46.862018" lon="17.136692">
+				<ele>147.939</ele>
+			</trkpt>
+			<trkpt lat="46.862399" lon="17.137197">
+				<ele>150.256</ele>
+			</trkpt>
+			<trkpt lat="46.862707" lon="17.137669">
+				<ele>152.180</ele>
+			</trkpt>
+			<trkpt lat="46.863558" lon="17.139332">
+				<ele>155.086</ele>
+			</trkpt>
+			<trkpt lat="46.863734" lon="17.139793">
+				<ele>156.627</ele>
+			</trkpt>
+			<trkpt lat="46.863991" lon="17.140201">
+				<ele>155.447</ele>
+			</trkpt>
+			<trkpt lat="46.864431" lon="17.140759">
+				<ele>153.459</ele>
+			</trkpt>
+			<trkpt lat="46.864813" lon="17.141327">
+				<ele>155.902</ele>
+			</trkpt>
+			<trkpt lat="46.865458" lon="17.142164">
+				<ele>155.309</ele>
+			</trkpt>
+			<trkpt lat="46.865744" lon="17.142668">
+				<ele>152.252</ele>
+			</trkpt>
+			<trkpt lat="46.865847" lon="17.142969">
+				<ele>151.655</ele>
+			</trkpt>
+			<trkpt lat="46.865862" lon="17.143258">
+				<ele>152.663</ele>
+			</trkpt>
+			<trkpt lat="46.865788" lon="17.143548">
+				<ele>155.167</ele>
+			</trkpt>
+			<trkpt lat="46.865634" lon="17.143988">
+				<ele>159.694</ele>
+			</trkpt>
+			<trkpt lat="46.865605" lon="17.144246">
+				<ele>161.246</ele>
+			</trkpt>
+			<trkpt lat="46.865598" lon="17.144546">
+				<ele>162.544</ele>
+			</trkpt>
+			<trkpt lat="46.865671" lon="17.144868">
+				<ele>163.402</ele>
+			</trkpt>
+			<trkpt lat="46.865796" lon="17.145372">
+				<ele>165.073</ele>
+			</trkpt>
+			<trkpt lat="46.865803" lon="17.145705">
+				<ele>166.657</ele>
+			</trkpt>
+			<trkpt lat="46.865583" lon="17.146992">
+				<ele>173.495</ele>
+			</trkpt>
+			<trkpt lat="46.865605" lon="17.147282">
+				<ele>173.738</ele>
+			</trkpt>
+			<trkpt lat="46.865730" lon="17.147625">
+				<ele>174.614</ele>
+			</trkpt>
+			<trkpt lat="46.865928" lon="17.147915">
+				<ele>175.001</ele>
+			</trkpt>
+			<trkpt lat="46.867189" lon="17.149728">
+				<ele>180.906</ele>
+			</trkpt>
+			<trkpt lat="46.867329" lon="17.150114">
+				<ele>182.270</ele>
+			</trkpt>
+			<trkpt lat="46.867336" lon="17.150479">
+				<ele>183.030</ele>
+			</trkpt>
+			<trkpt lat="46.867241" lon="17.150962">
+				<ele>182.880</ele>
+			</trkpt>
+			<trkpt lat="46.866294" lon="17.153569">
+				<ele>164.578</ele>
+			</trkpt>
+			<trkpt lat="46.865517" lon="17.155811">
+				<ele>148.573</ele>
+			</trkpt>
+			<trkpt lat="46.865209" lon="17.156680">
+				<ele>143.967</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

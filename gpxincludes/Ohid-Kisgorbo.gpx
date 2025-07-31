@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Ohid-Kisgorbo</name>
+		<desc>Ohid-Kisgorbo</desc>
+	</metadata>
+	<trk>
+		<name>Ohid-Kisgorbo</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.960255" lon="17.163815">
+				<ele>143.436</ele>
+			</trkpt>
+			<trkpt lat="46.960050" lon="17.163987">
+				<ele>143.915</ele>
+			</trkpt>
+			<trkpt lat="46.959815" lon="17.164062">
+				<ele>144.000</ele>
+			</trkpt>
+			<trkpt lat="46.959413" lon="17.163944">
+				<ele>144.000</ele>
+			</trkpt>
+			<trkpt lat="46.956264" lon="17.163042">
+				<ele>145.349</ele>
+			</trkpt>
+			<trkpt lat="46.953422" lon="17.162248">
+				<ele>144.302</ele>
+			</trkpt>
+			<trkpt lat="46.950903" lon="17.161562">
+				<ele>146.168</ele>
+			</trkpt>
+			<trkpt lat="46.947944" lon="17.160779">
+				<ele>147.162</ele>
+			</trkpt>
+			<trkpt lat="46.944765" lon="17.159920">
+				<ele>155.350</ele>
+			</trkpt>
+			<trkpt lat="46.941718" lon="17.159073">
+				<ele>155.938</ele>
+			</trkpt>
+			<trkpt lat="46.940949" lon="17.158890">
+				<ele>155.424</ele>
+			</trkpt>
+			<trkpt lat="46.940305" lon="17.158719">
+				<ele>155.831</ele>
+			</trkpt>
+			<trkpt lat="46.939653" lon="17.158536">
+				<ele>156.000</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

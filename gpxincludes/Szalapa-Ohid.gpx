@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Szalapa-Ohid</name>
+		<desc>Szalapa-Ohid</desc>
+	</metadata>
+	<trk>
+		<name>Szalapa-Ohid</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.986810" lon="17.137561">
+				<ele>158.000</ele>
+			</trkpt>
+			<trkpt lat="46.986682" lon="17.137626">
+				<ele>157.711</ele>
+			</trkpt>
+			<trkpt lat="46.986434" lon="17.137615">
+				<ele>157.521</ele>
+			</trkpt>
+			<trkpt lat="46.986119" lon="17.137293">
+				<ele>157.676</ele>
+			</trkpt>
+			<trkpt lat="46.985826" lon="17.137154">
+				<ele>157.424</ele>
+			</trkpt>
+			<trkpt lat="46.982503" lon="17.137154">
+				<ele>159.832</ele>
+			</trkpt>
+			<trkpt lat="46.982262" lon="17.137197">
+				<ele>159.832</ele>
+			</trkpt>
+			<trkpt lat="46.981932" lon="17.137358">
+				<ele>159.458</ele>
+			</trkpt>
+			<trkpt lat="46.980219" lon="17.138774">
+				<ele>158.319</ele>
+			</trkpt>
+			<trkpt lat="46.977394" lon="17.141424">
+				<ele>157.291</ele>
+			</trkpt>
+			<trkpt lat="46.974751" lon="17.144031">
+				<ele>154.212</ele>
+			</trkpt>
+			<trkpt lat="46.972035" lon="17.146745">
+				<ele>152.306</ele>
+			</trkpt>
+			<trkpt lat="46.969927" lon="17.148870">
+				<ele>151.000</ele>
+			</trkpt>
+			<trkpt lat="46.968148" lon="17.150715">
+				<ele>149.142</ele>
+			</trkpt>
+			<trkpt lat="46.966596" lon="17.153011">
+				<ele>150.000</ele>
+			</trkpt>
+			<trkpt lat="46.964824" lon="17.155908">
+				<ele>152.230</ele>
+			</trkpt>
+			<trkpt lat="46.963250" lon="17.158408">
+				<ele>146.922</ele>
+			</trkpt>
+			<trkpt lat="46.961097" lon="17.161755">
+				<ele>142.032</ele>
+			</trkpt>
+			<trkpt lat="46.960533" lon="17.162914">
+				<ele>141.256</ele>
+			</trkpt>
+			<trkpt lat="46.960416" lon="17.163418">
+				<ele>142.604</ele>
+			</trkpt>
+			<trkpt lat="46.960255" lon="17.163815">
+				<ele>143.436</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

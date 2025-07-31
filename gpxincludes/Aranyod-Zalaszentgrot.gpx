@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Aranyod-Zalaszentgrot</name>
+		<desc>Aranyod-Zalaszentgrot</desc>
+	</metadata>
+	<trk>
+		<name>Aranyod-Zalaszentgrot</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.942008" lon="17.068248">
+				<ele>121.530</ele>
+			</trkpt>
+			<trkpt lat="46.942022" lon="17.068698">
+				<ele>121.176</ele>
+			</trkpt>
+			<trkpt lat="46.942139" lon="17.069696">
+				<ele>119.503</ele>
+			</trkpt>
+			<trkpt lat="46.942418" lon="17.071306">
+				<ele>118.313</ele>
+			</trkpt>
+			<trkpt lat="46.942784" lon="17.073430">
+				<ele>120.741</ele>
+			</trkpt>
+			<trkpt lat="46.942989" lon="17.074739">
+				<ele>121.642</ele>
+			</trkpt>
+			<trkpt lat="46.943150" lon="17.075844">
+				<ele>121.997</ele>
+			</trkpt>
+			<trkpt lat="46.943224" lon="17.076445">
+				<ele>121.903</ele>
+			</trkpt>
+			<trkpt lat="46.943260" lon="17.076842">
+				<ele>121.739</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
