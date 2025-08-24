@@ -9,9 +9,12 @@ import sys, re, os, math
 SimpleMode  :bool =False ; # Whether the output should be a simplified table
 ImportMode  :str ="trip" ; # The other possibility is "gpx"
 VerboseMode :bool =False ; # Whether each GPX point should be displayed
+NoSeparator :bool =False ; # Don't put an additional separator line before each charging session
+Full01Grid  :bool =False ; # Display all 0.1 degree points in the whole enclosing rectangle (instead of the ones near the track)
 LastSeenElev :float =0.0 ; # Last seen valid elevation, in case it is not specified for a point
 LastSeenLati :float =-1000.0 ; # Last seen Latitude, useful for GPX mode so that the first GPX point of the file is already calculated
 LastSeenLong :float =-1000.0 ; # Last seen Longitude, useful for GPX mode so that the first GPX point of the file is already calculated
+VehicleDB   :dict =dict(())  ; # Vehicle DataBase that is getting read upon startup, to avoid the need to specify the values all the time
 
 
 #################### CLASS PART ####################
@@ -70,11 +73,15 @@ class TRIP :
         # Any charging activity or a new day that is not "prev" will increase this.
         self.ChargeSegment :int =64 ; # 65 is letter 'A', but the very first day init will incr it by 1
 
-        # [TEST MODE !!!] Feature : Mark all coordinates that are multiplicant of 0.1 degree
+        # Boundary coordinates collection, in case we would like to display
+        # a complete grid of 0.1 degrees coordinates within the enclosing rectangle
         self.LatSup :float = -1000.0
         self.LatInf :float = 1000.0
         self.LonSup :float = -1000.0
         self.LonInf :float = 1000.0
+        # Proximity 0.1 degrees coordinates collection
+        # if only those are needed that are near the track
+        self.ProxMarkPoints :list = list(())
 
     def addTripTime(self, ti :float) :
         self.TotTripTime = self.TotTripTime + ti
@@ -351,7 +358,7 @@ class ETAP :
                 print(str(round(JournDist,1)).rjust(6),end=" | ")
                 print(str(round(JournEngy,1)).rjust(5),end=" | ")
                 print(str(round(JournTime,1)).rjust(4)+" |")
-            fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lemonchiffon\">etap</TD><TD bgcolor=\"lemonchiffon\">{_snm}</TD><TD>{self.EndAltitude}</TD><TD>{round(JournDist,1)}</TD><TD>{round(JournTime,1)}</TD><TD>{round(EndPercent,1)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
+            fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lemonchiffon\">etap</TD><TD bgcolor=\"lemonchiffon\">{_snm}</TD><TD>{self.EndAltitude}</TD><TD>{round(JournDist,2)}</TD><TD>{round(JournTime,2)}</TD><TD>{round(EndPercent,2)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
 
         t.JOURNEYDISTANCE = JournDist
         t.JOURNEYENERGY   = JournEngy
@@ -428,7 +435,7 @@ class CHARGE :
 
     def prettyPrint(self, fh) -> None :
         """Pretty print one row of data based on incoming information"""
-        global SimpleMode, LastSeenElev, LastSeenLati, LastSeenLong
+        global SimpleMode, LastSeenElev, LastSeenLati, LastSeenLong, NoSeparator
 
         EndEnergy :float = t.REMAININGCHARGE
         EndRange  :float = 100.00 * EndEnergy / c.AvgConsumption
@@ -449,7 +456,7 @@ class CHARGE :
         t.JOURNEYTIME += self.Time
         t.DAYTIME     += self.Time
         t.WptedPercentages = set(())
-        prettyPrintSeparator()
+        if not NoSeparator : prettyPrintSeparator()
         print("\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44mC\x1b[0m|\x1b[1;48;5;23m\x1b[1;38;5;44m"+self.Name[0:25].ljust(25),end="\x1b[0m|")
         print(HEI2ANS(LastSeenElev)+" "+str(LastSeenElev).rjust(4),end=" \x1b[0m|")
         print(" "*6,end="|")
@@ -474,7 +481,7 @@ class CHARGE :
             print(str(round(t.JOURNEYENERGY,1)).rjust(5),end=" | ")
             print(str(round(t.JOURNEYTIME,1)).rjust(4)+" |")
 
-        fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lightcyan\">chrg</TD><TD bgcolor=\"lightcyan\">{self.Name}</TD><TD>{LastSeenElev}</TD><TD>{round(t.JOURNEYDISTANCE,1)}</TD><TD>{round(t.JOURNEYTIME,1)}</TD><TD>{round(EndPercent,1)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
+        fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lightcyan\">chrg</TD><TD bgcolor=\"lightcyan\">{self.Name}</TD><TD>{LastSeenElev}</TD><TD>{round(t.JOURNEYDISTANCE,2)}</TD><TD>{round(t.JOURNEYTIME,2)}</TD><TD>{round(EndPercent,2)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
 
         t.REMAININGCHARGE = EndEnergy
         t.syncShownValues()
@@ -547,7 +554,7 @@ class PASSIVE :
             print(str(round(t.JOURNEYENERGY,1)).rjust(5),end=" | ")
             print(str(round(t.JOURNEYTIME,1)).rjust(4)+" |")
 
-        fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lightgray\">pass</TD><TD bgcolor=\"lightgray\">{self.Name}</TD><TD>{LastSeenElev}</TD><TD>{round(t.JOURNEYDISTANCE,1)}</TD><TD>{round(t.JOURNEYTIME,1)}</TD><TD>{round(EndPercent,1)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
+        fh.write(f"\t\t\t\t<TR><TD bgcolor=\"lightgray\">pass</TD><TD bgcolor=\"lightgray\">{self.Name}</TD><TD>{LastSeenElev}</TD><TD>{round(t.JOURNEYDISTANCE,2)}</TD><TD>{round(t.JOURNEYTIME,2)}</TD><TD>{round(EndPercent,2)}</TD>"+"<TD>&nbsp;</TD>"*5+"</TR>\n")
 
         t.syncShownValues()
 
@@ -656,6 +663,15 @@ def loadGPXFile(_fld :str, _fnm :str, _rev :bool, _efh) -> list :
             t.LatInf = min(t.LatInf,_currLat)
             t.LonSup = max(t.LonSup,_currLon)
             t.LonInf = min(t.LonInf,_currLon)
+            # Collecting the enclosing 0.1deg coordinates
+            _west  = round(math.floor(10.00*_currLon)*0.10,1)
+            _east  = round(math.ceil( 10.00*_currLon)*0.10,1)
+            _north = round(math.ceil( 10.00*_currLat)*0.10,1)
+            _south = round(math.floor(10.00*_currLat)*0.10,1)
+            if list((_north,_west)) not in t.ProxMarkPoints : t.ProxMarkPoints.append(list((_north,_west)))
+            if list((_north,_east)) not in t.ProxMarkPoints : t.ProxMarkPoints.append(list((_north,_east)))
+            if list((_south,_west)) not in t.ProxMarkPoints : t.ProxMarkPoints.append(list((_south,_west)))
+            if list((_south,_east)) not in t.ProxMarkPoints : t.ProxMarkPoints.append(list((_south,_east)))
 
     fg.close()
     if _rev : _tempList.reverse()
@@ -792,9 +808,11 @@ def getRecentCoords() -> list :
 
 # Interpret command line arguments:
 if len(sys.argv) < 2 :
-    print(f"Usage : {sys.argv[0]} [-v] [-s] <Trip file name>")
+    print(f"Usage : {sys.argv[0]} [-s] [-v] [-n] [-g] <Trip file name>")
     print("  -s : Simple mode : Only a few essential columns are displayed in the output.")
     print("  -v : Verbose mode : In case of GPX mode: each point is displayed, not just track segments.")
+    print("  -n : No extra separators : Do not add an extra separator line before each charging.")
+    print("  -g : Show the full 0.1degree grid of the whole coverage area in the output file.")
     print("  <Trip file name> : Input file name to read, the extension will determine the input mode.")
     exit(-1)
 
@@ -806,7 +824,32 @@ while re.match("^-.*",ParamList[0]) :
     elif ParamList[0].lower() == "-s" :
         SimpleMode = True
         ParamList.pop(0)
+    elif ParamList[0].lower() == "-n" :
+        NoSeparator = True
+        ParamList.pop(0)
+    elif ParamList[0].lower() == "-g" :
+        Full01Grid = True
+        ParamList.pop(0)
 
+# Import the Vehicle DataBase here
+try :
+    fdb = open("Vehicles.cfg","r")
+except :
+    pass ; # Do nothing
+else :
+    Header = 2
+    for dbsor in fdb :
+        if Header :
+            Header -= 1
+            continue
+        mdb = re.match("^(.*)[|](.*)$",dbsor,re.I)
+        if mdb :
+            VName = mdb[1].strip()
+            VParm = mdb[2].strip().split()
+            if len(VName) and len(VParm) : VehicleDB[VName] = VParm
+    fdb.close()
+
+# Now interpret the input file
 InFName :str = ParamList[0]
 if not re.match("(\\./)?trips/.*",InFName) : InFName = os.path.join("trips",InFName)
 
@@ -837,10 +880,32 @@ if ImportMode == "trip" :
             t = TRIP(str(m0[1]).strip())
             continue
 
+        m1b = re.match("^CAR +(.*)$", sor, re.I)
         m1 = re.match("^CAR +(.*) +[|] (.*)$", sor, re.I)
-        if m1 :
-            c = CAR(m1[1].strip())
-            for _par in m1[2].split(" ") : c.interpretParm(_par)
+        if m1b :
+            # The row specifies a car, by any method
+
+            if m1 :
+                # We received modifying parameters as well, not just the name
+                # So check if car name exists and load the default parameters,
+                # otherwise if does not exist, it's still not a problem
+                CarName = m1[1].strip()
+                c = CAR(CarName)
+                if CarName in VehicleDB.keys() :
+                    for _par in VehicleDB[CarName] : c.interpretParm(_par)
+                for _par in m1[2].split(" ") : c.interpretParm(_par)
+            else :
+                # We did not receive parameters just car name.
+                # So it MUST exist in the database
+                CarName = m1b[1].strip()
+                c = CAR(CarName)
+                if CarName in VehicleDB.keys() :
+                    for _par in VehicleDB[CarName] : c.interpretParm(_par)
+                else :
+                    fin.close()
+                    print(f"The specified car '{CarName}' does not exist in the vehicle database")
+                    exit(-3)
+
             continue
 
         m2 = re.match("^DAY +(.+) +([0-9]+)[%] +([0-9]+)m +[|] +(.*)$", sor, re.I)
@@ -931,10 +996,32 @@ else :
         if not len(sor) : continue
         if re.match("^#.*$", sor) : continue
 
+        m1b = re.match("^CAR +(.*)$", sor, re.I)
         m1 = re.match("^CAR +(.*) +[|] (.*)$", sor, re.I)
-        if m1 :
-            c = CAR2(m1[1].strip())
-            for _par in m1[2].split(" ") : c.interpretParm(_par)
+        if m1b :
+            # The row specifies a car, by any method
+
+            if m1 :
+                # We received modifying parameters as well, not just the name
+                # So check if car name exists and load the default parameters,
+                # otherwise if does not exist, it's still not a problem
+                CarName = m1[1].strip()
+                c = CAR2(CarName)
+                if CarName in VehicleDB.keys() :
+                    for _par in VehicleDB[CarName] : c.interpretParm(_par)
+                for _par in m1[2].split(" ") : c.interpretParm(_par)
+            else :
+                # We did not receive parameters just car name.
+                # So it MUST exist in the database
+                CarName = m1b[1].strip()
+                c = CAR2(CarName)
+                if CarName in VehicleDB.keys() :
+                    for _par in VehicleDB[CarName] : c.interpretParm(_par)
+                else :
+                    fin.close()
+                    print(f"The specified car '{CarName}' does not exist in the vehicle database")
+                    exit(-3)
+
             continue
 
         m2 = re.match("^DAY +(.+) +([0-9]+)[%] +[|] +(.*)$", sor, re.I)
@@ -1130,6 +1217,8 @@ fhtm.close()
 
 if ImportMode == "gpx" :
     fexp.write('\t\t</trkseg>\n\t</trk>\n')
+
+    # Add the battery 5% marker points in the output gpx file
     for wpt in t.WayPointList :
         fexp.write(f'\t<wpt lat="{wpt[0]}" lon="{wpt[1]}">\n')
         #+++ Currently try to skip to add elevation value to percentage marker waypoints
@@ -1137,16 +1226,23 @@ if ImportMode == "gpx" :
         #***
         fexp.write(f'\t\t<name>{wpt[3]}</name>\n\t</wpt>\n')
 
-    # Expand the min-max coordinates to the multiplicant of 0.1
-    x0 :int = math.floor(10.0*t.LonInf)
-    x1 :int = math.ceil(10.0*t.LonSup)+1
-    y0 :int = math.floor(10.0*t.LatInf)
-    y1 :int = math.ceil(10.0*t.LatSup)+1
-    # Generate all 0.1 degree coordinate intersections as waypoints
-    for yy in range(y0,y1) :
-        for xx in range(x0,x1) :
-            fexp.write(f'\t<wpt lat="{round(yy*0.10,2)}" lon="{round(xx*0.10,2)}">\n')
-            fexp.write(f'\t\t<name>{round(yy*0.1,1)}N  {round(xx*0.1,1)}E</name>\n\t</wpt>\n')
+    # Now put the 0.1degree marker points in the output gpx file
+    if Full01Grid :
+        # Expand the min-max coordinates to the multiplicant of 0.1
+        x0 :int = math.floor(10.0*t.LonInf)
+        x1 :int = math.ceil(10.0*t.LonSup)+1
+        y0 :int = math.floor(10.0*t.LatInf)
+        y1 :int = math.ceil(10.0*t.LatSup)+1
+        # Generate all 0.1 degree coordinate intersections as waypoints
+        for yy in range(y0,y1) :
+            for xx in range(x0,x1) :
+                fexp.write(f'\t<wpt lat="{round(yy*0.10,2)}" lon="{round(xx*0.10,2)}">\n')
+                fexp.write(f'\t\t<name>{round(yy*0.1,1)}N  {round(xx*0.1,1)}E</name>\n\t</wpt>\n')
+    else :
+        # Just dump the collected 0.1deg points
+        for wpt in t.ProxMarkPoints :
+            fexp.write(f'\t<wpt lat="{wpt[0]}" lon="{wpt[1]}">\n')
+            fexp.write(f'\t\t<name>{wpt[0]}N  {wpt[1]}E</name>\n\t</wpt>\n')
 
     fexp.write('</gpx>\n')
     fexp.close()

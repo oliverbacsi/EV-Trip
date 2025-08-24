@@ -16,6 +16,7 @@ It supports two different input file types:
 	* It is the user's responsibility to take geographical elevations into consideration and specify a higher consumption and lower speed to have accurate calculation results.
 	* In the 'trips' folder there should be regular plain text files with the extension `.trip`
 	* The grammar itself is specified within the text file in the commented lines (Starting with `#`)
+		* **`CAR`** _`name`_            / or /
 		* **`CAR`** _`name`_ **|** _`packCapacity`_ _`defConsumption`_ _`defMotPower/defChrgPower`_ _`defSpeed`_
 			* Defines the properties of the vehicle that is being used
 			* _`name`_ : The single-word name of the vehicle
@@ -23,6 +24,7 @@ It supports two different input file types:
 			* _`defConsumption`_ : Experienced default consumption in kWh/100
 			* _`defMotPower/defChrgPower`_ : Default Motor Power and Default Charging Power in kW
 			* _`defSpeed`_ : Default cruising speed
+			* If only _`name`_ is specified, then all vehicle details must exist in the vehicle database file `Vehicles.cfg`
 		* **`TRIP`** _`name`_
 			* Identifies the whole road trip. A trip can contain multiple days.
 			* _`name`_ : The name of the whole trip
@@ -52,6 +54,7 @@ It supports two different input file types:
 	* A trip config file is still needed to specify vehicle basic data, list up which GPX files to import, as well as specify chargings somehow.
 	* In the 'trips' folder there should be a regular plain text file with the extension `.cfg`
 	* The first valid row should be the vehicle specification
+		* **`CAR`** _`name`_            / or /
 		* **`CAR`** _`name`_ **|** _`battCapacity`_ _`speeds-20/-10/0/+10/+20`_ _`powers-20/-10/0/+10/+20`_ _`chargingPower`_
 			* Defines the properties of the vehicle
 			* _`name`_ : The single-word name of the vehicle
@@ -59,6 +62,7 @@ It supports two different input file types:
 			* _`speeds-20/-10/0/+10/+20`_ : Travelling speeds at 20%+ slope down / 10% slope down / flat surface / 10% slope up / 20%+ slope up , ending with 'km/h' . Example: 80/60/50/40/25km/h . Intermediate values will be calculated with interpolation . 20%+ slopes are very seldom, the value for 20% will be used.
 			* _`powers-20/-10/0/+10/+20`_ : Typical motor powers at 20%+ slope down / 10% slope down / flat surface / 10% slope up / 20%+ slope up , ending with 'kW' . Example: 0.2/3.0/5.0/10.0/30.0kW . Intermediate values will be calculated with interpolation . 20%+ slopes are very seldom, the value for 20% will be used.
 			* _`chargingPower`_ : As the name says, the charging power of the vehicle in kW.
+			* If only _`name`_ is specified, then all vehicle details must exist in the vehicle database file `Vehicles.cfg`
 	* Trip name itself is taken from the file name, underscores converted to spaces
 	* The day specification was also inherited from 'trip' mode as the GPX data does not contain this information, although elevation is not specified as it comes from the GPX data:
 		* **`DAY`** _`ID`_ _`startSOC`_ **|** _`descr`_
@@ -84,6 +88,8 @@ It supports two different input file types:
 
 **Command line arguments:**
 
+* `-g` : *Full Grid* : Show all 0.1degree confluence points in the whole coverage area, not just the ones next to the track points
+* `-n` : *No separator* : Do not put an additional separator line before each charging session. Useful if trip plan is vague (etap-charge-etap-charge), because the day does not break up to small pieces. Don't use this if the trip is detailed, as then the small segments that need to be ridden with one charge will appear grouped.
 * `-s` : *Simple mode* : By default the program gives all possible technical details for each etap or charge. Simple mode reduces it to the essential columns: distance, time, battery SoC
 * `-v` : *Verbose mode* : In case of GPX mode the default is that there is one data row for each GPX segment. Verbose mode will output 1 row for each GPX point. This is only useful for debugging. For trip planning it is too much data flow.
 
