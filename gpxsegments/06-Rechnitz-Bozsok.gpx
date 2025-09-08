@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>06-Rechnitz-Bozsok</name>
+		<desc>06-Rechnitz-Bozsok</desc>
+	</metadata>
+	<trk>
+		<name>06-Rechnitz-Bozsok</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.304888" lon="16.441061">
+				<ele>347.150</ele>
+			</trkpt>
+			<trkpt lat="47.304524" lon="16.441287">
+				<ele>344.859</ele>
+			</trkpt>
+			<trkpt lat="47.304022" lon="16.441308">
+				<ele>342.686</ele>
+			</trkpt>
+			<trkpt lat="47.304000" lon="16.441609">
+				<ele>341.939</ele>
+			</trkpt>
+			<trkpt lat="47.304298" lon="16.442692">
+				<ele>336.433</ele>
+			</trkpt>
+			<trkpt lat="47.304480" lon="16.443036">
+				<ele>333.369</ele>
+			</trkpt>
+			<trkpt lat="47.304866" lon="16.443357">
+				<ele>330.776</ele>
+			</trkpt>
+			<trkpt lat="47.305019" lon="16.443594">
+				<ele>330.543</ele>
+			</trkpt>
+			<trkpt lat="47.305055" lon="16.444108">
+				<ele>329.841</ele>
+			</trkpt>
+			<trkpt lat="47.305397" lon="16.445192">
+				<ele>333.077</ele>
+			</trkpt>
+			<trkpt lat="47.306073" lon="16.446404">
+				<ele>334.115</ele>
+			</trkpt>
+			<trkpt lat="47.306495" lon="16.447155">
+				<ele>333.761</ele>
+			</trkpt>
+			<trkpt lat="47.306641" lon="16.447703">
+				<ele>333.397</ele>
+			</trkpt>
+			<trkpt lat="47.306954" lon="16.449140">
+				<ele>332.689</ele>
+			</trkpt>
+			<trkpt lat="47.307259" lon="16.450042">
+				<ele>333.740</ele>
+			</trkpt>
+			<trkpt lat="47.307667" lon="16.451082">
+				<ele>332.585</ele>
+			</trkpt>
+			<trkpt lat="47.308227" lon="16.452155">
+				<ele>325.317</ele>
+			</trkpt>
+			<trkpt lat="47.308925" lon="16.453475">
+				<ele>317.120</ele>
+			</trkpt>
+			<trkpt lat="47.309594" lon="16.454730">
+				<ele>313.165</ele>
+			</trkpt>
+			<trkpt lat="47.311224" lon="16.457348">
+				<ele>307.794</ele>
+			</trkpt>
+			<trkpt lat="47.312577" lon="16.459783">
+				<ele>306.217</ele>
+			</trkpt>
+			<trkpt lat="47.313530" lon="16.461060">
+				<ele>306.338</ele>
+			</trkpt>
+			<trkpt lat="47.314010" lon="16.461833">
+				<ele>304.150</ele>
+			</trkpt>
+			<trkpt lat="47.314621" lon="16.463785">
+				<ele>303.186</ele>
+			</trkpt>
+			<trkpt lat="47.315486" lon="16.466253">
+				<ele>305.209</ele>
+			</trkpt>
+			<trkpt lat="47.316076" lon="16.467830">
+				<ele>306.118</ele>
+			</trkpt>
+			<trkpt lat="47.316694" lon="16.469632">
+				<ele>308.192</ele>
+			</trkpt>
+			<trkpt lat="47.317152" lon="16.470716">
+				<ele>311.271</ele>
+			</trkpt>
+			<trkpt lat="47.317414" lon="16.471177">
+				<ele>311.804</ele>
+			</trkpt>
+			<trkpt lat="47.317538" lon="16.471660">
+				<ele>311.466</ele>
+			</trkpt>
+			<trkpt lat="47.317647" lon="16.472647">
+				<ele>311.702</ele>
+			</trkpt>
+			<trkpt lat="47.317872" lon="16.473398">
+				<ele>310.979</ele>
+			</trkpt>
+			<trkpt lat="47.318840" lon="16.475544">
+				<ele>313.810</ele>
+			</trkpt>
+			<trkpt lat="47.319560" lon="16.477185">
+				<ele>316.322</ele>
+			</trkpt>
+			<trkpt lat="47.320309" lon="16.479471">
+				<ele>318.699</ele>
+			</trkpt>
+			<trkpt lat="47.320694" lon="16.480705">
+				<ele>320.831</ele>
+			</trkpt>
+			<trkpt lat="47.320803" lon="16.481606">
+				<ele>319.927</ele>
+			</trkpt>
+			<trkpt lat="47.321065" lon="16.482979">
+				<ele>323.013</ele>
+			</trkpt>
+			<trkpt lat="47.321101" lon="16.483537">
+				<ele>323.364</ele>
+			</trkpt>
+			<trkpt lat="47.321000" lon="16.484191">
+				<ele>321.933</ele>
+			</trkpt>
+			<trkpt lat="47.320832" lon="16.484760">
+				<ele>319.571</ele>
+			</trkpt>
+			<trkpt lat="47.320389" lon="16.485618">
+				<ele>317.449</ele>
+			</trkpt>
+			<trkpt lat="47.320120" lon="16.486144">
+				<ele>316.878</ele>
+			</trkpt>
+			<trkpt lat="47.319880" lon="16.486906">
+				<ele>316.532</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
