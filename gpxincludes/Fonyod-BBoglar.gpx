@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Fonyod-BBoglar</name>
+		<desc>Fonyod-BBoglar</desc>
+	</metadata>
+	<trk>
+		<name>Fonyod-BBoglar</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.749133" lon="17.556225">
+				<ele>107.577</ele>
+			</trkpt>
+			<trkpt lat="46.750920" lon="17.563692">
+				<ele>105.896</ele>
+			</trkpt>
+			<trkpt lat="46.751574" lon="17.565312">
+				<ele>105.666</ele>
+			</trkpt>
+			<trkpt lat="46.752779" lon="17.570505">
+				<ele>106.927</ele>
+			</trkpt>
+			<trkpt lat="46.753882" lon="17.576674">
+				<ele>105.981</ele>
+			</trkpt>
+			<trkpt lat="46.754742" lon="17.584753">
+				<ele>104.803</ele>
+			</trkpt>
+			<trkpt lat="46.754911" lon="17.586019">
+				<ele>104.917</ele>
+			</trkpt>
+			<trkpt lat="46.755146" lon="17.586845">
+				<ele>105.176</ele>
+			</trkpt>
+			<trkpt lat="46.756080" lon="17.589742">
+				<ele>106.000</ele>
+			</trkpt>
+			<trkpt lat="46.756484" lon="17.590707">
+				<ele>105.337</ele>
+			</trkpt>
+			<trkpt lat="46.759255" lon="17.595482">
+				<ele>106.877</ele>
+			</trkpt>
+			<trkpt lat="46.760350" lon="17.597531">
+				<ele>107.383</ele>
+			</trkpt>
+			<trkpt lat="46.760806" lon="17.598700">
+				<ele>106.498</ele>
+			</trkpt>
+			<trkpt lat="46.762599" lon="17.604537">
+				<ele>106.728</ele>
+			</trkpt>
+			<trkpt lat="46.765094" lon="17.612616">
+				<ele>109.537</ele>
+			</trkpt>
+			<trkpt lat="46.767130" lon="17.619096">
+				<ele>109.359</ele>
+			</trkpt>
+			<trkpt lat="46.769298" lon="17.626209">
+				<ele>105.695</ele>
+			</trkpt>
+			<trkpt lat="46.771032" lon="17.631756">
+				<ele>105.290</ele>
+			</trkpt>
+			<trkpt lat="46.771796" lon="17.635296">
+				<ele>105.611</ele>
+			</trkpt>
+			<trkpt lat="46.772090" lon="17.636155">
+				<ele>106.319</ele>
+			</trkpt>
+			<trkpt lat="46.774427" lon="17.643633">
+				<ele>104.200</ele>
+			</trkpt>
+			<trkpt lat="46.775375" lon="17.646551">
+				<ele>105.397</ele>
+			</trkpt>
+			<trkpt lat="46.776550" lon="17.649791">
+				<ele>106.035</ele>
+			</trkpt>
+			<trkpt lat="46.776550" lon="17.650016">
+				<ele>105.997</ele>
+			</trkpt>
+			<trkpt lat="46.776771" lon="17.650263">
+				<ele>106.000</ele>
+			</trkpt>
+			<trkpt lat="46.778424" lon="17.654769">
+				<ele>106.584</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

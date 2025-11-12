@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>Fenyves_GV-Fonyod</name>
+		<desc>Fenyves_GV-Fonyod</desc>
+	</metadata>
+	<trk>
+		<name>Fenyves_GV-Fonyod</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.710889" lon="17.477330">
+				<ele>107.729</ele>
+			</trkpt>
+			<trkpt lat="46.711746" lon="17.479417">
+				<ele>107.029</ele>
+			</trkpt>
+			<trkpt lat="46.713011" lon="17.482593">
+				<ele>106.614</ele>
+			</trkpt>
+			<trkpt lat="46.713306" lon="17.483580">
+				<ele>106.977</ele>
+			</trkpt>
+			<trkpt lat="46.714181" lon="17.487946">
+				<ele>105.035</ele>
+			</trkpt>
+			<trkpt lat="46.715130" lon="17.492860">
+				<ele>105.921</ele>
+			</trkpt>
+			<trkpt lat="46.715351" lon="17.493837">
+				<ele>107.191</ele>
+			</trkpt>
+			<trkpt lat="46.715660" lon="17.494909">
+				<ele>106.900</ele>
+			</trkpt>
+			<trkpt lat="46.716498" lon="17.497291">
+				<ele>106.551</ele>
+			</trkpt>
+			<trkpt lat="46.717947" lon="17.500971">
+				<ele>107.432</ele>
+			</trkpt>
+			<trkpt lat="46.719720" lon="17.505488">
+				<ele>106.275</ele>
+			</trkpt>
+			<trkpt lat="46.722441" lon="17.512387">
+				<ele>107.000</ele>
+			</trkpt>
+			<trkpt lat="46.725324" lon="17.519822">
+				<ele>107.909</ele>
+			</trkpt>
+			<trkpt lat="46.727222" lon="17.524725">
+				<ele>107.110</ele>
+			</trkpt>
+			<trkpt lat="46.727656" lon="17.525701">
+				<ele>106.159</ele>
+			</trkpt>
+			<trkpt lat="46.729877" lon="17.529285">
+				<ele>106.894</ele>
+			</trkpt>
+			<trkpt lat="46.731546" lon="17.531935">
+				<ele>107.352</ele>
+			</trkpt>
+			<trkpt lat="46.732325" lon="17.532943">
+				<ele>107.951</ele>
+			</trkpt>
+			<trkpt lat="46.733517" lon="17.534113">
+				<ele>106.592</ele>
+			</trkpt>
+			<trkpt lat="46.734546" lon="17.534638">
+				<ele>108.603</ele>
+			</trkpt>
+			<trkpt lat="46.735635" lon="17.534885">
+				<ele>108.477</ele>
+			</trkpt>
+			<trkpt lat="46.737355" lon="17.535186">
+				<ele>112.195</ele>
+			</trkpt>
+			<trkpt lat="46.737767" lon="17.535271">
+				<ele>113.371</ele>
+			</trkpt>
+			<trkpt lat="46.738355" lon="17.535593">
+				<ele>116.073</ele>
+			</trkpt>
+			<trkpt lat="46.739024" lon="17.536130">
+				<ele>116.456</ele>
+			</trkpt>
+			<trkpt lat="46.740127" lon="17.537127">
+				<ele>122.590</ele>
+			</trkpt>
+			<trkpt lat="46.740642" lon="17.537696">
+				<ele>123.450</ele>
+			</trkpt>
+			<trkpt lat="46.741605" lon="17.538941">
+				<ele>121.224</ele>
+			</trkpt>
+			<trkpt lat="46.742362" lon="17.540110">
+				<ele>122.768</ele>
+			</trkpt>
+			<trkpt lat="46.744619" lon="17.543994">
+				<ele>118.124</ele>
+			</trkpt>
+			<trkpt lat="46.746862" lon="17.547878">
+				<ele>120.470</ele>
+			</trkpt>
+			<trkpt lat="46.747442" lon="17.549154">
+				<ele>118.242</ele>
+			</trkpt>
+			<trkpt lat="46.747972" lon="17.550249">
+				<ele>117.464</ele>
+			</trkpt>
+			<trkpt lat="46.748295" lon="17.551386">
+				<ele>113.304</ele>
+			</trkpt>
+			<trkpt lat="46.748648" lon="17.553231">
+				<ele>113.286</ele>
+			</trkpt>
+			<trkpt lat="46.749133" lon="17.556225">
+				<ele>107.577</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

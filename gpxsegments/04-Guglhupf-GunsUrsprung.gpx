@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>04-Guglhupf-GunsUrsprung</name>
+		<desc>04-Guglhupf-GunsUrsprung</desc>
+	</metadata>
+	<trk>
+		<name>04-Guglhupf-GunsUrsprung</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="47.440544" lon="16.276032">
+				<ele>775.847</ele>
+			</trkpt>
+			<trkpt lat="47.440449" lon="16.275796">
+				<ele>773.163</ele>
+			</trkpt>
+			<trkpt lat="47.440166" lon="16.275914">
+				<ele>772.597</ele>
+			</trkpt>
+			<trkpt lat="47.438548" lon="16.276236">
+				<ele>764.022</ele>
+			</trkpt>
+			<trkpt lat="47.437888" lon="16.276343">
+				<ele>762.792</ele>
+			</trkpt>
+			<trkpt lat="47.437518" lon="16.276257">
+				<ele>762.519</ele>
+			</trkpt>
+			<trkpt lat="47.437539" lon="16.276837">
+				<ele>761.961</ele>
+			</trkpt>
+			<trkpt lat="47.437539" lon="16.277684">
+				<ele>756.328</ele>
+			</trkpt>
+			<trkpt lat="47.437590" lon="16.278092">
+				<ele>752.582</ele>
+			</trkpt>
+			<trkpt lat="47.437822" lon="16.278757">
+				<ele>744.178</ele>
+			</trkpt>
+			<trkpt lat="47.438127" lon="16.279079">
+				<ele>738.964</ele>
+			</trkpt>
+			<trkpt lat="47.438497" lon="16.279379">
+				<ele>734.370</ele>
+			</trkpt>
+			<trkpt lat="47.439608" lon="16.281107">
+				<ele>714.986</ele>
+			</trkpt>
+			<trkpt lat="47.439774" lon="16.281493">
+				<ele>709.970</ele>
+			</trkpt>
+			<trkpt lat="47.439774" lon="16.281825">
+				<ele>704.869</ele>
+			</trkpt>
+			<trkpt lat="47.439549" lon="16.283564">
+				<ele>689.061</ele>
+			</trkpt>
+			<trkpt lat="47.439629" lon="16.284229">
+				<ele>685.728</ele>
+			</trkpt>
+			<trkpt lat="47.439876" lon="16.284894">
+				<ele>687.961</ele>
+			</trkpt>
+			<trkpt lat="47.440224" lon="16.285699">
+				<ele>688.693</ele>
+			</trkpt>
+			<trkpt lat="47.439796" lon="16.287576">
+				<ele>689.347</ele>
+			</trkpt>
+			<trkpt lat="47.438853" lon="16.287383">
+				<ele>680.933</ele>
+			</trkpt>
+			<trkpt lat="47.437772" lon="16.287104">
+				<ele>667.563</ele>
+			</trkpt>
+			<trkpt lat="47.437917" lon="16.286224">
+				<ele>659.284</ele>
+			</trkpt>
+			<trkpt lat="47.437467" lon="16.285677">
+				<ele>649.761</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

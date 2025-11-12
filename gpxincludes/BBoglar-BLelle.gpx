@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GpsPrune v25 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+	<metadata>
+		<name>BBoglar-BLelle</name>
+		<desc>BBoglar-BLelle</desc>
+	</metadata>
+	<trk>
+		<name>BBoglar-BLelle</name>
+		<number>1</number>
+		<trkseg>
+			<trkpt lat="46.778424" lon="17.654769">
+				<ele>106.584</ele>
+			</trkpt>
+			<trkpt lat="46.778644" lon="17.655198">
+				<ele>107.103</ele>
+			</trkpt>
+			<trkpt lat="46.779166" lon="17.655874">
+				<ele>108.246</ele>
+			</trkpt>
+			<trkpt lat="46.780018" lon="17.656808">
+				<ele>109.930</ele>
+			</trkpt>
+			<trkpt lat="46.780790" lon="17.657977">
+				<ele>109.767</ele>
+			</trkpt>
+			<trkpt lat="46.781598" lon="17.659425">
+				<ele>116.728</ele>
+			</trkpt>
+			<trkpt lat="46.781943" lon="17.660262">
+				<ele>119.055</ele>
+			</trkpt>
+			<trkpt lat="46.782076" lon="17.660992">
+				<ele>118.592</ele>
+			</trkpt>
+			<trkpt lat="46.782156" lon="17.662129">
+				<ele>113.234</ele>
+			</trkpt>
+			<trkpt lat="46.782230" lon="17.663438">
+				<ele>106.499</ele>
+			</trkpt>
+			<trkpt lat="46.782693" lon="17.667483">
+				<ele>104.252</ele>
+			</trkpt>
+			<trkpt lat="46.783163" lon="17.671399">
+				<ele>106.606</ele>
+			</trkpt>
+			<trkpt lat="46.783302" lon="17.679059">
+				<ele>106.050</ele>
+			</trkpt>
+			<trkpt lat="46.783457" lon="17.680282">
+				<ele>104.683</ele>
+			</trkpt>
+			<trkpt lat="46.784897" lon="17.687417">
+				<ele>106.789</ele>
+			</trkpt>
+			<trkpt lat="46.786586" lon="17.695646">
+				<ele>107.289</ele>
+			</trkpt>
+			<trkpt lat="46.786630" lon="17.696118">
+				<ele>107.116</ele>
+			</trkpt>
+			<trkpt lat="46.786542" lon="17.696504">
+				<ele>107.328</ele>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
